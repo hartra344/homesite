@@ -15,20 +15,20 @@ const Hero = () => {
             <div className="space-y-8">
               <div className="space-y-4">
                 <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 border border-purple-500/30 backdrop-blur-sm">
-                  <span className="text-purple-300 text-sm font-medium">✨ Software Engineering Leader</span>
+                  <span className="text-purple-300 text-sm font-medium">✨ Engineering Leader @ Microsoft</span>
                 </div>
                 <h1 className="text-5xl lg:text-7xl font-black text-white leading-tight">
-                  Building the{' '}
+                  Scaling{' '}
                   <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400 bg-clip-text text-transparent animate-pulse">
-                    Future
+                    Cloud
                   </span>
                   <br />
-                  of Software
+                  Innovation
                 </h1>
                 <p className="text-xl text-slate-300 leading-relaxed max-w-2xl">
                   Principal Software Engineering Manager at <span className="text-blue-400 font-semibold">Microsoft</span>, 
-                  leading innovative UX teams and crafting exceptional digital experiences. 
-                  When I'm not coding, you'll find me exploring the skies as an amateur pilot.
+                  leading 7 engineers building Azure Logic Apps used by millions of developers worldwide. 
+                  When I'm not architecting cloud solutions, you'll find me exploring the skies as a private pilot.
                 </p>
               </div>
               
@@ -48,18 +48,7 @@ const Hero = () => {
                   View Resume
                 </a>
               </div>
-              
-              <div className="flex space-x-6 pt-4">
-                <a
-                  href="https://x.com/hartra34"
-                  className="text-slate-400 hover:text-purple-400 transition-all duration-300 transform hover:scale-110"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
-                </a>
+               <div className="flex space-x-6 pt-4">
                 <a
                   href="https://www.linkedin.com/in/travis-harris/"
                   className="text-slate-400 hover:text-blue-400 transition-all duration-300 transform hover:scale-110"
@@ -77,7 +66,17 @@ const Hero = () => {
                   rel="noopener noreferrer"
                 >
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.30.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </a>
+                <a
+                  href="https://bsky.app/profile/travis.dev"
+                  className="text-slate-400 hover:text-sky-400 transition-all duration-300 transform hover:scale-110"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-2.67.297-5.568-.628-6.383-3.364C.378 9.418 0 4.458 0 3.768c0-.688.139-1.86.902-2.203C1.561 1.266 2.566.944 5.202 2.805c2.752 1.942 5.711 5.881 6.798 7.995zm0 0c1.087-2.114 4.046-6.053 6.798-7.995C21.434.944 22.439 1.266 23.098 1.565c.763.343.902 1.515.902 2.203 0 .69-.378 5.65-.624 6.479-.815 2.736-3.713 3.66-6.383 3.364-.136-.02-.275-.039-.415-.056.138.022.276.04.415.056 2.67.297 5.568-.628 6.383-3.364.246-.829.624-5.789.624-6.479 0-.688-.139-1.86-.902-2.203-.659-.299-1.664-.621-4.3 1.24-2.752 1.942-5.711 5.881-6.798 7.995z"/>
                   </svg>
                 </a>
                 <a

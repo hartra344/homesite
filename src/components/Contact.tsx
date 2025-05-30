@@ -41,8 +41,9 @@ const Contact = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto mb-8 rounded-full"></div>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            I'm always interested in hearing about new opportunities, interesting projects, 
-            or just having a conversation about technology and aviation.
+            I'm always interested in meaningful conversations about engineering leadership, 
+            cloud architecture, and building exceptional developer experiences. Let's connect 
+            if you're working on something impactful.
           </p>
         </div>
 
@@ -83,7 +84,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-white text-lg mb-2">Open to</h4>
-                  <p className="text-gray-300">Consulting opportunities, speaking engagements, and interesting conversations</p>
+                  <p className="text-gray-300">Strategic consulting, technical advisory roles, speaking engagements, and engineering leadership discussions</p>
                 </div>
               </div>
             </div>
@@ -102,13 +103,13 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://x.com/hartra34"
-                  className="group bg-gradient-to-r from-gray-800 to-black text-white p-4 rounded-2xl hover:from-black hover:to-gray-900 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
+                  href="https://bsky.app/profile/travis.dev"
+                  className="group bg-gradient-to-r from-sky-600 to-blue-600 text-white p-4 rounded-2xl hover:from-sky-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <svg className="w-6 h-6 group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    <path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-2.67.297-5.568-.628-6.383-3.364C.378 9.418 0 4.458 0 3.768c0-.688.139-1.86.902-2.203C1.561 1.266 2.566.944 5.202 2.805c2.752 1.942 5.711 5.881 6.798 7.995zm0 0c1.087-2.114 4.046-6.053 6.798-7.995C21.434.944 22.439 1.266 23.098 1.565c.763.343.902 1.515.902 2.203 0 .69-.378 5.65-.624 6.479-.815 2.736-3.713 3.66-6.383 3.364-.136-.02-.275-.039-.415-.056.138.022.276.04.415.056 2.67.297 5.568-.628 6.383-3.364.246-.829.624-5.789.624-6.479 0-.688-.139-1.86-.902-2.203-.659-.299-1.664-.621-4.3 1.24-2.752 1.942-5.711 5.881-6.798 7.995z"/>
                   </svg>
                 </a>
                 <a

@@ -6,33 +6,36 @@ const Experience = () => {
       company: 'Microsoft',
       role: 'Principal Software Engineering Manager',
       period: '2021 - Present',
-      description: 'Leading the Azure Logic Apps UX team, driving innovation in cloud integration and workflow solutions.',
+      description: 'Leading the Azure Logic Apps UX team to deliver enterprise-grade integration solutions used by millions of developers worldwide.',
       achievements: [
-        'Leading a team of 12+ engineers building world-class UX for Azure Logic Apps',
-        'Driving architectural decisions for next-generation integration platforms',
-        'Collaborating with product teams to deliver features used by millions of developers'
+        'Lead a team of 7 engineers building Azure Logic Apps UX platform, collaborating closely with PMs, designers, and researchers',
+        'Architected and led the complete rewrite and redesign of the Azure Logic Apps Designer, modernizing the core user experience',
+        'Co-led development of Logic Apps Agent Loop, pioneering AI-powered workflow automation capabilities',
+        'Led development of Logic Apps Data Mapper, enabling visual data transformation for enterprise integration scenarios'
       ]
     },
     {
       company: 'Facebook',
       role: 'Software Engineer',
       period: '2019 - 2021',
-      description: 'Built scalable web applications and contributed to core platform features.',
+      description: 'Built commerce and gaming experiences across Facebook\'s ecosystem, from marketplace inventory systems to mobile gaming platforms.',
       achievements: [
-        'Developed high-performance React components used across multiple products',
-        'Optimized application performance resulting in 30% faster load times',
-        'Mentored junior engineers and contributed to engineering culture'
+        'Developed backend systems for Facebook Marketplace and Instagram Shopping catalog processing, handling inventory management at scale',
+        'Built the Facebook Gaming native iOS app (fb.gg) as part of the gamer streaming organization, delivering live streaming features',
+        'Contributed the very first shipped Swift code in the main Facebook iOS app by introducing Facebook\'s first iOS widget',
+        'Led and mentored 1 engineer during my final 6 months, providing technical guidance and career development support'
       ]
     },
     {
       company: 'Microsoft',
       role: 'Senior Software Engineer',
       period: '2014 - 2019',
-      description: 'Focused on cloud services and developer tools, building the foundation for modern Azure services.',
+      description: 'Built foundational UX experiences for Azure App Services, focusing on developer productivity and accessibility across the Azure portal.',
       achievements: [
-        'Built core Azure services handling millions of requests per day',
-        'Led migration projects from on-premises to cloud infrastructure',
-        'Contributed to open-source projects and developer documentation'
+        'Developed the App Service create experience supporting 30+ variations of app service creation workflows in the Azure portal',
+        'Built core portal experiences for App Service configuration, enabling developers to manage cloud applications at scale',
+        'Contributed to Azure Functions portal development experience, helping establish the serverless computing UX foundation',
+        'Championed performance optimization and accessibility (a11y) standards across all Azure App Services portal experiences'
       ]
     }
   ];
