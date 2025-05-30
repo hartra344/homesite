@@ -25,7 +25,7 @@ const Header = () => {
     }`}>
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-6">
-          <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+          <div className="text-2xl font-bold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
             Travis Vu
           </div>
           <div className="hidden md:flex space-x-8">
@@ -34,35 +34,35 @@ const Header = () => {
               className="text-white/80 hover:text-white transition-all duration-300 hover:scale-105 relative group"
             >
               Home
-              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-400 to-purple-400 group-hover:w-full transition-all duration-300"></div>
+              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
             </button>
             <button
               onClick={() => scrollToSection('about')}
               className="text-white/80 hover:text-white transition-all duration-300 hover:scale-105 relative group"
             >
               About
-              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-400 to-purple-400 group-hover:w-full transition-all duration-300"></div>
+              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
             </button>
             <button
               onClick={() => scrollToSection('experience')}
               className="text-white/80 hover:text-white transition-all duration-300 hover:scale-105 relative group"
             >
               Experience
-              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-400 to-purple-400 group-hover:w-full transition-all duration-300"></div>
+              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
             </button>
             <button
               onClick={() => scrollToSection('blog')}
               className="text-white/80 hover:text-white transition-all duration-300 hover:scale-105 relative group"
             >
               Blog
-              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-400 to-purple-400 group-hover:w-full transition-all duration-300"></div>
+              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
             </button>
             <button
               onClick={() => scrollToSection('contact')}
               className="text-white/80 hover:text-white transition-all duration-300 hover:scale-105 relative group"
             >
               Contact
-              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-400 to-purple-400 group-hover:w-full transition-all duration-300"></div>
+              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
             </button>
           </div>
         </div>

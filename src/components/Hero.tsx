@@ -1,11 +1,11 @@
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+    <section id="home" className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-900 via-green-900 to-slate-900">
       {/* Animated background elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+        <div className="absolute top-0 -left-4 w-72 h-72 bg-green-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
         <div className="absolute top-0 -right-4 w-72 h-72 bg-yellow-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-        <div className="absolute -bottom-8 left-20 w-72 h-72 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+        <div className="absolute -bottom-8 left-20 w-72 h-72 bg-emerald-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
       </div>
       
       {/* Glass morphism container */}
@@ -14,19 +14,19 @@ const Hero = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 border border-purple-500/30 backdrop-blur-sm">
-                  <span className="text-purple-300 text-sm font-medium">✨ Engineering Leader @ Microsoft</span>
+                <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-green-500/30 backdrop-blur-sm">
+                  <span className="text-green-300 text-sm font-medium">✨ Engineering Leader @ Microsoft</span>
                 </div>
                 <h1 className="text-5xl lg:text-7xl font-black text-white leading-tight">
                   Scaling{' '}
-                  <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400 bg-clip-text text-transparent animate-pulse">
+                  <span className="bg-gradient-to-r from-green-400 via-emerald-400 to-yellow-400 bg-clip-text text-transparent animate-pulse">
                     Cloud
                   </span>
                   <br />
                   Innovation
                 </h1>
                 <p className="text-xl text-slate-300 leading-relaxed max-w-2xl">
-                  Principal Software Engineering Manager at <span className="text-blue-400 font-semibold">Microsoft</span>, 
+                  Principal Software Engineering Manager at <span className="text-green-400 font-semibold">Microsoft</span>, 
                   leading 7 engineers building Azure Logic Apps used by millions of developers worldwide. 
                   When I'm not architecting cloud solutions, you'll find me exploring the skies as a private pilot.
                 </p>
@@ -35,14 +35,14 @@ const Hero = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
                   href="#contact"
-                  className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-300 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25"
+                  className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-300 bg-gradient-to-r from-green-700 to-emerald-700 rounded-2xl hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25"
                 >
                   <span className="relative z-10">Let's Connect</span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-purple-700 to-pink-700 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-green-800 to-emerald-800 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </a>
                 <a
                   href="/resume.html"
-                  className="group inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-purple-300 transition-all duration-300 bg-white/10 backdrop-blur-sm border border-purple-400/30 rounded-2xl hover:bg-white/20 hover:scale-105 hover:shadow-xl"
+                  className="group inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-green-300 transition-all duration-300 bg-white/10 backdrop-blur-sm border border-green-400/30 rounded-2xl hover:bg-white/20 hover:scale-105 hover:shadow-xl"
                 >
                   View Resume
                 </a>
@@ -50,7 +50,7 @@ const Hero = () => {
                <div className="flex space-x-6 pt-4">
                 <a
                   href="https://www.linkedin.com/in/travis-harris/"
-                  className="text-slate-400 hover:text-blue-400 transition-all duration-300 transform hover:scale-110"
+                  className="text-slate-400 hover:text-green-400 transition-all duration-300 transform hover:scale-110"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn profile"
@@ -72,7 +72,7 @@ const Hero = () => {
                 </a>
                 <a
                   href="https://bsky.app/profile/travis.dev"
-                  className="text-slate-400 hover:text-sky-400 transition-all duration-300 transform hover:scale-110"
+                  className="text-slate-400 hover:text-green-400 transition-all duration-300 transform hover:scale-110"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Bluesky profile"
@@ -83,7 +83,7 @@ const Hero = () => {
                 </a>
                 <a
                   href="https://www.instagram.com/travih222/"
-                  className="text-slate-400 hover:text-pink-400 transition-all duration-300 transform hover:scale-110"
+                  className="text-slate-400 hover:text-emerald-400 transition-all duration-300 transform hover:scale-110"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram profile"
@@ -98,16 +98,16 @@ const Hero = () => {
             {/* Right side - Modern illustration */}
             <div className="lg:flex justify-center hidden">
               <div className="relative">
-                <div className="w-96 h-96 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-3xl backdrop-blur-lg border border-white/20 flex items-center justify-center">
+                <div className="w-96 h-96 bg-gradient-to-br from-green-500/20 to-emerald-500/20 rounded-3xl backdrop-blur-lg border border-white/20 flex items-center justify-center">
                   <div className="text-center space-y-4">
                     <div className="text-6xl">👨‍💻</div>
                     <div className="text-white font-semibold text-lg">Travis Vu</div>
-                    <div className="text-purple-300">Software Engineering Leader</div>
+                    <div className="text-green-300">Software Engineering Leader</div>
                   </div>
                 </div>
                 {/* Floating elements */}
                 <div className="absolute -top-4 -right-4 w-20 h-20 bg-yellow-400 rounded-full opacity-80 animate-bounce"></div>
-                <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-purple-400 rounded-full opacity-60 animate-pulse"></div>
+                <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-green-400 rounded-full opacity-60 animate-pulse"></div>
               </div>
             </div>
           </div>

@@ -18,7 +18,7 @@ This is a React + TypeScript + Tailwind CSS personal website project for Travis 
 - Ensure accessibility and semantic HTML
 
 ## Design System
-- Primary color: Blue (#3b82f6 and variants)
+- Primary color: Green (#22c55e and variants)
 - Font: Inter
 - Clean, modern design with subtle animations
 - Professional yet approachable aesthetic

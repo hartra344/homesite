@@ -30,16 +30,16 @@ const Contact = () => {
     <section id="contact" className="py-32 bg-gradient-to-br from-slate-800 via-slate-900 to-slate-800 relative overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0">
-        <div className="absolute top-40 left-20 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-40 right-20 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-40 left-20 w-80 h-80 bg-green-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-40 right-20 w-80 h-80 bg-emerald-500/10 rounded-full blur-3xl"></div>
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-20">
-          <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-6">
+          <h2 className="text-5xl font-bold bg-gradient-to-r from-green-400 via-emerald-400 to-lime-400 bg-clip-text text-transparent mb-6">
             Get In Touch
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto mb-8 rounded-full"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-emerald-400 mx-auto mb-8 rounded-full"></div>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             I'm always interested in meaningful conversations about engineering leadership, 
             cloud architecture, and building exceptional developer experiences. Let's connect 
@@ -52,8 +52,8 @@ const Contact = () => {
             <h3 className="text-3xl font-bold text-white mb-8">Let's Connect</h3>
             <div className="space-y-8">
               <div className="flex items-start group">
-                <div className="bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-white/10 rounded-2xl p-4 mr-6 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-white/10 rounded-2xl p-4 mr-6 group-hover:scale-110 transition-transform duration-300">
+                  <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
@@ -64,8 +64,8 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start group">
-                <div className="bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-white/10 rounded-2xl p-4 mr-6 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-white/10 rounded-2xl p-4 mr-6 group-hover:scale-110 transition-transform duration-300">
+                  <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
@@ -77,8 +77,8 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start group">
-                <div className="bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-white/10 rounded-2xl p-4 mr-6 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-white/10 rounded-2xl p-4 mr-6 group-hover:scale-110 transition-transform duration-300">
+                  <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0V6a2 2 0 012 2v6M8 6V4a2 2 0 012-2h4a2 2 0 012 2v2m-8 0v2a2 2 0 002 2h4a2 2 0 002-2V6" />
                   </svg>
                 </div>
@@ -94,7 +94,7 @@ const Contact = () => {
               <div className="flex space-x-6">
                 <a
                   href="https://www.linkedin.com/in/travis-harris/"
-                  className="group bg-gradient-to-r from-blue-600 to-blue-700 text-white p-4 rounded-2xl hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
+                  className="group bg-gradient-to-r from-green-700 to-emerald-800 text-white p-4 rounded-2xl hover:from-green-800 hover:to-emerald-900 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn profile"
@@ -105,7 +105,7 @@ const Contact = () => {
                 </a>
                 <a
                   href="https://bsky.app/profile/travis.dev"
-                  className="group bg-gradient-to-r from-sky-600 to-blue-600 text-white p-4 rounded-2xl hover:from-sky-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
+                  className="group bg-gradient-to-r from-green-700 to-emerald-700 text-white p-4 rounded-2xl hover:from-green-800 hover:to-emerald-800 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Bluesky profile"
@@ -145,7 +145,7 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-4 bg-white/5 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-300"
+                    className="w-full px-4 py-4 bg-white/5 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-green-400 focus:border-transparent transition-all duration-300"
                     placeholder="Your name"
                   />
                 </div>
@@ -160,7 +160,7 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-4 bg-white/5 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-300"
+                    className="w-full px-4 py-4 bg-white/5 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-green-400 focus:border-transparent transition-all duration-300"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -176,7 +176,7 @@ const Contact = () => {
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  className="w-full px-4 py-4 bg-white/5 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-300"
+                  className="w-full px-4 py-4 bg-white/5 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-green-400 focus:border-transparent transition-all duration-300"
                   placeholder="What's this about?"
                 />
               </div>
@@ -192,14 +192,14 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-4 bg-white/5 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-400 focus:border-transparent resize-none transition-all duration-300"
+                  className="w-full px-4 py-4 bg-white/5 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-green-400 focus:border-transparent resize-none transition-all duration-300"
                   placeholder="Tell me about your project or just say hello!"
                 />
               </div>
               
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-4 px-6 rounded-xl font-bold text-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl border border-white/20"
+                className="w-full bg-gradient-to-r from-green-600 to-emerald-700 text-white py-4 px-6 rounded-xl font-bold text-lg hover:from-green-700 hover:to-emerald-800 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl border border-white/20"
               >
                 Send Message
               </button>
