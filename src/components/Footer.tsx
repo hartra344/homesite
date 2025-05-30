@@ -104,7 +104,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <a 
-                  href="/resume.pdf" 
+                  href="/resume.html" 
                   className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block"
                 >
                   Resume

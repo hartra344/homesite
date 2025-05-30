@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travis Vu - Resume</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: #fff;
+        max-width: 8.5in;
+        margin: 0 auto;
+        padding: 0.75in;
+        font-size: 11pt;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 2em;
+        border-bottom: 2px solid #2563eb;
+        padding-bottom: 1em;
+      }
+
+      .header h1 {
+        font-size: 2.5em;
+        font-weight: 700;
+        color: #1e293b;
+        margin-bottom: 0.3em;
+        letter-spacing: -0.02em;
+      }
+
+      .header .title {
+        font-size: 1.3em;
+        color: #2563eb;
+        font-weight: 500;
+        margin-bottom: 1em;
+      }
+
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.5em;
+        font-size: 0.95em;
+        color: #64748b;
+      }
+
+      .contact-info span {
+        display: flex;
+        align-items: center;
+        gap: 0.3em;
+      }
+
+      .section {
+        margin-bottom: 2em;
+      }
+
+      .section h2 {
+        font-size: 1.4em;
+        color: #1e293b;
+        font-weight: 600;
+        margin-bottom: 1em;
+        padding-bottom: 0.3em;
+        border-bottom: 1px solid #e2e8f0;
+      }
+
+      .summary {
+        font-size: 1.05em;
+        line-height: 1.7;
+        color: #475569;
+        text-align: justify;
+      }
+
+      .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.8em;
+        font-size: 0.95em;
+      }
+
+      .skill-category {
+        display: flex;
+        gap: 0.5em;
+      }
+
+      .skill-label {
+        font-weight: 600;
+        color: #1e293b;
+        min-width: 90px;
+      }
+
+      .skill-list {
+        color: #475569;
+      }
+
+      .job {
+        margin-bottom: 2.5em;
+        page-break-inside: avoid;
+      }
+
+      .job-header {
+        margin-bottom: 1em;
+      }
+
+      .company {
+        font-size: 1.2em;
+        font-weight: 600;
+        color: #1e293b;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.3em;
+      }
+
+      .location {
+        font-size: 0.9em;
+        color: #64748b;
+        font-style: italic;
+      }
+
+      .role {
+        font-size: 1.1em;
+        font-weight: 500;
+        color: #2563eb;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.8em;
+      }
+
+      .duration {
+        font-size: 0.9em;
+        color: #64748b;
+        font-weight: 400;
+      }
+
+      .achievements {
+        list-style: none;
+      }
+
+      .achievements li {
+        margin-bottom: 0.7em;
+        padding-left: 1.2em;
+        position: relative;
+        line-height: 1.6;
+        color: #475569;
+      }
+
+      .achievements li::before {
+        content: "▪";
+        color: #2563eb;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+      }
+
+      .education {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.05em;
+      }
+
+      .education .degree {
+        font-weight: 500;
+        color: #1e293b;
+      }
+
+      .education .school {
+        color: #475569;
+      }
+
+      .education .dates {
+        color: #64748b;
+        font-style: italic;
+      }
+
+      @media print {
+        body {
+          padding: 0.2in;
+          font-size: 10pt;
+          line-height: 1.4;
+          max-width: none;
+          margin: 0;
+          background: #fff;
+        }
+
+        .header {
+          margin-bottom: 1em;
+          page-break-after: avoid;
+        }
+
+        .header h1 {
+          font-size: 2em;
+          margin-bottom: 0.2em;
+        }
+
+        .header .title {
+          font-size: 1.1em;
+          margin-bottom: 0.6em;
+        }
+
+        .contact-info {
+          font-size: 0.85em;
+          gap: 1em;
+        }
+
+        .section {
+          margin-bottom: 1em;
+        }
+
+        .section h2 {
+          font-size: 1.2em;
+          margin-bottom: 0.6em;
+          page-break-after: avoid;
+        }
+
+        .job,
+        .achievements,
+        .education {
+          page-break-inside: avoid;
+        }
+
+        .job {
+          margin-bottom: 1em;
+        }
+
+        .achievements li {
+          margin-bottom: 0.4em;
+          line-height: 1.3;
+        }
+
+        .skills-grid {
+          gap: 0.5em;
+        }
+
+        .summary {
+          line-height: 1.4;
+        }
+
+        .section:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      @page {
+        margin: 0.2in;
+        size: letter;
+        orphans: 3;
+        widows: 3;
+      }
+
+      /* Download button styles - subtle and positioned nicely */
+      .download-btn {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: #2563eb;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.85em;
+        transition: all 0.2s ease;
+        box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+        z-index: 100;
+        border: none;
+      }
+
+      .download-btn:hover {
+        background: #1d4ed8;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+      }
+
+      .download-btn:active {
+        transform: translateY(0);
+      }
+
+      @media print {
+        .download-btn {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a href="resume.pdf" class="download-btn" download="Travis_Vu_Resume.pdf">
+      <span>📄</span>
+      PDF
+    </a>
+    
+    <div class="header">
+      <h1>Travis Vu</h1>
+      <div class="title">Principal Software Engineering Manager</div>
+      <div class="contact-info">
+        <span>📞 +1 (425) 633-9975</span>
+        <span>✉️ travis@travish.me</span>
+        <span>🌐 travis.dev</span>
+        <span>🐙 hartra344</span>
+        <span>💼 travis-harris</span>
+        <span>🐦 @hartra34</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Professional Summary</h2>
+      <div class="summary">
+        Principal Software Engineering Manager with 10+ years of experience
+        leading engineering teams and delivering scalable cloud solutions at
+        Microsoft and Meta. Proven track record of building products used by
+        millions, leading UI architecture overhauls, and growing teams from 2 to
+        8 engineers. Expert in Azure services, React ecosystems, and
+        cross-functional collaboration.
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <span class="skill-label">Languages:</span>
+          <span class="skill-list"
+            >JavaScript, TypeScript, C#, Python, Swift</span
+          >
+        </div>
+        <div class="skill-category">
+          <span class="skill-label">Frameworks:</span>
+          <span class="skill-list">React, Node.js, .NET, iOS Development</span>
+        </div>
+        <div class="skill-category">
+          <span class="skill-label">Cloud & Tools:</span>
+          <span class="skill-list"
+            >Azure (App Service, Functions, Logic Apps), Docker, Git</span
+          >
+        </div>
+        <div class="skill-category">
+          <span class="skill-label">Management:</span>
+          <span class="skill-list"
+            >Agile/Scrum, Team Building, Performance Optimization</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Professional Experience</h2>
+
+      <div class="job">
+        <div class="job-header">
+          <div class="company">
+            Microsoft Corporation <span class="location">Redmond, WA</span>
+          </div>
+          <div class="role">
+            Principal Software Engineering Manager - Azure Logic Apps
+            <span class="duration">June 2021 - Present</span>
+          </div>
+        </div>
+        <ul class="achievements">
+          <li>
+            Lead a team of 8 engineers in the development of Azure Logic Apps
+            UX, growing team from initial 2 engineers through comprehensive
+            hiring process
+          </li>
+          <li>
+            Lead work stream to completely rework the Logic Apps UI to meet
+            performance and usability requirements, with early results showing
+            large gains in initial loading performance and scalability
+            improvements
+          </li>
+          <li>
+            Delivered architecture supporting over 500 action workflows with
+            ease, compared to original UI that would fail at around 50 action
+            workflows
+          </li>
+          <li>
+            Lead work stream to build entire new experience for mapping data
+            schema in Logic Apps, empowering migration of on-premises BizTalk
+            users to the cloud
+          </li>
+          <li>
+            Worked with Power Automate team to unify user experiences across
+            organizations, building new UI as common library that can be plugged
+            into any surface and extended
+          </li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div class="company">
+            Facebook Inc <span class="location">Seattle, WA</span>
+          </div>
+          <div class="role">
+            Software Engineer
+            <span class="duration">June 2019 - June 2021</span>
+          </div>
+        </div>
+        <ul class="achievements">
+          <li>
+            Built end-to-end diagnostics service for Commerce Catalog uploads
+          </li>
+          <li>
+            Led the building and release of the Facebook Gaming standalone app
+          </li>
+          <li>
+            Built out iOS support in gaming for users to have non-real
+            identities when participating in live streams
+          </li>
+          <li>
+            Led work stream to unify code bases for Facebook Gaming's Web and
+            Mobile surfaces
+          </li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div class="company">
+            Microsoft Corporation <span class="location">Redmond, WA</span>
+          </div>
+          <div class="role">
+            Senior Software Engineer - Azure App Service/Azure Functions
+            <span class="duration">August 2018 - June 2019</span>
+          </div>
+        </div>
+        <ul class="achievements">
+          <li>
+            Led migration of portal architecture from internal frameworks to
+            React and open source tooling with system built to last through
+            changing demands of the service
+          </li>
+          <li>
+            Built out and owned multiple feature areas of Azure App Service user
+            experience including deployment center, application configuration,
+            Azure Functions editor, and easy authentication
+          </li>
+          <li>
+            Setup systems for scalability and distribution for portal handling
+            millions of hits per day
+          </li>
+          <li>
+            Led efforts to optimize the full App Service experience from server
+            to front end to meet strict performance goals
+          </li>
+          <li>
+            Championed accessibility efforts on team, allowing team to be ahead
+            of Microsoft's strict accessibility standards
+          </li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div class="company">
+            Microsoft Corporation <span class="location">Redmond, WA</span>
+          </div>
+          <div class="role">
+            Software Engineer - Azure App Service/Azure Functions
+            <span class="duration">January 2014 - August 2018</span>
+          </div>
+        </div>
+        <ul class="achievements">
+          <li>
+            Designed, developed and innovated new app creation experience that
+            allows for easy, low risk additions of new scenarios with 99%
+            success rate for new creations
+          </li>
+          <li>
+            Developed framework used by many Azure teams in production today
+          </li>
+          <li>
+            Built initial user experience for App Service Environments from
+            ground up - App Service Environments are currently the most
+            profitable Azure App Service SKU
+          </li>
+          <li>
+            Created first Microsoft owned Azure Mobile App aimed at helping
+            customers quickly troubleshoot issues from their App Services
+          </li>
+          <li>
+            Worked with ClearDB to develop experience for ClearDB MySQL
+            databases in the Azure portal
+          </li>
+          <li>
+            Designed and developed data pipelines and monitoring solutions for
+            Azure App Service team to make critical data driven business
+            decisions
+          </li>
+          <li>
+            Developed alerts for App service team that triggered based on
+            holistic data collected from monitoring logs, providing predictive
+            protection for production services
+          </li>
+          <li>
+            Helped design and build the Azure Functions serverless user
+            experience
+          </li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div class="company">
+            Microsoft Corporation <span class="location">Redmond, WA</span>
+          </div>
+          <div class="role">
+            Software Engineering Intern - Azure App Service
+            <span class="duration">May 2013 - August 2016</span>
+          </div>
+        </div>
+        <ul class="achievements">
+          <li>
+            Designed and developed tool for on-premise customers to continuously
+            test the health of their Azure Websites on-premise systems
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <div class="education">
+        <div>
+          <span class="degree">Bachelor of Science in Computer Science</span
+          ><br />
+          <span class="school">University of Kentucky, Lexington, KY</span>
+        </div>
+        <div class="dates">August 2009 - December 2013</div>
+      </div>
+    </div>
+  </body>
+</html>

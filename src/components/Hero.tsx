@@ -41,7 +41,7 @@ const Hero = () => {
                   <div className="absolute inset-0 bg-gradient-to-r from-purple-700 to-pink-700 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </a>
                 <a
-                  href="/resume.pdf"
+                  href="/resume.html"
                   className="group inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-purple-300 transition-all duration-300 bg-white/10 backdrop-blur-sm border border-purple-400/30 rounded-2xl hover:bg-white/20 hover:scale-105 hover:shadow-xl"
                 >
                   View Resume

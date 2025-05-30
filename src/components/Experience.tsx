@@ -102,7 +102,8 @@ const Experience = () => {
 
         <div className="text-center mt-16">
           <a
-            href="/resume.pdf"
+            href="/resume.html"
+            target="_blank"
             className="group inline-flex items-center bg-gradient-to-r from-blue-500 to-purple-600 text-white px-10 py-4 rounded-2xl font-bold text-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl border border-white/20"
           >
             <svg className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
