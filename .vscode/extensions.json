@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "ms-playwright.playwright",
+    "deque-systems.vscode-axe-linter",
+    "webhint.vscode-webhint"
+  ]
+}

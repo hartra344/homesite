@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-900 via-green-900 to-slate-900">
+    <section id="home" data-testid='hero' className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-900 via-green-900 to-slate-900">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-0 -left-4 w-72 h-72 bg-green-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
@@ -19,7 +19,7 @@ const Hero = () => {
                 </div>
                 <h1 className="text-5xl lg:text-7xl font-black text-white leading-tight">
                   Scaling{' '}
-                  <span className="bg-gradient-to-r from-green-400 via-emerald-400 to-yellow-400 bg-clip-text text-transparent animate-pulse">
+                  <span className="bg-gradient-to-r from-green-400 via-emerald-400 to-yellow-400 bg-clip-text text-transparentanimate-pulse">
                     Cloud
                   </span>
                   <br />
@@ -50,7 +50,7 @@ const Hero = () => {
                <div className="flex space-x-6 pt-4">
                 <a
                   href="https://www.linkedin.com/in/travis-harris/"
-                  className="text-slate-400 hover:text-green-400 transition-all duration-300 transform hover:scale-110"
+                  className="text-slate-400 hover:text-green-400 transition-all duration-300 transform hover:scale-110 p-3 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-lg"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn profile"
@@ -61,7 +61,7 @@ const Hero = () => {
                 </a>
                 <a
                   href="https://github.com/hartra344"
-                  className="text-slate-400 hover:text-green-400 transition-all duration-300 transform hover:scale-110"
+                  className="text-slate-400 hover:text-green-400 transition-all duration-300 transform hover:scale-110 p-3 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-lg"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub profile"
@@ -72,7 +72,7 @@ const Hero = () => {
                 </a>
                 <a
                   href="https://bsky.app/profile/travis.dev"
-                  className="text-slate-400 hover:text-green-400 transition-all duration-300 transform hover:scale-110"
+                  className="text-slate-400 hover:text-green-400 transition-all duration-300 transform hover:scale-110 p-3 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-lg"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Bluesky profile"
@@ -83,7 +83,7 @@ const Hero = () => {
                 </a>
                 <a
                   href="https://www.instagram.com/travih222/"
-                  className="text-slate-400 hover:text-emerald-400 transition-all duration-300 transform hover:scale-110"
+                  className="text-slate-400 hover:text-emerald-400 transition-all duration-300 transform hover:scale-110 p-3 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-lg"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram profile"
@@ -101,7 +101,7 @@ const Hero = () => {
                 <div className="w-96 h-96 bg-gradient-to-br from-green-500/20 to-emerald-500/20 rounded-3xl backdrop-blur-lg border border-white/20 flex items-center justify-center">
                   <div className="text-center space-y-4">
                     <div className="text-6xl">👨‍💻</div>
-                    <div className="text-white font-semibold text-lg">Travis Vu</div>
+                    <div className="text-white font-semibold text-lg ">Travis Vu</div>
                     <div className="text-green-300">Software Engineering Leader</div>
                   </div>
                 </div>

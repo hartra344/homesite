@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="text-3xl font-bold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent mb-6">
+            <h3 className="text-3xl font-bold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparentmb-6">
               Travis Vu
             </h3>
             <p className="text-gray-300 mb-8 leading-relaxed text-lg">
@@ -72,27 +72,27 @@ const Footer = () => {
             <h4 className="text-xl font-bold text-white mb-6">Quick Links</h4>
             <ul className="space-y-4">
               <li>
-                <a href="#home" className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block">
+                <a href="#home" className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block py-2 px-1 min-h-[44px] flex items-center">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#about" className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block">
+                <a href="#about" className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block py-2 px-1 min-h-[44px] flex items-center">
                   About
                 </a>
               </li>
               <li>
-                <a href="#experience" className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block">
+                <a href="#experience" className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block py-2 px-1 min-h-[44px] flex items-center">
                   Experience
                 </a>
               </li>
               <li>
-                <a href="#blog" className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block">
+                <a href="#blog" className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block py-2 px-1 min-h-[44px] flex items-center">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block">
+                <a href="#contact" className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block py-2 px-1 min-h-[44px] flex items-center">
                   Contact
                 </a>
               </li>
@@ -105,7 +105,7 @@ const Footer = () => {
               <li>
                 <a 
                   href="/resume.html" 
-                  className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block"
+                  className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block py-2 px-1 min-h-[44px] flex items-center"
                 >
                   Resume
                 </a>
@@ -113,7 +113,7 @@ const Footer = () => {
               <li>
                 <a 
                   href="https://www.linkedin.com/in/travis-harris/"
-                  className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block"
+                  className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block py-2 px-1 min-h-[44px] flex items-center"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -123,7 +123,7 @@ const Footer = () => {
               <li>
                 <a 
                   href="https://github.com/hartra344"
-                  className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block"
+                  className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block py-2 px-1 min-h-[44px] flex items-center"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
