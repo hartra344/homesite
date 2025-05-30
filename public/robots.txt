@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://travis.dev/sitemap.xml
+
+# Crawl-delay (optional, helps prevent overwhelming the server)
+Crawl-delay: 1
+
+# Disallow common non-essential paths (if they exist)
+Disallow: /api/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /build/
+Disallow: /dist/
