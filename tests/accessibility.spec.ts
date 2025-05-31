@@ -177,6 +177,7 @@ test.describe("Accessibility Tests", () => {
       const box = await button.boundingBox();
       const text = await button.textContent();
       if (box && text !== "Skip to main content") {
+        console.log(text);
         expect(box.width).toBeGreaterThanOrEqual(44);
         expect(box.height).toBeGreaterThanOrEqual(44);
       }

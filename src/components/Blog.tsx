@@ -1,36 +1,41 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import type { BlogPost as BlogPostType } from '../utils/blog';
+import { loadBlogPosts } from '../utils/blog';
 
 const Blog = () => {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const [posts] = useState<any[]>([
-    // {
-    //   id: 1,
-    //   title: 'Building Scalable UX for Azure Logic Apps',
-    //   excerpt: 'Lessons learned from designing user experiences for enterprise integration platforms at massive scale.',
-    //   date: '2024-03-15',
-    //   readTime: '8 min read',
-    //   category: 'Engineering',
-    //   featured: true
-    // },
-    // {
-    //   id: 2,
-    //   title: 'From Facebook to Microsoft: A Journey in Cloud Computing',
-    //   excerpt: 'Reflections on transitioning between tech giants and the evolution of cloud technologies.',
-    //   date: '2024-02-28',
-    //   readTime: '6 min read',
-    //   category: 'Career',
-    //   featured: false
-    // },
-    // {
-    //   id: 3,
-    //   title: 'The Future of Low-Code Development',
-    //   excerpt: 'How visual programming and low-code platforms are democratizing software development.',
-    //   date: '2024-02-10',
-    //   readTime: '12 min read',
-    //   category: 'Technology',
-    //   featured: true
-    // }
-  ]);
+  const navigate = useNavigate();
+  const [posts, setPosts] = useState<BlogPostType[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  // Custom navigation function to go to blog post without smooth scrolling
+  const handleReadMore = (slug: string) => {
+    // Temporarily disable smooth scrolling
+    document.documentElement.style.scrollBehavior = 'auto';
+    
+    // Navigate to blog post
+    navigate(`/blog/${slug}`);
+    
+    // Re-enable smooth scrolling after a brief delay
+    setTimeout(() => {
+      document.documentElement.style.scrollBehavior = 'smooth';
+    }, 100);
+  };
+
+  useEffect(() => {
+    const fetchPosts = async () => {
+      try {
+        const blogPosts = await loadBlogPosts();
+        setPosts(blogPosts);
+      } catch (error) {
+        console.error('Error loading blog posts:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchPosts();
+  }, []);
 
   return (
     <section id="blog" className="py-32 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
@@ -51,7 +56,14 @@ const Blog = () => {
           </p>
         </div>
 
-        {posts.length > 0 ? (
+        {loading ? (
+          <div className="text-center py-20">
+            <div className="text-8xl mb-8 animate-pulse">📝</div>
+            <h3 className="text-3xl font-bold text-white mb-6">
+              Loading blog posts...
+            </h3>
+          </div>
+        ) : posts.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {posts.map((post) => (
               <article
@@ -96,7 +108,10 @@ const Blog = () => {
                     <span>{post.readTime}</span>
                   </div>
                   
-                  <button className="group/btn text-green-400 font-semibold hover:text-white transition-all duration-300 flex items-center min-h-[44px] px-4 py-2">
+                  <button 
+                    onClick={() => handleReadMore(post.slug)}
+                    className="group/btn text-green-400 font-semibold hover:text-white transition-all duration-300 flex items-center min-h-[44px] px-4 py-2"
+                  >
                     Read more 
                     <svg className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />

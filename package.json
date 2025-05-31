@@ -12,11 +12,17 @@
     "test:ui": "playwright test --ui",
     "test:headed": "playwright test --headed",
     "test:accessibility": "playwright test tests/accessibility.spec.ts tests/visual-accessibility.spec.ts tests/theme-accessibility.spec.ts",
-    "test:debug": "playwright test --debug"
+    "test:debug": "playwright test --debug",
+    "blog:new": "./create-blog-post.sh"
   },
   "dependencies": {
+    "buffer": "^6.0.3",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.6.1",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.10.1",
@@ -25,6 +31,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^4.4.1",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.25.0",
