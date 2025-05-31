@@ -4,8 +4,9 @@ excerpt: "How visual programming and low-code platforms are democratizing softwa
 date: "2024-02-10"
 readTime: "12 min read"
 category: "Technology"
-featured: true
+featured: false
 slug: "future-of-low-code-development"
+published: false
 ---
 
 # The Future of Low-Code Development

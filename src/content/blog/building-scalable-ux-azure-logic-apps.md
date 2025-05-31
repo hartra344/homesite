@@ -4,8 +4,9 @@ excerpt: "Lessons learned from designing user experiences for enterprise integra
 date: "2024-03-15"
 readTime: "8 min read"
 category: "Engineering"
-featured: true
+featured: false
 slug: "building-scalable-ux-azure-logic-apps"
+published: false
 ---
 
 # Building Scalable UX for Azure Logic Apps

@@ -6,6 +6,7 @@ readTime: "6 min read"
 category: "Career"
 featured: false
 slug: "facebook-to-microsoft-cloud-journey"
+published: false
 ---
 
 # From Facebook to Microsoft: A Journey in Cloud Computing
