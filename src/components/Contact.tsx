@@ -218,7 +218,7 @@ const Contact = () => {
                 </a>
                 <a
                   href="https://github.com/hartra344"
-                  className="group bg-gradient-to-r from-gray-700 to-gray-800 text-white p-4 rounded-2xl hover:from-gray-800 hover:to-gray-900 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
+                  className="group bg-gradient-to-r from-green-700 to-emerald-700 text-white p-4 rounded-2xl hover:from-green-800 hover:to-emerald-800 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub profile"
