@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="letterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background with rounded corners -->
+  <rect width="32" height="32" rx="6" ry="6" fill="url(#bgGradient)"/>
+  
+  <!-- Subtle inner glow -->
+  <rect x="2" y="2" width="28" height="28" rx="4" ry="4" fill="none" stroke="rgba(34, 197, 94, 0.1)" stroke-width="0.5"/>
+  
+  <!-- Letter T -->
+  <g fill="url(#letterGradient)" filter="url(#glow)">
+    <!-- T horizontal bar -->
+    <rect x="8" y="9" width="16" height="3" rx="1.5"/>
+    <!-- T vertical stem -->
+    <rect x="14.5" y="9" width="3" height="14" rx="1.5"/>
+  </g>
+  
+  <!-- Small accent dot -->
+  <circle cx="24" cy="24" r="1.5" fill="#22c55e" opacity="0.6"/>
+</svg>
