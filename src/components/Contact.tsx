@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -84,20 +86,18 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-20">
           <h2 className="text-5xl font-bold bg-gradient-to-r from-green-400 via-emerald-400 to-lime-400 bg-clip-text text-transparent mb-6">
-            Get In Touch
+            {t('contact.title')}
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-emerald-400 mx-auto mb-8 rounded-full"></div>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            I'm always interested in meaningful conversations about engineering
-            leadership, cloud architecture, and building exceptional developer
-            experiences. Let's connect if you're working on something impactful.
+            {t('contact.subtitle')}
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div>
             <h3 className="text-3xl font-bold text-white mb-8">
-              Let's Connect
+              {t('contact.letsConnect')}
             </h3>
             <div className="space-y-8">
               <div className="flex items-start group">
@@ -117,7 +117,7 @@ const Contact = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-white text-lg mb-2">Email</h4>
+                  <h4 className="font-bold text-white text-lg mb-2">{t('contact.form.email')}</h4>
                   <p className="text-gray-300">me@travis.dev</p>
                 </div>
               </div>
@@ -146,10 +146,10 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-white text-lg mb-2">
-                    Location
+                    {t('contact.location')}
                   </h4>
                   <p className="text-gray-300">
-                    Lynnwood, Washington, United States
+                    {t('contact.locationValue')}
                   </p>
                 </div>
               </div>
@@ -171,10 +171,9 @@ const Contact = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-white text-lg mb-2">Open to</h4>
+                  <h4 className="font-bold text-white text-lg mb-2">{t('contact.openTo')}</h4>
                   <p className="text-gray-300">
-                    Strategic consulting, technical advisory roles, speaking
-                    engagements, and engineering leadership discussions
+                    {t('contact.openToValue')}
                   </p>
                 </div>
               </div>
@@ -182,7 +181,7 @@ const Contact = () => {
 
             <div className="mt-12">
               <h4 className="font-bold text-white mb-6 text-lg">
-                Find me online
+                {t('contact.findMeOnline')}
               </h4>
               <div className="flex space-x-6">
                 <a
@@ -190,7 +189,7 @@ const Contact = () => {
                   className="group bg-gradient-to-r from-green-700 to-emerald-800 text-white p-4 rounded-2xl hover:from-green-800 hover:to-emerald-900 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="LinkedIn profile"
+                  aria-label={t('contact.social.linkedin')}
                 >
                   <svg
                     className="w-6 h-6 group-hover:scale-110 transition-transform duration-300"
@@ -205,7 +204,7 @@ const Contact = () => {
                   className="group bg-gradient-to-r from-green-700 to-emerald-700 text-white p-4 rounded-2xl hover:from-green-800 hover:to-emerald-800 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Bluesky profile"
+                  aria-label={t('contact.social.bluesky')}
                 >
                   <svg
                     className="w-6 h-6 group-hover:scale-110 transition-transform duration-300"
@@ -221,7 +220,7 @@ const Contact = () => {
                   className="group bg-gradient-to-r from-green-700 to-emerald-700 text-white p-4 rounded-2xl hover:from-green-800 hover:to-emerald-800 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="GitHub profile"
+                  aria-label={t('contact.social.github')}
                 >
                   <svg
                     className="w-6 h-6 group-hover:scale-110 transition-transform duration-300"
@@ -242,7 +241,7 @@ const Contact = () => {
               aria-label="Contact form"
             >
               <h3 className="text-3xl font-bold text-white mb-8">
-                Send a Message
+                {t('contact.sendMessage')}
               </h3>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -251,7 +250,7 @@ const Contact = () => {
                     htmlFor="name"
                     className="block text-sm font-semibold text-gray-300 mb-3"
                   >
-                    Name <span className="text-red-400">*</span>
+                    {t('contact.form.name')} <span className="text-red-400">*</span>
                   </label>
                   <input
                     type="text"
@@ -265,7 +264,7 @@ const Contact = () => {
                     className={`w-full px-4 py-4 bg-white/5 border rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-green-400 focus:border-transparent transition-all duration-300 ${
                       errors.name ? "border-red-400" : "border-white/20"
                     }`}
-                    placeholder="Your name"
+                    placeholder={t('contact.form.namePlaceholder')}
                   />
                   {errors.name && (
                     <p
@@ -282,7 +281,7 @@ const Contact = () => {
                     htmlFor="email"
                     className="block text-sm font-semibold text-gray-300 mb-3"
                   >
-                    Email <span className="text-red-400">*</span>
+                    {t('contact.form.email')} <span className="text-red-400">*</span>
                   </label>
                   <input
                     type="email"
@@ -296,7 +295,7 @@ const Contact = () => {
                     className={`w-full px-4 py-4 bg-white/5 border rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-green-400 focus:border-transparent transition-all duration-300 ${
                       errors.email ? "border-red-400" : "border-white/20"
                     }`}
-                    placeholder="your@email.com"
+                    placeholder={t('contact.form.emailPlaceholder')}
                   />
                   {errors.email && (
                     <p
@@ -315,7 +314,7 @@ const Contact = () => {
                   htmlFor="subject"
                   className="block text-sm font-semibold text-gray-300 mb-3"
                 >
-                  Subject
+                  {t('contact.subject')}
                 </label>
                 <input
                   type="text"
@@ -324,7 +323,7 @@ const Contact = () => {
                   value={formData.subject}
                   onChange={handleChange}
                   className="w-full px-4 py-4 bg-white/5 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-green-400 focus:border-transparent transition-all duration-300"
-                  placeholder="What's this about?"
+                  placeholder={t('contact.subjectPlaceholder')}
                 />
               </div>
 
@@ -333,7 +332,7 @@ const Contact = () => {
                   htmlFor="message"
                   className="block text-sm font-semibold text-gray-300 mb-3"
                 >
-                  Message <span className="text-red-400">*</span>
+                  {t('contact.form.message')} <span className="text-red-400">*</span>
                 </label>
                 <textarea
                   id="message"
@@ -349,7 +348,7 @@ const Contact = () => {
                   className={`w-full px-4 py-4 bg-white/5 border rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-green-400 focus:border-transparent resize-none transition-all duration-300 ${
                     errors.message ? "border-red-400" : "border-white/20"
                   }`}
-                  placeholder="Tell me about your project or just say hello!"
+                  placeholder={t('contact.messagePlaceholderLong')}
                 />
                 {errors.message && (
                   <p
@@ -366,7 +365,7 @@ const Contact = () => {
                 type="submit"
                 className="w-full bg-gradient-to-r from-green-600 to-emerald-700 text-white py-4 px-6 rounded-xl font-bold text-lg hover:from-green-700 hover:to-emerald-800 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl border border-white/20"
               >
-                Send Message
+                {t('contact.form.send')}
               </button>
             </form>
           </div>

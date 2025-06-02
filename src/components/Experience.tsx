@@ -1,6 +1,9 @@
 
 
+import { useTranslation } from 'react-i18next';
+
 const Experience = () => {
+  const { t } = useTranslation();
   const experiences = [
     {
       company: 'Microsoft',
@@ -51,11 +54,11 @@ const Experience = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-20">
           <h2 className="text-5xl font-bold bg-gradient-to-r from-green-400 via-emerald-400 to-lime-400 bg-clip-text text-transparent mb-6">
-            Experience
+            {t('experience.title')}
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-emerald-400 mx-auto mb-8 rounded-full"></div>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Over a decade of experience building scalable software solutions and leading high-performing teams.
+            {t('experience.subtitle')}
           </p>
         </div>
 
@@ -75,7 +78,7 @@ const Experience = () => {
                   </h4>
                 </div>
                 <div className="bg-gradient-to-r from-green-500/20 to-emerald-500/20 text-white font-semibold px-6 py-3 rounded-xl border border-white/10 mt-4 md:mt-0">
-                  {exp.period}
+                  {exp.period.replace('Present', t('experience.current'))}
                 </div>
               </div>
               
@@ -84,7 +87,7 @@ const Experience = () => {
               </p>
               
               <div>
-                <h5 className="font-bold text-white mb-6 text-lg">Key Achievements:</h5>
+                <h5 className="font-bold text-white mb-6 text-lg">{t('experience.keyAchievements')}</h5>
                 <ul className="space-y-4">
                   {exp.achievements.map((achievement, i) => (
                     <li key={i} className="flex items-start group/item">
@@ -109,7 +112,7 @@ const Experience = () => {
             <svg className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
             </svg>
-            Download Full Resume
+            {t('hero.viewResume')}
           </a>
         </div>
       </div>

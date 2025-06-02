@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "experience": "Kinh nghiệm",
+    "blog": "Blog",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "badge": "✨ Lãnh đạo Kỹ thuật @ Microsoft",
+    "heading1": "Mở rộng",
+    "headingHighlight": "Đổi mới",
+    "heading2": "Đám mây",
+    "description": "Giám đốc Kỹ thuật Phần mềm Chính tại",
+    "company": "Microsoft",
+    "descriptionCont": "lãnh đạo 7 kỹ sư xây dựng Azure Logic Apps được sử dụng bởi hàng triệu nhà phát triển trên toàn thế giới. Khi tôi không thiết kế các giải pháp đám mây, bạn sẽ thấy tôi khám phá bầu trời với tư cách là một phi công tư nhân.",
+    "letsConnect": "Hãy Kết Nối",
+    "viewResume": "Xem CV",
+    "viewGitHub": "Xem GitHub",
+    "viewLinkedIn": "Xem LinkedIn"
+  },
+  "about": {
+    "title": "Về Tôi",
+    "intro": "Tôi là Travis, một nhà lãnh đạo công nghệ với hơn một thập kỷ kinh nghiệm mở rộng quy mô các đội ngũ và sản phẩm kỹ thuật tại Microsoft và Facebook. Là Giám đốc Kỹ thuật Phần mềm Chính cho Azure Logic Apps, tôi lãnh đạo một đội gồm 7 kỹ sư xây dựng các nền tảng tích hợp phục vụ hàng triệu nhà phát triển và xử lý hàng tỷ quy trình làm việc trên toàn cầu.",
+    "expertise": "Chuyên môn của tôi bao gồm toàn bộ phổ phát triển web hiện đại - từ TypeScript và React đến kiến trúc đám mây và hệ thống phân tán. Nhưng điều tôi đam mê nhất là xây dựng các đội ngũ tạo ra trải nghiệm trực quan từ những thách thức kỹ thuật phức tạp, làm cho điện toán đám mây cấp doanh nghiệp trở nên dễ tiếp cận với các nhà phát triển trên toàn thế giới.",
+    "personal": "Ngoài bàn phím, tôi là một phi công tư nhân tìm thấy cảm hứng từ sự chính xác và văn hóa an toàn của hàng không, một người đam mê xe máy đánh giá cao sự xuất sắc trong kỹ thuật, và một khách thường xuyên của Disney World coi trọng trải nghiệm khách hàng xuất sắc. Những sở thích này hướng dẫn cách tôi tiếp cận lãnh đạo công nghệ - với sự chú ý đến chi tiết, sự đồng cảm với người dùng và cam kết với nghề thủ công.",
+    "tagline": "Chuyển đổi cách các đội ngũ xây dựng",
+    "taglineHighlight": "giải pháp quy mô đám mây",
+    "skills": {
+      "title": "Kỹ Năng Chính",
+      "items": {
+        "leadership": "Lãnh đạo Nhóm & Cố vấn",
+        "architecture": "Kiến trúc & Thiết kế Hệ thống",
+        "frontend": "Phát triển Frontend (React, TypeScript)",
+        "cloud": "Công nghệ Đám mây (Azure, AWS)",
+        "ux": "Nguyên tắc Thiết kế UX/UI",
+        "agile": "Phương pháp Agile & Scrum"
+      }
+    },
+    "interests": {
+      "title": "Sở Thích",
+      "items": {
+        "aviation": "Hàng không",
+        "aviationDesc": "Phi công tư nhân khám phá bầu trời",
+        "motorcycles": "Xe máy",
+        "motorcyclesDesc": "Tự do trên hai bánh xe",
+        "travel": "Du lịch",
+        "travelDesc": "Khám phá thế giới, đặc biệt là Disney",
+        "fitness": "Thể dục",
+        "fitnessDesc": "Giữ gìn sức khỏe và năng động"
+      }
+    }
+  },
+  "experience": {
+    "title": "Kinh Nghiệm",
+    "subtitle": "Hơn một thập kỷ kinh nghiệm xây dựng các giải pháp phần mềm có thể mở rộng và lãnh đạo các đội ngũ hiệu suất cao.",
+    "current": "Hiện tại",
+    "keyAchievements": "Thành Tựu Chính:"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Suy nghĩ về công nghệ, lãnh đạo và kỹ thuật phần mềm",
+    "readMore": "Đọc thêm →",
+    "category": "trong {{category}}",
+    "featured": "Nổi bật",
+    "emptyState": "Bài viết blog sẽ sớm ra mắt! Hãy quay lại sau để xem thông tin chi tiết về công nghệ và lãnh đạo."
+  },
+  "contact": {
+    "title": "Liên Hệ",
+    "subtitle": "Tôi luôn quan tâm đến những cuộc trò chuyện ý nghĩa về lãnh đạo kỹ thuật, kiến trúc đám mây và xây dựng trải nghiệm xuất sắc cho nhà phát triển. Hãy kết nối nếu bạn đang làm việc trên điều gì đó có tác động.",
+    "letsConnect": "Hãy Kết Nối",
+    "location": "Vị trí",
+    "locationValue": "Lynnwood, Washington, Hoa Kỳ",
+    "openTo": "Sẵn sàng cho",
+    "openToValue": "Tư vấn chiến lược, vai trò cố vấn kỹ thuật, thảm luận và thảo luận về lãnh đạo kỹ thuật",
+    "findMeOnline": "Tìm tôi trực tuyến",
+    "sendMessage": "Gửi Tin Nhắn",
+    "subject": "Chủ đề",
+    "subjectPlaceholder": "Đây là về gì?",
+    "messagePlaceholderLong": "Hãy kể cho tôi về dự án của bạn hoặc chỉ chào hỏi!",
+    "form": {
+      "name": "Tên",
+      "namePlaceholder": "Tên của bạn",
+      "email": "Email",
+      "emailPlaceholder": "email@example.com",
+      "message": "Tin nhắn",
+      "messagePlaceholder": "Tin nhắn của bạn...",
+      "send": "Gửi Tin Nhắn"
+    },
+    "social": {
+      "title": "Kết Nối",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "bluesky": "Bluesky"
+    }
+  },
+  "footer": {
+    "tagline": "Nhà phát triển phần mềm, quản lý và phi công nghiệp dư xây dựng tương lai của tích hợp đám mây.",
+    "quickLinks": "Liên Kết Nhanh",
+    "professional": "Chuyên Nghiệp",
+    "resume": "Sơ Yếu Lý Lịch",
+    "rights": "Tất cả quyền được bảo lưu.",
+    "builtWith": "Xây dựng với React và Tailwind CSS."
+  }
+}

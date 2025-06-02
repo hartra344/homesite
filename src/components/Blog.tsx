@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import type { BlogPost as BlogPostType } from '../utils/blog';
 import { loadBlogPosts } from '../utils/blog';
 
 const Blog = () => {
+  const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const [posts, setPosts] = useState<BlogPostType[]>([]);
   const [loading, setLoading] = useState(true);
@@ -48,11 +50,11 @@ const Blog = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-20">
           <h2 className="text-5xl font-bold bg-gradient-to-r from-green-400 via-emerald-400 to-lime-400 bg-clip-text text-transparent mb-6 pb-2">
-            Blog
+            {t('blog.title')}
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-emerald-400 mx-auto mb-8 rounded-full"></div>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Thoughts on technology, engineering leadership, and life in the cloud.
+            {t('blog.subtitle')}
           </p>
         </div>
 
@@ -84,7 +86,7 @@ const Blog = () => {
                     </span>
                     {post.featured && (
                       <span className="bg-gradient-to-r from-yellow-500/20 to-orange-500/20 text-yellow-300 px-3 py-1 rounded-xl text-xs font-semibold border border-yellow-400/20">
-                        Featured
+                        {t('blog.featured')}
                       </span>
                     )}
                   </div>
@@ -99,7 +101,7 @@ const Blog = () => {
                   
                   <div className="flex items-center justify-between text-sm text-gray-400 mb-4">
                     <time dateTime={post.date}>
-                      {new Date(post.date).toLocaleDateString('en-US', {
+                      {new Date(post.date).toLocaleDateString(i18n.language, {
                         year: 'numeric',
                         month: 'long',
                         day: 'numeric'
@@ -112,7 +114,7 @@ const Blog = () => {
                     onClick={() => handleReadMore(post.slug)}
                     className="group/btn text-green-400 font-semibold hover:text-white transition-all duration-300 flex items-center min-h-[44px] px-4 py-2"
                   >
-                    Read more 
+                    {t('blog.readMore')} 
                     <svg className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
@@ -125,12 +127,10 @@ const Blog = () => {
           <div className="text-center py-20">
             <div className="text-8xl mb-8 animate-pulse">📝</div>
             <h3 className="text-3xl font-bold text-white mb-6">
-              Blog Coming Soon
+              {t('blog.title')}
             </h3>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed mb-8">
-              I'm currently working on some exciting content about engineering leadership, 
-              cloud technologies, and lessons learned from building products at scale. 
-              Check back soon for insights from the world of enterprise software development!
+              {t('blog.emptyState')}
             </p>
             <div className="mt-12">
               <a

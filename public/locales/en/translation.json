@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "✨ Engineering Leader @ Microsoft",
+    "heading1": "Scaling",
+    "headingHighlight": "Cloud",
+    "heading2": "Innovation",
+    "description": "Principal Software Engineering Manager at",
+    "company": "Microsoft",
+    "descriptionCont": "leading 7 engineers building Azure Logic Apps used by millions of developers worldwide. When I'm not architecting cloud solutions, you'll find me exploring the skies as a private pilot.",
+    "letsConnect": "Let's Connect",
+    "viewResume": "View Resume",
+    "viewGitHub": "View GitHub",
+    "viewLinkedIn": "View LinkedIn"
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "I'm Travis, a technology leader with over a decade of experience scaling engineering teams and products at Microsoft and Facebook. As Principal Software Engineering Manager for Azure Logic Apps, I lead a team of 7 engineers building integration platforms that serve millions of developers and handle billions of workflows globally.",
+    "expertise": "My expertise spans the full spectrum of modern web development—from TypeScript and React to cloud architecture and distributed systems. But what I'm most passionate about is building teams that create intuitive experiences from complex technical challenges, making enterprise-grade cloud computing accessible to developers worldwide.",
+    "personal": "Beyond the keyboard, I'm a private pilot who finds inspiration in aviation's precision and safety culture, a motorcycle enthusiast who appreciates engineering excellence, and a Disney World regular who values exceptional customer experiences. These interests inform how I approach technology leadership—with attention to detail, user empathy, and a commitment to craft.",
+    "tagline": "Transforming how teams build",
+    "taglineHighlight": "cloud-scale solutions",
+    "skills": {
+      "title": "Core Skills",
+      "items": {
+        "leadership": "Team Leadership & Mentorship",
+        "architecture": "System Architecture & Design",
+        "frontend": "Frontend Development (React, TypeScript)",
+        "cloud": "Cloud Technologies (Azure, AWS)",
+        "ux": "UX/UI Design Principles",
+        "agile": "Agile & Scrum Methodologies"
+      }
+    },
+    "interests": {
+      "title": "Interests",
+      "items": {
+        "aviation": "Aviation",
+        "aviationDesc": "Private pilot exploring the skies",
+        "motorcycles": "Motorcycles",
+        "motorcyclesDesc": "Freedom on two wheels",
+        "travel": "Travel",
+        "travelDesc": "Exploring the world, especially Disney",
+        "fitness": "Fitness",
+        "fitnessDesc": "Staying active and healthy"
+      }
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Over a decade of experience building scalable software solutions and leading high-performing teams.",
+    "current": "Present",
+    "keyAchievements": "Key Achievements:"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Thoughts on technology, leadership, and software engineering",
+    "readMore": "Read more →",
+    "category": "in {{category}}",
+    "featured": "Featured",
+    "emptyState": "Blog posts coming soon! Check back later for insights on technology and leadership."
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "I'm always interested in meaningful conversations about engineering leadership, cloud architecture, and building exceptional developer experiences. Let's connect if you're working on something impactful.",
+    "letsConnect": "Let's Connect",
+    "location": "Location",
+    "locationValue": "Lynnwood, Washington, United States",
+    "openTo": "Open to",
+    "openToValue": "Strategic consulting, technical advisory roles, speaking engagements, and engineering leadership discussions",
+    "findMeOnline": "Find me online",
+    "sendMessage": "Send a Message",
+    "subject": "Subject",
+    "subjectPlaceholder": "What's this about?",
+    "messagePlaceholderLong": "Tell me about your project or just say hello!",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "send": "Send Message"
+    },
+    "social": {
+      "title": "Connect",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "bluesky": "Bluesky"
+    }
+  },
+  "footer": {
+    "tagline": "Software developer, manager, and amateur pilot building the future of cloud integration.",
+    "quickLinks": "Quick Links",
+    "professional": "Professional",
+    "resume": "Resume",
+    "rights": "All rights reserved.",
+    "builtWith": "Built with React and Tailwind CSS."
+  }
+}

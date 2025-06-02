@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "experience": "Erfahrung",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Hallo, ich bin",
+    "name": "Travis Vu",
+    "badge": "Software-Entwickler · Engineering Manager · Hobbypilot",
+    "title": "Cloud-Innovation skalieren",
+    "description": "Ich bin ein Principal Software Engineering Manager, der sich auf den Aufbau von Cloud-Integrationsplattformen konzentriert, die es Organisationen ermöglichen, in großem Maßstab zu verbinden, zu automatisieren und zu transformieren."
+  },
+  "about": {
+    "title": "Über mich",
+    "description": "Derzeit arbeite ich bei Microsoft als Principal Software Engineering Manager im Azure Logic Apps Team, wo wir Integrationsplattformen entwickeln, die es Organisationen ermöglichen, Anwendungen, Daten und Geräte in der Cloud zu verbinden.",
+    "currentRole": "Principal Software Engineering Manager",
+    "company": "Microsoft",
+    "product": "Azure Logic Apps",
+    "interests": "Wenn ich nicht damit beschäftigt bin, Cloud-Services zu entwickeln, arbeite ich an meiner Pilotenlizenz und erkunde die technischen und künstlerischen Aspekte der Luftfahrt.",
+    "skills": {
+      "title": "Fähigkeiten und Spezialisierungen",
+      "leadership": "Engineering Leadership",
+      "cloud": "Cloud-Architektur",
+      "integration": "Unternehmensintegration",
+      "frontend": "Frontend-Entwicklung",
+      "product": "Produktmanagement",
+      "aviation": "Luftfahrt"
+    }
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+    "present": "heute",
+    "years": "Jahre",
+    "months": "Monate"
+  },
+  "blog": {
+    "title": "Neueste Artikel",
+    "readMore": "Mehr lesen",
+    "backToBlog": "Zurück zum Blog",
+    "readTime": "Lesezeit",
+    "publishedOn": "Veröffentlicht am",
+    "inCategory": "in",
+    "category": "Kategorie"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie mich",
+    "description": "Haben Sie eine Idee zu teilen oder ein Projekt zu besprechen? Ich würde gerne von Ihnen hören.",
+    "email": "E-Mail",
+    "bluesky": "Bluesky",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "built": "Erstellt mit React + TypeScript",
+    "rights": "Alle Rechte vorbehalten"
+  }
+}

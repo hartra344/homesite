@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Header = () => {
+  const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
@@ -62,14 +65,14 @@ const Header = () => {
           </Link>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             <a
               href="#home"
               onClick={(e) => handleLinkClick(e, 'home')}
               className="text-white/80 hover:text-white transition-all duration-300 hover:scale-105 relative group min-h-[44px] px-2 py-2 flex items-center"
               aria-label="Navigate to home section"
             >
-              Home
+              {t('nav.home', 'Home')}
               <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
             </a>
             <a
@@ -78,7 +81,7 @@ const Header = () => {
               className="text-white/80 hover:text-white transition-all duration-300 hover:scale-105 relative group min-h-[44px] px-2 py-2 flex items-center"
               aria-label="Navigate to about section"
             >
-              About
+              {t('nav.about')}
               <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
             </a>
             <a
@@ -87,7 +90,7 @@ const Header = () => {
               className="text-white/80 hover:text-white transition-all duration-300 hover:scale-105 relative group min-h-[44px] px-2 py-2 flex items-center"
               aria-label="Navigate to experience section"
             >
-              Experience
+              {t('nav.experience')}
               <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
             </a>
             <a
@@ -96,7 +99,7 @@ const Header = () => {
               className="text-white/80 hover:text-white transition-all duration-300 hover:scale-105 relative group min-h-[44px] px-2 py-2 flex items-center"
               aria-label="Navigate to blog section"
             >
-              Blog
+              {t('nav.blog')}
               <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
             </a>
             <a
@@ -105,9 +108,10 @@ const Header = () => {
               className="text-white/80 hover:text-white transition-all duration-300 hover:scale-105 relative group min-h-[44px] px-2 py-2 flex items-center"
               aria-label="Navigate to contact section"
             >
-              Contact
+              {t('nav.contact')}
               <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
             </a>
+            <LanguageSwitcher />
           </div>
           
           {/* Mobile menu button */}
@@ -137,7 +141,7 @@ const Header = () => {
                 className="block w-full text-left text-white/80 hover:text-white transition-all duration-300 py-3 px-4 rounded-lg hover:bg-white/10 min-h-[44px] flex items-center"
                 aria-label="Navigate to home section"
               >
-                Home
+                {t('nav.home', 'Home')}
               </a>
               <a
                 href="#about"
@@ -145,7 +149,7 @@ const Header = () => {
                 className="block w-full text-left text-white/80 hover:text-white transition-all duration-300 py-3 px-4 rounded-lg hover:bg-white/10 min-h-[44px] flex items-center"
                 aria-label="Navigate to about section"
               >
-                About
+                {t('nav.about')}
               </a>
               <a
                 href="#experience"
@@ -153,7 +157,7 @@ const Header = () => {
                 className="block w-full text-left text-white/80 hover:text-white transition-all duration-300 py-3 px-4 rounded-lg hover:bg-white/10 min-h-[44px] flex items-center"
                 aria-label="Navigate to experience section"
               >
-                Experience
+                {t('nav.experience')}
               </a>
               <a
                 href="#blog"
@@ -161,7 +165,7 @@ const Header = () => {
                 className="block w-full text-left text-white/80 hover:text-white transition-all duration-300 py-3 px-4 rounded-lg hover:bg-white/10 min-h-[44px] flex items-center"
                 aria-label="Navigate to blog section"
               >
-                Blog
+                {t('nav.blog')}
               </a>
               <a
                 href="#contact"
@@ -169,8 +173,11 @@ const Header = () => {
                 className="block w-full text-left text-white/80 hover:text-white transition-all duration-300 py-3 px-4 rounded-lg hover:bg-white/10 min-h-[44px] flex items-center"
                 aria-label="Navigate to contact section"
               >
-                Contact
+                {t('nav.contact')}
               </a>
+              <div className="pt-4 border-t border-white/10">
+                <LanguageSwitcher />
+              </div>
             </div>
           </div>
         )}

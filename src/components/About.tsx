@@ -1,4 +1,7 @@
+import { useTranslation } from 'react-i18next';
+
 const About = () => {
+  const { t } = useTranslation();
   return (
     <section
       id="about"
@@ -13,7 +16,7 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-20">
           <h2 className="text-5xl font-bold bg-gradient-to-r from-green-400 via-emerald-400 to-lime-400 bg-clip-text text-transparent mb-6">
-            About Me
+            {t('about.title')}
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-emerald-400 mx-auto rounded-full"></div>
         </div>
@@ -21,36 +24,21 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
           <div className="space-y-6">
             <h3 className="text-3xl font-bold text-white mb-8 leading-tight">
-              Transforming how teams build
+              {t('about.tagline')}
               <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
                 {" "}
-                cloud-scale solutions
+                {t('about.taglineHighlight')}
               </span>
             </h3>
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-                I'm Travis, a technology leader with over a decade of experience
-                scaling engineering teams and products at Microsoft and
-                Facebook. As Principal Software Engineering Manager for Azure
-                Logic Apps, I lead a team of 7 engineers building integration
-                platforms that serve millions of developers and handle billions
-                of workflows globally.
+                {t('about.intro')}
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                My expertise spans the full spectrum of modern web
-                development—from TypeScript and React to cloud architecture and
-                distributed systems. But what I'm most passionate about is
-                building teams that create intuitive experiences from complex
-                technical challenges, making enterprise-grade cloud computing
-                accessible to developers worldwide.
+                {t('about.expertise')}
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                Beyond the keyboard, I'm a private pilot who finds inspiration
-                in aviation's precision and safety culture, a motorcycle
-                enthusiast who appreciates engineering excellence, and a Disney
-                World regular who values exceptional customer experiences. These
-                interests inform how I approach technology leadership—with
-                attention to detail, user empathy, and a commitment to craft.
+                {t('about.personal')}
               </p>
             </div>
           </div>
@@ -60,38 +48,36 @@ const About = () => {
               <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
                 ✈️
               </div>
-              <h4 className="font-bold text-white mb-2 text-lg">Aviation</h4>
-              <p className="text-gray-400">Private pilot exploring the skies</p>
+              <h4 className="font-bold text-white mb-2 text-lg">{t('about.interests.items.aviation')}</h4>
+              <p className="text-gray-400">{t('about.interests.items.aviationDesc')}</p>
             </div>
             <div className="group bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl text-center hover:bg-white/10 transition-all duration-300 hover:scale-105">
               <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
                 🏍️
               </div>
-              <h4 className="font-bold text-white mb-2 text-lg">Motorcycles</h4>
-              <p className="text-gray-400">Freedom on two wheels</p>
+              <h4 className="font-bold text-white mb-2 text-lg">{t('about.interests.items.motorcycles')}</h4>
+              <p className="text-gray-400">{t('about.interests.items.motorcyclesDesc')}</p>
             </div>
             <div className="group bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl text-center hover:bg-white/10 transition-all duration-300 hover:scale-105">
               <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
                 🏰
               </div>
-              <h4 className="font-bold text-white mb-2 text-lg">Travel</h4>
-              <p className="text-gray-400">
-                Exploring the world, especially Disney
-              </p>
+              <h4 className="font-bold text-white mb-2 text-lg">{t('about.interests.items.travel')}</h4>
+              <p className="text-gray-400">{t('about.interests.items.travelDesc')}</p>
             </div>
             <div className="group bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl text-center hover:bg-white/10 transition-all duration-300 hover:scale-105">
               <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
                 💪
               </div>
-              <h4 className="font-bold text-white mb-2 text-lg">Fitness</h4>
-              <p className="text-gray-400">Staying active and healthy</p>
+              <h4 className="font-bold text-white mb-2 text-lg">{t('about.interests.items.fitness')}</h4>
+              <p className="text-gray-400">{t('about.interests.items.fitnessDesc')}</p>
             </div>
           </div>
         </div>
 
         <div className="mt-20">
           <h3 className="text-3xl font-bold text-white mb-12 text-center">
-            Skills & Technologies
+            {t('about.skills.title')}
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {[

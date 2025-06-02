@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "experience": "Experiencia",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "badge": "✨ Líder de Ingeniería @ Microsoft",
+    "heading1": "Escalando",
+    "headingHighlight": "Innovación",
+    "heading2": "en la Nube",
+    "description": "Director Principal de Ingeniería de Software en",
+    "company": "Microsoft",
+    "descriptionCont": "liderando 7 ingenieros construyendo Azure Logic Apps usado por millones de desarrolladores en todo el mundo. Cuando no estoy arquitectando soluciones en la nube, me encontrarás explorando los cielos como piloto privado.",
+    "letsConnect": "Conectémonos",
+    "viewResume": "Ver CV",
+    "viewGitHub": "Ver GitHub",
+    "viewLinkedIn": "Ver LinkedIn"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "intro": "Soy Travis, un líder tecnológico con más de una década de experiencia escalando equipos y productos de ingeniería en Microsoft y Facebook. Como Director Principal de Ingeniería de Software para Azure Logic Apps, lidero un equipo de 7 ingenieros construyendo plataformas de integración que sirven a millones de desarrolladores y manejan miles de millones de flujos de trabajo a nivel mundial.",
+    "expertise": "Mi experiencia abarca todo el espectro del desarrollo web moderno, desde TypeScript y React hasta arquitectura en la nube y sistemas distribuidos. Pero lo que más me apasiona es construir equipos que crean experiencias intuitivas a partir de desafíos técnicos complejos, haciendo que la computación en la nube de grado empresarial sea accesible para desarrolladores en todo el mundo.",
+    "personal": "Más allá del teclado, soy un piloto privado que encuentra inspiración en la precisión y cultura de seguridad de la aviación, un entusiasta de las motocicletas que aprecia la excelencia en ingeniería, y un visitante regular de Disney World que valora las experiencias excepcionales del cliente. Estos intereses informan cómo abordo el liderazgo tecnológico: con atención al detalle, empatía del usuario y compromiso con el oficio.",
+    "tagline": "Transformando cómo los equipos construyen",
+    "taglineHighlight": "soluciones a escala de nube",
+    "skills": {
+      "title": "Habilidades Principales",
+      "items": {
+        "leadership": "Liderazgo de Equipos y Mentoría",
+        "architecture": "Arquitectura y Diseño de Sistemas",
+        "frontend": "Desarrollo Frontend (React, TypeScript)",
+        "cloud": "Tecnologías Cloud (Azure, AWS)",
+        "ux": "Principios de Diseño UX/UI",
+        "agile": "Metodologías Ágiles y Scrum"
+      }
+    },
+    "interests": {
+      "title": "Intereses",
+      "items": {
+        "aviation": "Aviación",
+        "aviationDesc": "Piloto privado explorando los cielos",
+        "motorcycles": "Motocicletas",
+        "motorcyclesDesc": "Libertad sobre dos ruedas",
+        "travel": "Viajes",
+        "travelDesc": "Explorando el mundo, especialmente Disney",
+        "fitness": "Fitness",
+        "fitnessDesc": "Manteniéndome activo y saludable"
+      }
+    }
+  },
+  "experience": {
+    "title": "Experiencia",
+    "subtitle": "Más de una década de experiencia construyendo soluciones de software escalables y liderando equipos de alto rendimiento.",
+    "current": "Presente",
+    "keyAchievements": "Logros Clave:"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Reflexiones sobre tecnología, liderazgo e ingeniería de software",
+    "readMore": "Leer más →",
+    "category": "en {{category}}",
+    "featured": "Destacado",
+    "emptyState": "¡Las publicaciones del blog llegarán pronto! Vuelve más tarde para obtener información sobre tecnología y liderazgo."
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "Siempre estoy interesado en conversaciones significativas sobre liderazgo en ingeniería, arquitectura en la nube y construcción de experiencias excepcionales para desarrolladores. Conectémonos si estás trabajando en algo impactante.",
+    "letsConnect": "Conectémonos",
+    "location": "Ubicación",
+    "locationValue": "Lynnwood, Washington, Estados Unidos",
+    "openTo": "Abierto a",
+    "openToValue": "Consultoría estratégica, roles de asesoría técnica, charlas y discusiones sobre liderazgo en ingeniería",
+    "findMeOnline": "Encuéntrame en línea",
+    "sendMessage": "Enviar un Mensaje",
+    "subject": "Asunto",
+    "subjectPlaceholder": "¿De qué se trata?",
+    "messagePlaceholderLong": "¡Cuéntame sobre tu proyecto o simplemente saluda!",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "tu@correo.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Tu mensaje...",
+      "send": "Enviar Mensaje"
+    },
+    "social": {
+      "title": "Conectar",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "bluesky": "Bluesky"
+    }
+  },
+  "footer": {
+    "tagline": "Desarrollador de software, gerente y piloto aficionado construyendo el futuro de la integración en la nube.",
+    "quickLinks": "Enlaces Rápidos",
+    "professional": "Profesional",
+    "resume": "Currículum",
+    "rights": "Todos los derechos reservados.",
+    "builtWith": "Construido con React y Tailwind CSS."
+  }
+}
