@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "홈",
+    "about": "소개",
+    "experience": "경력",
+    "blog": "블로그",
+    "contact": "연락처"
+  },
+  "hero": {
+    "badge": "✨ 마이크로소프트 엔지니어링 리더",
+    "heading1": "확장하는",
+    "headingHighlight": "클라우드",
+    "heading2": "혁신",
+    "description": "마이크로소프트 수석 소프트웨어 엔지니어링 매니저",
+    "company": "마이크로소프트",
+    "descriptionCont": "전 세계 수백만 개발자가 사용하는 Azure Logic Apps를 구축하는 7명의 엔지니어를 이끌고 있습니다. 클라우드 솔루션 설계를 하지 않을 때는 개인 조종사로서 하늘을 탐험하고 있습니다.",
+    "letsConnect": "연결하기",
+    "viewResume": "이력서 보기",
+    "viewGitHub": "GitHub 보기",
+    "viewLinkedIn": "LinkedIn 보기"
+  },
+  "about": {
+    "title": "소개",
+    "intro": "저는 Travis로, 마이크로소프트와 페이스북에서 엔지니어링 팀과 제품을 확장한 10년 이상의 경험을 가진 기술 리더입니다. Azure Logic Apps의 수석 소프트웨어 엔지니어링 매니저로서, 전 세계 수백만 개발자에게 서비스를 제공하고 수십억 개의 워크플로우를 처리하는 통합 플랫폼을 구축하는 7명의 엔지니어 팀을 이끌고 있습니다.",
+    "expertise": "제 전문 지식은 TypeScript와 React에서 클라우드 아키텍처 및 분산 시스템에 이르기까지 현대 웹 개발의 전 영역을 포괄합니다. 그러나 제가 가장 열정을 갖는 것은 복잡한 기술적 도전에서 직관적인 경험을 창출하는 팀을 구축하여 엔터프라이즈급 클라우드 컴퓨팅을 전 세계 개발자들이 쉽게 접근할 수 있도록 만드는 것입니다.",
+    "personal": "키보드를 벗어나면, 저는 항공의 정밀함과 안전 문화에서 영감을 찾는 개인 조종사이자, 엔지니어링 우수성을 높이 평가하는 오토바이 애호가이며, 뛰어난 고객 경험을 중요시하는 디즈니 월드 단골입니다. 이러한 관심사는 세부 사항에 대한 주의, 사용자 공감, 그리고 기술에 대한 헌신으로 기술 리더십에 접근하는 방식에 영향을 미칩니다.",
+    "tagline": "팀이 구축하는 방식을 변화시키는",
+    "taglineHighlight": "클라우드 규모 솔루션",
+    "skills": {
+      "title": "핵심 기술",
+      "items": {
+        "leadership": "팀 리더십 & 멘토링",
+        "architecture": "시스템 아키텍처 & 디자인",
+        "frontend": "프론트엔드 개발 (React, TypeScript)",
+        "cloud": "클라우드 기술 (Azure, AWS)",
+        "ux": "UX/UI 디자인 원칙",
+        "agile": "애자일 & 스크럼 방법론"
+      }
+    },
+    "interests": {
+      "title": "관심사",
+      "items": {
+        "aviation": "항공",
+        "aviationDesc": "하늘을 탐험하는 개인 조종사",
+        "motorcycles": "오토바이",
+        "motorcyclesDesc": "두 바퀴 위의 자유",
+        "travel": "여행",
+        "travelDesc": "세계를 탐험, 특히 디즈니",
+        "fitness": "피트니스",
+        "fitnessDesc": "활동적이고 건강한 생활 유지"
+      }
+    }
+  },
+  "experience": {
+    "title": "경력",
+    "subtitle": "확장 가능한 소프트웨어 솔루션 구축 및 고성능 팀 리드의 10년 이상의 경험.",
+    "current": "현재",
+    "keyAchievements": "주요 성과:"
+  },
+  "blog": {
+    "title": "블로그",
+    "subtitle": "기술, 리더십, 소프트웨어 엔지니어링에 관한 생각",
+    "readMore": "더 보기 →",
+    "category": "카테고리 {{category}}",
+    "featured": "주요 글",
+    "emptyState": "블로그 게시물이 곧 제공됩니다! 기술 및 리더십에 대한 인사이트를 확인하려면 나중에 다시 방문하세요."
+  },
+  "contact": {
+    "title": "연락하기",
+    "subtitle": "엔지니어링 리더십, 클라우드 아키텍처, 우수한 개발자 경험 구축에 관한 의미 있는 대화에 항상 관심이 있습니다. 영향력 있는 무언가에 일하고 있다면 연결해 봅시다.",
+    "letsConnect": "연결하기",
+    "location": "위치",
+    "locationValue": "미국 워싱턴주 린우드",
+    "openTo": "관심 분야",
+    "openToValue": "전략적 컨설팅, 기술 자문 역할, 강연, 엔지니어링 리더십 논의",
+    "findMeOnline": "온라인에서 찾기",
+    "sendMessage": "메시지 보내기",
+    "subject": "제목",
+    "subjectPlaceholder": "무엇에 관한 건가요?",
+    "messagePlaceholderLong": "귀하의 프로젝트에 대해 알려주거나 그냥 인사만 해도 좋습니다!",
+    "form": {
+      "name": "이름",
+      "namePlaceholder": "귀하의 이름",
+      "email": "이메일",
+      "emailPlaceholder": "your@email.com",
+      "message": "메시지",
+      "messagePlaceholder": "메시지를 입력하세요...",
+      "send": "메시지 보내기"
+    },
+    "social": {
+      "title": "연결하기",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "bluesky": "Bluesky"
+    }
+  },
+  "footer": {
+    "tagline": "클라우드 통합의 미래를 구축하는 소프트웨어 개발자, 관리자, 아마추어 조종사.",
+    "quickLinks": "빠른 링크",
+    "professional": "전문 분야",
+    "resume": "이력서",
+    "rights": "모든 권리 보유.",
+    "builtWith": "React와 Tailwind CSS로 제작되었습니다."
+  }
+}

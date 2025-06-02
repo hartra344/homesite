@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "experience": "Erfahrung",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "badge": "✨ Engineering-Führungskraft @ Microsoft",
+    "heading1": "Skalierung von",
+    "headingHighlight": "Cloud",
+    "heading2": "Innovation",
+    "description": "Principal Software Engineering Manager bei",
+    "company": "Microsoft",
+    "descriptionCont": "und leite 7 Ingenieure, die Azure Logic Apps entwickeln, welche von Millionen von Entwicklern weltweit genutzt werden. Wenn ich nicht gerade Cloud-Lösungen entwerfe, erkunde ich als Privatpilot den Himmel.",
+    "letsConnect": "Kontakt aufnehmen",
+    "viewResume": "Lebenslauf ansehen",
+    "viewGitHub": "GitHub ansehen",
+    "viewLinkedIn": "LinkedIn ansehen"
+  },
+  "about": {
+    "title": "Über mich",
+    "intro": "Ich bin Travis, eine Technologieführungskraft mit über einem Jahrzehnt Erfahrung in der Skalierung von Engineering-Teams und Produkten bei Microsoft und Facebook. Als Principal Software Engineering Manager für Azure Logic Apps leite ich ein Team von 7 Ingenieuren, die Integrationsplattformen entwickeln, die Millionen von Entwicklern weltweit unterstützen und Milliarden von Workflows global verarbeiten.",
+    "expertise": "Meine Expertise umfasst das gesamte Spektrum der modernen Webentwicklung – von TypeScript und React bis hin zu Cloud-Architektur und verteilten Systemen. Aber meine größte Leidenschaft ist es, Teams aufzubauen, die aus komplexen technischen Herausforderungen intuitive Erlebnisse schaffen und Enterprise-Grade Cloud Computing für Entwickler weltweit zugänglich machen.",
+    "personal": "Abseits der Tastatur bin ich ein Privatpilot, der Inspiration in der Präzision und Sicherheitskultur der Luftfahrt findet, ein Motorradenthusiast, der technische Exzellenz schätzt, und ein regelmäßiger Disney World-Besucher, der außergewöhnliche Kundenerlebnisse wertschätzt. Diese Interessen prägen, wie ich an technologische Führung herangehe – mit Aufmerksamkeit für Details, Empathie für Nutzer und einem Engagement für Handwerk.",
+    "tagline": "Transformation der Art und Weise, wie Teams",
+    "taglineHighlight": "Cloud-skalierbare Lösungen",
+    "skills": {
+      "title": "Kernkompetenzen",
+      "items": {
+        "leadership": "Teamführung & Mentoring",
+        "architecture": "Systemarchitektur & Design",
+        "frontend": "Frontend-Entwicklung (React, TypeScript)",
+        "cloud": "Cloud-Technologien (Azure, AWS)",
+        "ux": "UX/UI-Designprinzipien",
+        "agile": "Agile & Scrum-Methoden"
+      }
+    },
+    "interests": {
+      "title": "Interessen",
+      "items": {
+        "aviation": "Luftfahrt",
+        "aviationDesc": "Privatpilot, der den Himmel erkundet",
+        "motorcycles": "Motorräder",
+        "motorcyclesDesc": "Freiheit auf zwei Rädern",
+        "travel": "Reisen",
+        "travelDesc": "Die Welt erkunden, besonders Disney",
+        "fitness": "Fitness",
+        "fitnessDesc": "Aktiv und gesund bleiben"
+      }
+    }
+  },
+  "experience": {
+    "title": "Erfahrung",
+    "subtitle": "Über ein Jahrzehnt Erfahrung im Aufbau skalierbarer Softwarelösungen und in der Führung hochleistungsfähiger Teams.",
+    "current": "Heute",
+    "keyAchievements": "Wichtige Erfolge:"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Gedanken zu Technologie, Führung und Softwareentwicklung",
+    "readMore": "Weiterlesen →",
+    "category": "in {{category}}",
+    "featured": "Empfohlen",
+    "emptyState": "Blogartikel folgen in Kürze! Schauen Sie später wieder vorbei für Einblicke zu Technologie und Führung."
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Ich bin stets an bedeutungsvollen Gesprächen über Engineering-Führung, Cloud-Architektur und den Aufbau außergewöhnlicher Entwicklererlebnisse interessiert. Lassen Sie uns in Kontakt treten, wenn Sie an etwas Wirkungsvollem arbeiten.",
+    "letsConnect": "Kontakt aufnehmen",
+    "location": "Standort",
+    "locationValue": "Lynnwood, Washington, Vereinigte Staaten",
+    "openTo": "Offen für",
+    "openToValue": "Strategische Beratung, technische Beratungsrollen, Vorträge und Diskussionen zu Engineering-Führung",
+    "findMeOnline": "Online finden",
+    "sendMessage": "Nachricht senden",
+    "subject": "Betreff",
+    "subjectPlaceholder": "Worum geht es?",
+    "messagePlaceholderLong": "Erzählen Sie mir von Ihrem Projekt oder sagen Sie einfach Hallo!",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Ihr Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre@email.com",
+      "message": "Nachricht",
+      "messagePlaceholder": "Ihre Nachricht...",
+      "send": "Nachricht senden"
+    },
+    "social": {
+      "title": "Verbinden",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "bluesky": "Bluesky"
+    }
+  },
+  "footer": {
+    "tagline": "Softwareentwickler, Manager und Hobbypilot, der an der Zukunft der Cloud-Integration arbeitet.",
+    "quickLinks": "Schnelllinks",
+    "professional": "Beruflich",
+    "resume": "Lebenslauf",
+    "rights": "Alle Rechte vorbehalten.",
+    "builtWith": "Erstellt mit React und Tailwind CSS."
+  }
+}

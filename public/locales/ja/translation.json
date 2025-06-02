@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "紹介",
+    "experience": "経験",
+    "blog": "ブログ",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "badge": "✨ マイクロソフトのエンジニアリングリーダー",
+    "heading1": "スケーリング",
+    "headingHighlight": "クラウド",
+    "heading2": "イノベーション",
+    "description": "プリンシパルソフトウェアエンジニアリングマネージャー",
+    "company": "マイクロソフト",
+    "descriptionCont": "世界中の何百万人もの開発者が使用するAzure Logic Appsを構築する7人のエンジニアをリードしています。クラウドソリューションの設計をしていない時は、プライベートパイロットとして空を探索しています。",
+    "letsConnect": "つながりましょう",
+    "viewResume": "履歴書を見る",
+    "viewGitHub": "GitHubを見る",
+    "viewLinkedIn": "LinkedInを見る"
+  },
+  "about": {
+    "title": "私について",
+    "intro": "私はTravisです。マイクロソフトとFacebookでエンジニアリングチームと製品をスケールさせた10年以上の経験を持つ技術リーダーです。Azure Logic Appsのプリンシパルソフトウェアエンジニアリングマネージャーとして、世界中の何百万人もの開発者にサービスを提供し、何十億ものワークフローを処理する統合プラットフォームを構築する7人のエンジニアチームをリードしています。",
+    "expertise": "私の専門知識は、TypeScriptとReactからクラウドアーキテクチャと分散システムまで、現代のウェブ開発の全スペクトルに及びます。しかし、私が最も情熱を傾けているのは、複雑な技術的課題から直感的な体験を生み出すチームを構築し、エンタープライズグレードのクラウドコンピューティングを世界中の開発者にアクセスしやすくすることです。",
+    "personal": "キーボードを離れると、航空の精度と安全文化にインスピレーションを見出すプライベートパイロット、エンジニアリングの卓越性を評価するオートバイ愛好家、そして優れた顧客体験を重視するディズニーワールドの常連です。これらの興味は、細部への注意、ユーザーへの共感、そして技術への献身を持って、私が技術リーダーシップにアプローチする方法に影響を与えています。",
+    "tagline": "チームが構築する方法を変革する",
+    "taglineHighlight": "クラウドスケールソリューション",
+    "skills": {
+      "title": "コアスキル",
+      "items": {
+        "leadership": "チームリーダーシップとメンターシップ",
+        "architecture": "システムアーキテクチャと設計",
+        "frontend": "フロントエンド開発（React、TypeScript）",
+        "cloud": "クラウド技術（Azure、AWS）",
+        "ux": "UX/UIデザイン原則",
+        "agile": "アジャイルとスクラム方法論"
+      }
+    },
+    "interests": {
+      "title": "趣味",
+      "items": {
+        "aviation": "航空",
+        "aviationDesc": "空を探索するプライベートパイロット",
+        "motorcycles": "オートバイ",
+        "motorcyclesDesc": "二輪での自由",
+        "travel": "旅行",
+        "travelDesc": "世界を探索、特にディズニー",
+        "fitness": "フィットネス",
+        "fitnessDesc": "活動的で健康的な生活"
+      }
+    }
+  },
+  "experience": {
+    "title": "経験",
+    "subtitle": "スケーラブルなソフトウェアソリューションの構築と高パフォーマンスチームのリードにおける10年以上の経験。",
+    "current": "現在",
+    "keyAchievements": "主な成果："
+  },
+  "blog": {
+    "title": "ブログ",
+    "subtitle": "技術、リーダーシップ、ソフトウェアエンジニアリングに関する考え",
+    "readMore": "続きを読む →",
+    "category": "カテゴリ {{category}}",
+    "featured": "注目",
+    "emptyState": "ブログ記事は近日公開予定！技術とリーダーシップに関する洞察を後ほどご確認ください。"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "エンジニアリングリーダーシップ、クラウドアーキテクチャ、優れた開発者体験の構築に関する有意義な会話に常に興味があります。影響力のあることに取り組んでいる場合は、ぜひ連絡してください。",
+    "letsConnect": "つながりましょう",
+    "location": "場所",
+    "locationValue": "アメリカ合衆国ワシントン州リンウッド",
+    "openTo": "以下に関心あり",
+    "openToValue": "戦略的コンサルティング、技術顧問役割、講演活動、エンジニアリングリーダーシップの議論",
+    "findMeOnline": "オンラインで見つける",
+    "sendMessage": "メッセージを送る",
+    "subject": "件名",
+    "subjectPlaceholder": "何についてですか？",
+    "messagePlaceholderLong": "あなたのプロジェクトについて教えて、またはただ挨拶を！",
+    "form": {
+      "name": "お名前",
+      "namePlaceholder": "あなたのお名前",
+      "email": "メールアドレス",
+      "emailPlaceholder": "your@email.com",
+      "message": "メッセージ",
+      "messagePlaceholder": "メッセージを入力...",
+      "send": "メッセージを送信"
+    },
+    "social": {
+      "title": "接続する",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "bluesky": "Bluesky"
+    }
+  },
+  "footer": {
+    "tagline": "クラウド統合の未来を構築するソフトウェア開発者、マネージャー、そしてアマチュアパイロット。",
+    "quickLinks": "クイックリンク",
+    "professional": "プロフェッショナル",
+    "resume": "履歴書",
+    "rights": "All rights reserved.",
+    "builtWith": "ReactとTailwind CSSで構築。"
+  }
+}

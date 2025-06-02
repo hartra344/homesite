@@ -17,7 +17,7 @@ i18n
     },
     
     // Languages that will be loaded dynamically
-    supportedLngs: ['en', 'es', 'vi'],
+    supportedLngs: ['en', 'zh', 'yue', 'ja', 'ko', 'de', 'it', 'fr', 'pt', 'pt-BR', 'hi', 'ta', 'bn', 'es', 'vi'],
     
     interpolation: {
       escapeValue: false // React already escapes values

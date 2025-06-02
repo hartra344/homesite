@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "experience": "经验",
+    "blog": "博客",
+    "contact": "联系"
+  },
+  "hero": {
+    "badge": "✨ 微软工程领导者",
+    "heading1": "扩展",
+    "headingHighlight": "云",
+    "heading2": "创新",
+    "description": "微软首席软件工程经理",
+    "company": "微软",
+    "descriptionCont": "领导7名工程师构建Azure Logic Apps，全球数百万开发者使用。当我不在设计云解决方案时，你会发现我作为私人飞行员探索天空。",
+    "letsConnect": "联系我们",
+    "viewResume": "查看简历",
+    "viewGitHub": "查看GitHub",
+    "viewLinkedIn": "查看领英"
+  },
+  "about": {
+    "title": "关于我",
+    "intro": "我是Travis，一位技术领导者，在微软和Facebook拥有十多年扩展工程团队和产品的经验。作为Azure Logic Apps的首席软件工程经理，我领导着7名工程师团队构建集成平台，为全球数百万开发者服务，并处理数十亿工作流程。",
+    "expertise": "我的专业知识涵盖现代Web开发的全部领域——从TypeScript和React到云架构和分布式系统。但我最热衷的是建立能够从复杂技术挑战中创造直观体验的团队，使企业级云计算对全球开发者更加易于访问。",
+    "personal": "除了键盘，我是一名从航空精确性和安全文化中寻找灵感的私人飞行员，一位欣赏工程卓越的摩托车爱好者，以及一位重视卓越客户体验的迪士尼世界常客。这些兴趣影响了我对技术领导的方式——注重细节，用户同理心，以及对工艺的承诺。",
+    "tagline": "改变团队构建",
+    "taglineHighlight": "云规模解决方案",
+    "skills": {
+      "title": "核心技能",
+      "items": {
+        "leadership": "团队领导与指导",
+        "architecture": "系统架构与设计",
+        "frontend": "前端开发（React, TypeScript）",
+        "cloud": "云技术（Azure, AWS）",
+        "ux": "用户体验/界面设计原则",
+        "agile": "敏捷与Scrum方法论"
+      }
+    },
+    "interests": {
+      "title": "兴趣爱好",
+      "items": {
+        "aviation": "航空",
+        "aviationDesc": "私人飞行员探索天空",
+        "motorcycles": "摩托车",
+        "motorcyclesDesc": "两轮上的自由",
+        "travel": "旅行",
+        "travelDesc": "探索世界，特别是迪士尼",
+        "fitness": "健身",
+        "fitnessDesc": "保持活跃和健康"
+      }
+    }
+  },
+  "experience": {
+    "title": "经验",
+    "subtitle": "十多年构建可扩展软件解决方案和领导高绩效团队的经验。",
+    "current": "至今",
+    "keyAchievements": "主要成就："
+  },
+  "blog": {
+    "title": "博客",
+    "subtitle": "关于技术、领导力和软件工程的思考",
+    "readMore": "阅读更多 →",
+    "category": "分类 {{category}}",
+    "featured": "精选",
+    "emptyState": "博客文章即将推出！稍后再来查看关于技术和领导力的见解。"
+  },
+  "contact": {
+    "title": "联系我",
+    "subtitle": "我一直对有关工程领导、云架构和构建卓越开发者体验的有意义对话感兴趣。如果您正在从事有影响力的工作，请与我联系。",
+    "letsConnect": "联系我们",
+    "location": "地点",
+    "locationValue": "美国华盛顿州林伍德",
+    "openTo": "开放于",
+    "openToValue": "战略咨询、技术顾问角色、演讲活动和工程领导讨论",
+    "findMeOnline": "在线找到我",
+    "sendMessage": "发送消息",
+    "subject": "主题",
+    "subjectPlaceholder": "关于什么？",
+    "messagePlaceholderLong": "告诉我您的项目或只是打个招呼！",
+    "form": {
+      "name": "姓名",
+      "namePlaceholder": "您的姓名",
+      "email": "电子邮件",
+      "emailPlaceholder": "your@email.com",
+      "message": "消息",
+      "messagePlaceholder": "您的消息...",
+      "send": "发送消息"
+    },
+    "social": {
+      "title": "连接",
+      "github": "GitHub",
+      "linkedin": "领英",
+      "bluesky": "Bluesky"
+    }
+  },
+  "footer": {
+    "tagline": "软件开发者、管理者和业余飞行员，构建云集成的未来。",
+    "quickLinks": "快速链接",
+    "professional": "专业",
+    "resume": "简历",
+    "rights": "保留所有权利。",
+    "builtWith": "使用React和Tailwind CSS构建。"
+  }
+}

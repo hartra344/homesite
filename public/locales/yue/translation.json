@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "首頁",
+    "about": "關於",
+    "experience": "經驗",
+    "blog": "網誌",
+    "contact": "聯絡"
+  },
+  "hero": {
+    "badge": "✨ 微軟工程領導者",
+    "heading1": "擴展",
+    "headingHighlight": "雲端",
+    "heading2": "創新",
+    "description": "微軟首席軟件工程經理",
+    "company": "微軟",
+    "descriptionCont": "帶領7位工程師建立Azure Logic Apps，全球數百萬開發者使用。當我唔係設計雲端解決方案嘅時候，你會發現我作為私人飛行員探索天空。",
+    "letsConnect": "聯絡我",
+    "viewResume": "查看履歷",
+    "viewGitHub": "查看GitHub",
+    "viewLinkedIn": "查看LinkedIn"
+  },
+  "about": {
+    "title": "關於我",
+    "intro": "我係Travis，一個技術領導者，喺微軟同Facebook有十多年擴展工程團隊同產品嘅經驗。作為Azure Logic Apps嘅首席軟件工程經理，我帶領緊7位工程師團隊建立集成平台，為全球數百萬開發者服務，並處理數十億工作流程。",
+    "expertise": "我嘅專業知識涵蓋現代Web開發嘅全部領域——從TypeScript同React到雲架構同分佈式系統。但我最熱衷嘅係建立能夠從複雜技術挑戰中創造直觀體驗嘅團隊，使企業級雲計算對全球開發者更加容易使用。",
+    "personal": "除咗鍵盤，我係一個從航空精確性同安全文化中尋找靈感嘅私人飛行員，一個欣賞工程卓越嘅電單車愛好者，以及一個重視卓越客戶體驗嘅迪士尼世界常客。呢啲興趣影響咗我對技術領導嘅方式——注重細節，用戶同理心，同對工藝嘅承諾。",
+    "tagline": "改變團隊構建",
+    "taglineHighlight": "雲端規模解決方案",
+    "skills": {
+      "title": "核心技能",
+      "items": {
+        "leadership": "團隊領導與指導",
+        "architecture": "系統架構與設計",
+        "frontend": "前端開發（React, TypeScript）",
+        "cloud": "雲技術（Azure, AWS）",
+        "ux": "用戶體驗/界面設計原則",
+        "agile": "敏捷與Scrum方法論"
+      }
+    },
+    "interests": {
+      "title": "興趣愛好",
+      "items": {
+        "aviation": "航空",
+        "aviationDesc": "私人飛行員探索天空",
+        "motorcycles": "電單車",
+        "motorcyclesDesc": "兩輪上嘅自由",
+        "travel": "旅遊",
+        "travelDesc": "探索世界，特別係迪士尼",
+        "fitness": "健身",
+        "fitnessDesc": "保持活躍同健康"
+      }
+    }
+  },
+  "experience": {
+    "title": "經驗",
+    "subtitle": "十多年構建可擴展軟件解決方案同領導高績效團隊嘅經驗。",
+    "current": "至今",
+    "keyAchievements": "主要成就："
+  },
+  "blog": {
+    "title": "網誌",
+    "subtitle": "關於技術、領導力同軟件工程嘅思考",
+    "readMore": "閱讀更多 →",
+    "category": "分類 {{category}}",
+    "featured": "精選",
+    "emptyState": "網誌文章即將推出！遲啲再嚟查看關於技術同領導力嘅見解。"
+  },
+  "contact": {
+    "title": "聯絡我",
+    "subtitle": "我一直對有關工程領導、雲架構同構建卓越開發者體驗嘅有意義對話感興趣。如果你正在從事有影響力嘅工作，請同我聯絡。",
+    "letsConnect": "聯絡我",
+    "location": "地點",
+    "locationValue": "美國華盛頓州林伍德",
+    "openTo": "開放於",
+    "openToValue": "戰略諮詢、技術顧問角色、演講活動同工程領導討論",
+    "findMeOnline": "在網上搵到我",
+    "sendMessage": "發送信息",
+    "subject": "主題",
+    "subjectPlaceholder": "關於乜嘢？",
+    "messagePlaceholderLong": "話俾我知你嘅項目或者只係打聲招呼！",
+    "form": {
+      "name": "姓名",
+      "namePlaceholder": "你嘅姓名",
+      "email": "電郵",
+      "emailPlaceholder": "your@email.com",
+      "message": "信息",
+      "messagePlaceholder": "你嘅信息...",
+      "send": "發送信息"
+    },
+    "social": {
+      "title": "連接",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "bluesky": "Bluesky"
+    }
+  },
+  "footer": {
+    "tagline": "軟件開發者、管理者同業餘飛行員，構建雲集成嘅未來。",
+    "quickLinks": "快速連結",
+    "professional": "專業",
+    "resume": "履歷",
+    "rights": "保留所有權利。",
+    "builtWith": "使用React同Tailwind CSS構建。"
+  }
+}
