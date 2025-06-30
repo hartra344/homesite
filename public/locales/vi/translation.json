@@ -7,33 +7,33 @@
     "contact": "Liên hệ"
   },
   "hero": {
-    "badge": "✨ Lãnh đạo Kỹ thuật @ Microsoft",
-    "heading1": "Quy mô hóa",
+    "badge": "✨ Trưởng Nhóm Kỹ Thuật tại Microsoft",
+    "heading1": "Kiến tạo",
     "headingHighlight": "Đám mây",
-    "heading2": "Đổi mới",
-    "description": "Quản lý Kỹ thuật Phần mềm Chính tại",
+    "heading2": "Sáng tạo",
+    "description": "Với vai trò Quản lý Kỹ thuật Phần mềm Chính tại",
     "company": "Microsoft",
-    "descriptionCont": "dẫn dắt 7 kỹ sư xây dựng Azure Logic Apps được hàng triệu nhà phát triển trên toàn thế giới sử dụng. Khi không kiến trúc các giải pháp đám mây, tôi thường khám phá bầu trời với tư cách là phi công tư nhân.",
-    "letsConnect": "Kết nối ngay",
-    "viewResume": "Xem CV",
+    "descriptionCont": "tôi dẫn dắt đội ngũ 7 kỹ sư phát triển Azure Logic Apps, phục vụ hàng triệu nhà phát triển trên toàn cầu. Khi không kiến tạo các giải pháp đám mây, tôi dành thời gian khám phá bầu trời với tư cách phi công tư nhân.",
+    "letsConnect": "Hãy kết nối",
+    "viewResume": "Xem Sơ yếu lý lịch",
     "viewGitHub": "Xem GitHub",
     "viewLinkedIn": "Xem LinkedIn"
   },
   "about": {
     "title": "Về tôi",
-    "intro": "Tôi là Travis, lãnh đạo công nghệ với hơn một thập kỷ kinh nghiệm mở rộng đội ngũ kỹ thuật và sản phẩm tại Microsoft và Facebook. Là Quản lý Kỹ thuật Phần mềm Chính cho Azure Logic Apps, tôi dẫn dắt một nhóm 7 kỹ sư xây dựng nền tảng tích hợp phục vụ hàng triệu nhà phát triển và xử lý hàng tỷ quy trình làm việc trên toàn cầu.",
-    "expertise": "Chuyên môn của tôi bao gồm toàn bộ lĩnh vực phát triển web hiện đại—từ TypeScript và React đến kiến trúc đám mây và hệ thống phân tán. Nhưng điều tôi đam mê nhất là xây dựng các đội ngũ tạo ra trải nghiệm trực quan từ những thách thức kỹ thuật phức tạp, giúp điện toán đám mây cấp doanh nghiệp trở nên dễ tiếp cận cho các nhà phát triển trên toàn thế giới.",
-    "personal": "Ngoài công việc, tôi là phi công tư nhân tìm cảm hứng từ sự chính xác và văn hóa an toàn của hàng không, đam mê mô tô với niềm yêu thích kỹ thuật, và thường xuyên đến Disney World để học hỏi trải nghiệm khách hàng xuất sắc. Những sở thích này ảnh hưởng đến cách tôi lãnh đạo công nghệ—với sự chú ý đến chi tiết, đồng cảm với người dùng và cam kết với chất lượng.",
-    "tagline": "Chuyển đổi cách các đội ngũ xây dựng",
-    "taglineHighlight": "giải pháp quy mô đám mây",
+    "intro": "Tôi là Travis, một nhà lãnh đạo công nghệ với hơn một thập kỷ kinh nghiệm phát triển các đội ngũ kỹ thuật và sản phẩm tại Microsoft và Facebook. Với vai trò Quản lý Kỹ thuật Phần mềm Chính cho Azure Logic Apps, tôi dẫn dắt một đội ngũ 7 kỹ sư phát triển một nền tảng tích hợp phục vụ hàng triệu nhà phát triển và xử lý hàng tỷ quy trình công việc trên toàn cầu.",
+    "expertise": "Chuyên môn của tôi bao quát toàn bộ lĩnh vực phát triển web hiện đại—từ TypeScript và React đến kiến trúc đám mây và các hệ thống phân tán. Niềm đam mê lớn nhất của tôi là xây dựng những đội ngũ có khả năng biến những thách thức kỹ thuật phức tạp thành trải nghiệm người dùng trực quan, giúp cho điện toán đám mây doanh nghiệp trở nên dễ tiếp cận hơn với các nhà phát triển trên khắp thế giới.",
+    "personal": "Bên ngoài công việc, tôi là một phi công tư nhân, người tìm thấy cảm hứng trong sự chính xác và văn hóa an toàn của ngành hàng không. Tôi cũng là một người đam mê mô tô và kỹ thuật, đồng thời thường xuyên đến Disney World để học hỏi về trải nghiệm khách hàng đẳng cấp. Những sở thích này định hình phong cách lãnh đạo công nghệ của tôi: tỉ mỉ, đồng cảm với người dùng và luôn cam kết về chất lượng.",
+    "tagline": "Chuyển đổi cách các đội ngũ kiến tạo",
+    "taglineHighlight": "các giải pháp trên quy mô đám mây",
     "skills": {
-      "title": "Kỹ năng cốt lõi",
+      "title": "Kỹ năng",
       "items": {
-        "leadership": "Lãnh đạo & Định hướng đội ngũ",
+        "leadership": "Lãnh đạo & Xây dựng đội nhóm",
         "architecture": "Kiến trúc & Thiết kế hệ thống",
         "frontend": "Phát triển Frontend (React, TypeScript)",
         "cloud": "Công nghệ Đám mây (Azure, AWS)",
-        "ux": "Nguyên lý Thiết kế UX/UI",
+        "ux": "Thiết kế Trải nghiệm Người dùng (UX/UI)",
         "agile": "Phương pháp Agile & Scrum"
       }
     },
@@ -41,65 +41,65 @@
       "title": "Sở thích",
       "items": {
         "aviation": "Hàng không",
-        "aviationDesc": "Phi công tư nhân khám phá bầu trời",
+        "aviationDesc": "Khám phá bầu trời với tư cách phi công",
         "motorcycles": "Mô tô",
-        "motorcyclesDesc": "Tự do trên hai bánh xe",
+        "motorcyclesDesc": "Chinh phục những cung đường",
         "travel": "Du lịch",
         "travelDesc": "Khám phá thế giới, đặc biệt là Disney",
         "fitness": "Thể thao",
-        "fitnessDesc": "Giữ gìn sức khỏe và năng động"
+        "fitnessDesc": "Duy trì sức khỏe và sự năng động"
       }
     }
   },
   "experience": {
-    "title": "Kinh nghiệm",
-    "subtitle": "Hơn một thập kỷ xây dựng các giải pháp phần mềm quy mô lớn và dẫn dắt các đội ngũ hiệu suất cao.",
+    "title": "Kinh nghiệm chuyên môn",
+    "subtitle": "Hơn một thập kỷ kiến tạo các giải pháp phần mềm quy mô lớn và dẫn dắt các đội ngũ hiệu suất cao.",
     "current": "Hiện tại",
-    "keyAchievements": "Thành tựu nổi bật:"
+    "keyAchievements": "Thành tựu chính:"
   },
   "blog": {
-    "title": "Blog",
-    "subtitle": "Suy nghĩ về công nghệ, lãnh đạo và kỹ thuật phần mềm",
+    "title": "Blog cá nhân",
+    "subtitle": "Những chia sẻ về công nghệ, lãnh đạo và kỹ thuật phần mềm",
     "readMore": "Đọc thêm →",
     "category": "trong {{category}}",
     "featured": "Nổi bật",
-    "emptyState": "Bài viết sẽ sớm ra mắt! Quay lại sau để đọc các chia sẻ về công nghệ và lãnh đạo."
+    "emptyState": "Các bài viết sẽ sớm được cập nhật! Hãy quay lại để đọc những chia sẻ mới nhất về công nghệ và lãnh đạo."
   },
   "contact": {
     "title": "Liên hệ",
-    "subtitle": "Tôi luôn sẵn sàng cho những cuộc trò chuyện ý nghĩa về lãnh đạo kỹ thuật, kiến trúc đám mây và xây dựng trải nghiệm nhà phát triển xuất sắc. Hãy kết nối nếu bạn đang làm điều gì đó có tác động.",
-    "letsConnect": "Kết nối ngay",
-    "location": "Địa điểm",
+    "subtitle": "Tôi luôn cởi mở với các cuộc thảo luận về lãnh đạo kỹ thuật, kiến trúc đám mây, và việc xây dựng những trải nghiệm lập trình viên vượt trội. Nếu bạn đang thực hiện một dự án có sức ảnh hưởng, đừng ngần ngại kết nối.",
+    "letsConnect": "Hãy kết nối",
+    "location": "Vị trí",
     "locationValue": "Lynnwood, Washington, Hoa Kỳ",
-    "openTo": "Sẵn sàng cho",
-    "openToValue": "Tư vấn chiến lược, cố vấn kỹ thuật, diễn thuyết và thảo luận lãnh đạo kỹ thuật",
-    "findMeOnline": "Tìm tôi trên mạng",
+    "openTo": "Sẵn sàng trao đổi về",
+    "openToValue": "Tư vấn chiến lược, cố vấn kỹ thuật, diễn thuyết, và các buổi thảo luận về lãnh đạo công nghệ.",
+    "findMeOnline": "Tìm tôi trực tuyến",
     "sendMessage": "Gửi tin nhắn",
     "subject": "Chủ đề",
-    "subjectPlaceholder": "Chủ đề là gì?",
-    "messagePlaceholderLong": "Hãy chia sẻ về dự án của bạn hoặc đơn giản là gửi lời chào!",
+    "subjectPlaceholder": "Chủ đề của bạn là gì?",
+    "messagePlaceholderLong": "Hãy chia sẻ về dự án của bạn, hoặc đơn giản là gửi một lời chào!",
     "form": {
       "name": "Họ và tên",
-      "namePlaceholder": "Nhập họ và tên",
+      "namePlaceholder": "Nhập họ và tên của bạn",
       "email": "Email",
-      "emailPlaceholder": "nhap@email.com",
-      "message": "Nội dung",
-      "messagePlaceholder": "Nhập nội dung...",
+      "emailPlaceholder": "ban@email.com",
+      "message": "Tin nhắn",
+      "messagePlaceholder": "Nhập tin nhắn của bạn...",
       "send": "Gửi tin nhắn"
     },
     "social": {
-      "title": "Kết nối",
+      "title": "Mạng xã hội",
       "github": "GitHub",
       "linkedin": "LinkedIn",
       "bluesky": "Bluesky"
     }
   },
   "footer": {
-    "tagline": "Nhà phát triển phần mềm, quản lý và phi công nghiệp dư xây dựng tương lai tích hợp đám mây.",
+    "tagline": "Nhà phát triển phần mềm, nhà quản lý, và phi công, cùng kiến tạo tương lai của tích hợp đám mây.",
     "quickLinks": "Liên kết nhanh",
-    "professional": "Chuyên nghiệp",
-    "resume": "CV",
-    "rights": "Mọi quyền được bảo lưu.",
-    "builtWith": "Xây dựng với React và Tailwind CSS."
+    "professional": "Sự nghiệp",
+    "resume": "Sơ yếu lý lịch",
+    "rights": "Bản quyền đã được bảo hộ.",
+    "builtWith": "Xây dựng bằng React và Tailwind CSS."
   }
 }
