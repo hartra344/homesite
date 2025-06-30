@@ -7,99 +7,99 @@
     "contact": "Contato"
   },
   "hero": {
-    "badge": "✨ Líder de Engenharia @ Microsoft",
-    "heading1": "Escalando",
-    "headingHighlight": "Inovação",
-    "heading2": "em Cloud",
-    "description": "Gerente Principal de Engenharia de Software na",
+    "badge": "✨ Líder de Engenharia na Microsoft",
+    "heading1": "Escalando a",
+    "headingHighlight": "Nuvem",
+    "heading2": "com Inovação",
+    "description": "Principal Software Engineering Manager na",
     "company": "Microsoft",
-    "descriptionCont": "liderando 7 engenheiros que constroem o Azure Logic Apps usado por milhões de desenvolvedores em todo o mundo. Quando não estou arquitetando soluções em nuvem, você me encontrará explorando os céus como piloto particular.",
-    "letsConnect": "Vamos Conectar",
+    "descriptionCont": "liderando 7 engenheiros na criação do Azure Logic Apps, utilizado por milhões de desenvolvedores em todo o mundo. Quando não estou arquitetando soluções na nuvem, estou explorando os céus como piloto privado.",
+    "letsConnect": "Conecte-se",
     "viewResume": "Ver Currículo",
     "viewGitHub": "Ver GitHub",
     "viewLinkedIn": "Ver LinkedIn"
   },
   "about": {
     "title": "Sobre Mim",
-    "intro": "Sou Travis, um líder de tecnologia com mais de uma década de experiência em escalar times de engenharia e produtos na Microsoft e Facebook. Como Gerente Principal de Engenharia de Software para o Azure Logic Apps, lidero uma equipe de 7 engenheiros que constroem plataformas de integração que atendem milhões de desenvolvedores e processam bilhões de fluxos de trabalho globalmente.",
-    "expertise": "Minha especialização abrange todo o espectro do desenvolvimento web moderno — do TypeScript e React até arquitetura em nuvem e sistemas distribuídos. Mas o que me apaixona mais é construir equipes que criam experiências intuitivas a partir de desafios técnicos complexos, tornando a computação em nuvem de nível empresarial acessível a desenvolvedores em todo o mundo.",
-    "personal": "Além do teclado, sou um piloto particular que encontra inspiração na precisão e cultura de segurança da aviação, um entusiasta de motocicletas que aprecia a excelência em engenharia e um frequentador regular da Disney World que valoriza experiências excepcionais para o cliente. Esses interesses influenciam a forma como abordo a liderança tecnológica — com atenção aos detalhes, empatia pelo usuário e um compromisso com o ofício.",
-    "tagline": "Transformando a maneira como as equipes constroem",
+    "intro": "Sou Travis, um líder de tecnologia com mais de uma década de experiência na expansão de equipes de engenharia e produtos na Microsoft e no Facebook. Como Principal Software Engineering Manager do Azure Logic Apps, lidero uma equipe de 7 engenheiros que constroem plataformas de integração para milhões de desenvolvedores, gerenciando bilhões de fluxos de trabalho globalmente.",
+    "expertise": "Minha expertise abrange todo o espectro do desenvolvimento web moderno — de TypeScript e React à arquitetura de nuvem e sistemas distribuídos. Mas minha maior paixão é formar equipes que criam experiências intuitivas a partir de desafios técnicos complexos, tornando a computação em nuvem de nível empresarial acessível para desenvolvedores em todo o mundo.",
+    "personal": "Além do teclado, sou um piloto privado que se inspira na precisão e na cultura de segurança da aviação, um entusiasta de motocicletas que admira a excelência da engenharia e um frequentador assíduo da Disney World que valoriza experiências excepcionais. Esses interesses moldam minha abordagem à liderança em tecnologia: com atenção aos detalhes, empatia pelo usuário e um compromisso com a qualidade.",
+    "tagline": "Transformando como as equipes criam",
     "taglineHighlight": "soluções em escala de nuvem",
     "skills": {
-      "title": "Habilidades Principais",
+      "title": "Principais Habilidades",
       "items": {
-        "leadership": "Liderança de Equipe & Mentoria",
-        "architecture": "Arquitetura & Design de Sistemas",
-        "frontend": "Desenvolvimento Frontend (React, TypeScript)",
+        "leadership": "Liderança e Mentoria de Equipes",
+        "architecture": "Arquitetura e Design de Sistemas",
+        "frontend": "Desenvolvimento Front-end (React, TypeScript)",
         "cloud": "Tecnologias de Nuvem (Azure, AWS)",
         "ux": "Princípios de Design UX/UI",
-        "agile": "Metodologias Ágil & Scrum"
+        "agile": "Metodologias Ágeis e Scrum"
       }
     },
     "interests": {
       "title": "Interesses",
       "items": {
         "aviation": "Aviação",
-        "aviationDesc": "Piloto particular explorando os céus",
-        "motorcycles": "Motocicletas",
-        "motorcyclesDesc": "Liberdade sobre duas rodas",
+        "aviationDesc": "Piloto privado explorando os céus",
+        "motorcycles": "Motociclismo",
+        "motorcyclesDesc": "A liberdade sobre duas rodas",
         "travel": "Viagens",
-        "travelDesc": "Explorar o mundo, especialmente a Disney",
+        "travelDesc": "Explorando o mundo, especialmente a Disney",
         "fitness": "Fitness",
-        "fitnessDesc": "Manter-se ativo e saudável"
+        "fitnessDesc": "Mantendo-me ativo e saudável"
       }
     }
   },
   "experience": {
     "title": "Experiência",
-    "subtitle": "Mais de uma década de experiência na construção de soluções de software escaláveis e na liderança de equipes de alto desempenho.",
+    "subtitle": "Mais de uma década de experiência na criação de soluções de software escaláveis e na liderança de equipes de alta performance.",
     "current": "Presente",
-    "keyAchievements": "Principais Conquistas:"
+    "keyAchievements": "Principais Realizações:"
   },
   "blog": {
     "title": "Blog",
     "subtitle": "Reflexões sobre tecnologia, liderança e engenharia de software",
-    "readMore": "Ler mais →",
+    "readMore": "Leia mais →",
     "category": "em {{category}}",
-    "featured": "Destacado",
-    "emptyState": "Artigos do blog em breve! Volte mais tarde para insights sobre tecnologia e liderança."
+    "featured": "Em Destaque",
+    "emptyState": "Artigos para o blog em breve! Volte mais tarde para novas reflexões sobre tecnologia e liderança."
   },
   "contact": {
     "title": "Entre em Contato",
-    "subtitle": "Estou sempre interessado em conversas significativas sobre liderança em engenharia, arquitetura em nuvem e construção de experiências excepcionais para desenvolvedores. Vamos conectar se você estiver trabalhando em algo impactante.",
-    "letsConnect": "Vamos Conectar",
+    "subtitle": "Estou sempre aberto a conversas sobre liderança em engenharia, arquitetura de nuvem e a criação de experiências excepcionais para desenvolvedores. Se você está trabalhando em algo impactante, vamos conversar.",
+    "letsConnect": "Conecte-se",
     "location": "Localização",
     "locationValue": "Lynnwood, Washington, Estados Unidos",
-    "openTo": "Aberto a",
-    "openToValue": "Consultoria estratégica, funções de assessoria técnica, palestras e discussões sobre liderança em engenharia",
+    "openTo": "Disponível para",
+    "openToValue": "Consultoria estratégica, papéis de assessoria técnica, palestras e debates sobre liderança em engenharia",
     "findMeOnline": "Encontre-me online",
-    "sendMessage": "Enviar uma Mensagem",
+    "sendMessage": "Envie uma Mensagem",
     "subject": "Assunto",
-    "subjectPlaceholder": "Sobre o quê?",
-    "messagePlaceholderLong": "Fale sobre seu projeto ou simplesmente diga olá!",
+    "subjectPlaceholder": "Qual é o assunto?",
+    "messagePlaceholderLong": "Fale sobre o seu projeto ou apenas diga um olá!",
     "form": {
       "name": "Nome",
       "namePlaceholder": "Seu nome",
-      "email": "Email",
+      "email": "E-mail",
       "emailPlaceholder": "seu@email.com",
       "message": "Mensagem",
       "messagePlaceholder": "Sua mensagem...",
       "send": "Enviar Mensagem"
     },
     "social": {
-      "title": "Conectar",
+      "title": "Redes",
       "github": "GitHub",
       "linkedin": "LinkedIn",
       "bluesky": "Bluesky"
     }
   },
   "footer": {
-    "tagline": "Desenvolvedor de software, gerente e piloto amador construindo o futuro da integração em nuvem.",
+    "tagline": "Desenvolvedor de software, gestor e piloto amador construindo o futuro da integração na nuvem.",
     "quickLinks": "Links Rápidos",
     "professional": "Profissional",
     "resume": "Currículo",
     "rights": "Todos os direitos reservados.",
-    "builtWith": "Construído com React e Tailwind CSS."
+    "builtWith": "Desenvolvido com React e Tailwind CSS."
   }
 }
