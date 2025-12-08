@@ -7,25 +7,25 @@
     "contact": "Contact"
   },
   "hero": {
-    "badge": "✨ Engineering Leader @ Microsoft",
-    "heading1": "Scaling",
-    "headingHighlight": "Cloud",
-    "heading2": "Innovation",
-    "description": "Principal Software Engineering Manager at",
+    "badge": "Principal Software Engineering Manager",
+    "heading1": "Building",
+    "headingHighlight": "Teams",
+    "heading2": "& Software",
+    "description": "I lead the Azure Logic Apps UX team at",
     "company": "Microsoft",
-    "descriptionCont": "leading 7 engineers building Azure Logic Apps used by millions of developers worldwide. When I'm not architecting cloud solutions, you'll find me exploring the skies as a private pilot.",
-    "letsConnect": "Let's Connect",
-    "viewResume": "View Resume",
-    "viewGitHub": "View GitHub",
-    "viewLinkedIn": "View LinkedIn"
+    "descriptionCont": "helping millions of developers build cloud integrations. Outside of work, I'm a private pilot and aviation enthusiast.",
+    "letsConnect": "Contact Me",
+    "viewResume": "Resume",
+    "viewGitHub": "GitHub",
+    "viewLinkedIn": "LinkedIn"
   },
   "about": {
     "title": "About Me",
-    "intro": "I'm Travis, a technology leader with over a decade of experience scaling engineering teams and products at Microsoft and Facebook. As Principal Software Engineering Manager for Azure Logic Apps, I lead a team of 7 engineers building integration platforms that serve millions of developers and handle billions of workflows globally.",
-    "expertise": "My expertise spans the full spectrum of modern web development—from TypeScript and React to cloud architecture and distributed systems. But what I'm most passionate about is building teams that create intuitive experiences from complex technical challenges, making enterprise-grade cloud computing accessible to developers worldwide.",
-    "personal": "Beyond the keyboard, I'm a private pilot who finds inspiration in aviation's precision and safety culture, a motorcycle enthusiast who appreciates engineering excellence, and a Disney World regular who values exceptional customer experiences. These interests inform how I approach technology leadership—with attention to detail, user empathy, and a commitment to craft.",
-    "tagline": "Transforming how teams build",
-    "taglineHighlight": "cloud-scale solutions",
+    "intro": "I'm Travis, an engineering manager with experience at Microsoft and Facebook. Currently, I lead a team of 7 engineers working on Azure Logic Apps, focusing on integration platforms that serve developers globally.",
+    "expertise": "My background covers modern web development, cloud architecture, and distributed systems. I focus on building healthy teams that can solve complex technical challenges and deliver reliable software.",
+    "personal": "Outside of work, I'm a private pilot who enjoys the precision of aviation. I'm also a motorcycle enthusiast and enjoy traveling to Disney World. These interests help me maintain a balanced perspective on leadership and life.",
+    "tagline": "Focusing on",
+    "taglineHighlight": "developer experience",
     "skills": {
       "title": "Core Skills",
       "items": {
@@ -67,8 +67,8 @@
   },
   "contact": {
     "title": "Get In Touch",
-    "subtitle": "I'm always interested in meaningful conversations about engineering leadership, cloud architecture, and building exceptional developer experiences. Let's connect if you're working on something impactful.",
-    "letsConnect": "Let's Connect",
+    "subtitle": "I'm interested in engineering leadership, cloud architecture, and developer tools. Feel free to reach out if you'd like to connect.",
+    "letsConnect": "Contact Me",
     "location": "Location",
     "locationValue": "Lynnwood, Washington, United States",
     "openTo": "Open to",

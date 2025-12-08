@@ -7,33 +7,33 @@
     "contact": "Liên hệ"
   },
   "hero": {
-    "badge": "✨ Trưởng Nhóm Kỹ Thuật tại Microsoft",
-    "heading1": "Kiến tạo",
-    "headingHighlight": "Đám mây",
-    "heading2": "Sáng tạo",
-    "description": "Với vai trò Quản lý Kỹ thuật Phần mềm Chính tại",
+    "badge": "Quản lý Kỹ thuật Phần mềm Chính",
+    "heading1": "Xây dựng",
+    "headingHighlight": "Đội ngũ",
+    "heading2": "& Phần mềm",
+    "description": "Tôi lãnh đạo nhóm UX của Azure Logic Apps tại",
     "company": "Microsoft",
-    "descriptionCont": "tôi dẫn dắt đội ngũ 7 kỹ sư phát triển Azure Logic Apps, phục vụ hàng triệu nhà phát triển trên toàn cầu. Khi không kiến tạo các giải pháp đám mây, tôi dành thời gian khám phá bầu trời với tư cách phi công tư nhân.",
-    "letsConnect": "Hãy kết nối",
-    "viewResume": "Xem Sơ yếu lý lịch",
+    "descriptionCont": "giúp hàng triệu lập trình viên xây dựng các tích hợp đám mây. Ngoài công việc, tôi là phi công tư nhân và đam mê hàng không.",
+    "letsConnect": "Liên hệ với tôi",
+    "viewResume": "Sơ yếu lý lịch",
     "viewGitHub": "Xem GitHub",
     "viewLinkedIn": "Xem LinkedIn"
   },
   "about": {
     "title": "Về tôi",
-    "intro": "Tôi là Travis, một nhà lãnh đạo công nghệ với hơn một thập kỷ kinh nghiệm phát triển các đội ngũ kỹ thuật và sản phẩm tại Microsoft và Facebook. Với vai trò Quản lý Kỹ thuật Phần mềm Chính cho Azure Logic Apps, tôi dẫn dắt một đội ngũ 7 kỹ sư phát triển một nền tảng tích hợp phục vụ hàng triệu nhà phát triển và xử lý hàng tỷ quy trình công việc trên toàn cầu.",
-    "expertise": "Chuyên môn của tôi bao quát toàn bộ lĩnh vực phát triển web hiện đại—từ TypeScript và React đến kiến trúc đám mây và các hệ thống phân tán. Niềm đam mê lớn nhất của tôi là xây dựng những đội ngũ có khả năng biến những thách thức kỹ thuật phức tạp thành trải nghiệm người dùng trực quan, giúp cho điện toán đám mây doanh nghiệp trở nên dễ tiếp cận hơn với các nhà phát triển trên khắp thế giới.",
-    "personal": "Bên ngoài công việc, tôi là một phi công tư nhân, người tìm thấy cảm hứng trong sự chính xác và văn hóa an toàn của ngành hàng không. Tôi cũng là một người đam mê mô tô và kỹ thuật, đồng thời thường xuyên đến Disney World để học hỏi về trải nghiệm khách hàng đẳng cấp. Những sở thích này định hình phong cách lãnh đạo công nghệ của tôi: tỉ mỉ, đồng cảm với người dùng và luôn cam kết về chất lượng.",
-    "tagline": "Chuyển đổi cách các đội ngũ kiến tạo",
-    "taglineHighlight": "các giải pháp trên quy mô đám mây",
+    "intro": "Tôi là Travis, một quản lý kỹ thuật với kinh nghiệm tại Microsoft và Facebook. Hiện tại, tôi lãnh đạo một nhóm gồm 7 kỹ sư làm việc trên Azure Logic Apps, tập trung vào các nền tảng tích hợp phục vụ các lập trình viên trên toàn cầu.",
+    "expertise": "Nền tảng của tôi bao gồm phát triển web hiện đại, kiến trúc đám mây và hệ thống phân tán. Tôi tập trung vào việc xây dựng các đội ngũ lành mạnh có thể giải quyết các thách thức kỹ thuật phức tạp và cung cấp phần mềm đáng tin cậy.",
+    "personal": "Ngoài công việc, tôi là một phi công tư nhân thích sự chính xác của hàng không. Tôi cũng là người đam mê xe mô tô và thích đi du lịch đến Disney World. Những sở thích này giúp tôi duy trì một cái nhìn cân bằng về lãnh đạo và cuộc sống.",
+    "tagline": "Tập trung vào",
+    "taglineHighlight": "trải nghiệm lập trình viên",
     "skills": {
-      "title": "Kỹ năng",
+      "title": "Kỹ năng cốt lõi",
       "items": {
-        "leadership": "Lãnh đạo & Xây dựng đội nhóm",
-        "architecture": "Kiến trúc & Thiết kế hệ thống",
+        "leadership": "Lãnh đạo nhóm & Cố vấn",
+        "architecture": "Kiến trúc hệ thống & Thiết kế",
         "frontend": "Phát triển Frontend (React, TypeScript)",
-        "cloud": "Công nghệ Đám mây (Azure, AWS)",
-        "ux": "Thiết kế Trải nghiệm Người dùng (UX/UI)",
+        "cloud": "Công nghệ đám mây (Azure, AWS)",
+        "ux": "Nguyên tắc thiết kế UX/UI",
         "agile": "Phương pháp Agile & Scrum"
       }
     },
@@ -41,65 +41,63 @@
       "title": "Sở thích",
       "items": {
         "aviation": "Hàng không",
-        "aviationDesc": "Khám phá bầu trời với tư cách phi công",
-        "motorcycles": "Mô tô",
-        "motorcyclesDesc": "Chinh phục những cung đường",
+        "aviationDesc": "Phi công tư nhân khám phá bầu trời",
+        "motorcycles": "Xe mô tô",
+        "motorcyclesDesc": "Tự do trên hai bánh xe",
         "travel": "Du lịch",
         "travelDesc": "Khám phá thế giới, đặc biệt là Disney",
-        "fitness": "Thể thao",
-        "fitnessDesc": "Duy trì sức khỏe và sự năng động"
+        "fitness": "Thể dục",
+        "fitnessDesc": "Duy trì hoạt động và sức khỏe"
       }
     }
   },
   "experience": {
-    "title": "Kinh nghiệm chuyên môn",
-    "subtitle": "Hơn một thập kỷ kiến tạo các giải pháp phần mềm quy mô lớn và dẫn dắt các đội ngũ hiệu suất cao.",
+    "title": "Kinh nghiệm",
+    "subtitle": "Hơn một thập kỷ kinh nghiệm xây dựng các giải pháp phần mềm có thể mở rộng và lãnh đạo các đội ngũ hiệu suất cao.",
     "current": "Hiện tại",
     "keyAchievements": "Thành tựu chính:"
   },
   "blog": {
-    "title": "Blog cá nhân",
-    "subtitle": "Những chia sẻ về công nghệ, lãnh đạo và kỹ thuật phần mềm",
+    "title": "Blog",
+    "subtitle": "Suy nghĩ về công nghệ, lãnh đạo và kỹ thuật phần mềm",
     "readMore": "Đọc thêm →",
     "category": "trong {{category}}",
     "featured": "Nổi bật",
-    "emptyState": "Các bài viết sẽ sớm được cập nhật! Hãy quay lại để đọc những chia sẻ mới nhất về công nghệ và lãnh đạo."
+    "emptyState": "Bài viết blog sẽ sớm ra mắt! Hãy quay lại sau để xem thông tin chi tiết về công nghệ và lãnh đạo."
   },
   "contact": {
     "title": "Liên hệ",
-    "subtitle": "Tôi luôn cởi mở với các cuộc thảo luận về lãnh đạo kỹ thuật, kiến trúc đám mây, và việc xây dựng những trải nghiệm lập trình viên vượt trội. Nếu bạn đang thực hiện một dự án có sức ảnh hưởng, đừng ngần ngại kết nối.",
-    "letsConnect": "Hãy kết nối",
-    "location": "Vị trí",
+    "subtitle": "Tôi quan tâm đến lãnh đạo kỹ thuật, kiến trúc đám mây và công cụ cho lập trình viên. Hãy liên hệ nếu bạn muốn kết nối.",
+    "letsConnect": "Liên hệ với tôi",
+    "location": "Địa điểm",
     "locationValue": "Lynnwood, Washington, Hoa Kỳ",
-    "openTo": "Sẵn sàng trao đổi về",
-    "openToValue": "Tư vấn chiến lược, cố vấn kỹ thuật, diễn thuyết, và các buổi thảo luận về lãnh đạo công nghệ.",
+    "openTo": "Sẵn sàng cho",
+    "openToValue": "Tư vấn chiến lược, vai trò cố vấn kỹ thuật, diễn thuyết và thảo luận về lãnh đạo kỹ thuật",
     "findMeOnline": "Tìm tôi trực tuyến",
     "sendMessage": "Gửi tin nhắn",
     "subject": "Chủ đề",
-    "subjectPlaceholder": "Chủ đề của bạn là gì?",
-    "messagePlaceholderLong": "Hãy chia sẻ về dự án của bạn, hoặc đơn giản là gửi một lời chào!",
+    "subjectPlaceholder": "Về việc gì?",
+    "messagePlaceholderLong": "Hãy cho tôi biết về dự án của bạn hoặc chỉ cần nói xin chào!",
     "form": {
-      "name": "Họ và tên",
-      "namePlaceholder": "Nhập họ và tên của bạn",
+      "name": "Tên",
+      "namePlaceholder": "Tên của bạn",
       "email": "Email",
-      "emailPlaceholder": "ban@email.com",
+      "emailPlaceholder": "email@cuaban.com",
       "message": "Tin nhắn",
-      "messagePlaceholder": "Nhập tin nhắn của bạn...",
+      "messagePlaceholder": "Tin nhắn của bạn...",
       "send": "Gửi tin nhắn"
     },
     "social": {
-      "title": "Mạng xã hội",
+      "title": "Kết nối",
       "github": "GitHub",
       "linkedin": "LinkedIn",
       "bluesky": "Bluesky"
     }
   },
   "footer": {
-    "tagline": "Nhà phát triển phần mềm, nhà quản lý, và phi công, cùng kiến tạo tương lai của tích hợp đám mây.",
+    "tagline": "Lập trình viên phần mềm, quản lý và phi công nghiệp dư xây dựng tương lai của tích hợp đám mây.",
     "quickLinks": "Liên kết nhanh",
-    "professional": "Sự nghiệp",
-    "resume": "Sơ yếu lý lịch",
-    "rights": "Bản quyền đã được bảo hộ.",
-    "builtWith": "Xây dựng bằng React và Tailwind CSS."
+    "professional": "Chuyên nghiệp",
+    "copyright": "© {{year}} Travis Vu. Đã đăng ký bản quyền."
   }
 }

@@ -7,25 +7,25 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "badge": "✨ Engineering-Führungskraft @ Microsoft",
-    "heading1": "Skalierung von",
-    "headingHighlight": "Cloud",
-    "heading2": "Innovation",
-    "description": "Principal Software Engineering Manager bei",
+    "badge": "Principal Software Engineering Manager",
+    "heading1": "Aufbau von",
+    "headingHighlight": "Teams",
+    "heading2": "& Software",
+    "description": "Ich leite das Azure Logic Apps UX-Team bei",
     "company": "Microsoft",
-    "descriptionCont": "und leite 7 Ingenieure, die Azure Logic Apps entwickeln, welche von Millionen von Entwicklern weltweit genutzt werden. Wenn ich nicht gerade Cloud-Lösungen entwerfe, erkunde ich als Privatpilot den Himmel.",
-    "letsConnect": "Kontakt aufnehmen",
-    "viewResume": "Lebenslauf ansehen",
+    "descriptionCont": "und helfe Millionen von Entwicklern beim Aufbau von Cloud-Integrationen. Außerhalb der Arbeit bin ich Privatpilot und Luftfahrt-Enthusiast.",
+    "letsConnect": "Kontaktieren Sie mich",
+    "viewResume": "Lebenslauf",
     "viewGitHub": "GitHub ansehen",
     "viewLinkedIn": "LinkedIn ansehen"
   },
   "about": {
     "title": "Über mich",
-    "intro": "Ich bin Travis, eine Technologieführungskraft mit über einem Jahrzehnt Erfahrung in der Skalierung von Engineering-Teams und Produkten bei Microsoft und Facebook. Als Principal Software Engineering Manager für Azure Logic Apps leite ich ein Team von 7 Ingenieuren, die Integrationsplattformen entwickeln, die Millionen von Entwicklern weltweit unterstützen und Milliarden von Workflows global verarbeiten.",
-    "expertise": "Meine Expertise umfasst das gesamte Spektrum der modernen Webentwicklung – von TypeScript und React bis hin zu Cloud-Architektur und verteilten Systemen. Aber meine größte Leidenschaft ist es, Teams aufzubauen, die aus komplexen technischen Herausforderungen intuitive Erlebnisse schaffen und Enterprise-Grade Cloud Computing für Entwickler weltweit zugänglich machen.",
-    "personal": "Abseits der Tastatur bin ich ein Privatpilot, der Inspiration in der Präzision und Sicherheitskultur der Luftfahrt findet, ein Motorradenthusiast, der technische Exzellenz schätzt, und ein regelmäßiger Disney World-Besucher, der außergewöhnliche Kundenerlebnisse wertschätzt. Diese Interessen prägen, wie ich an technologische Führung herangehe – mit Aufmerksamkeit für Details, Empathie für Nutzer und einem Engagement für Handwerk.",
-    "tagline": "Transformation der Art und Weise, wie Teams",
-    "taglineHighlight": "Cloud-skalierbare Lösungen",
+    "intro": "Ich bin Travis, ein Engineering Manager mit Erfahrung bei Microsoft und Facebook. Derzeit leite ich ein Team von 7 Ingenieuren, die an Azure Logic Apps arbeiten, mit Fokus auf Integrationsplattformen, die Entwicklern weltweit dienen.",
+    "expertise": "Mein Hintergrund umfasst moderne Webentwicklung, Cloud-Architektur und verteilte Systeme. Ich konzentriere mich auf den Aufbau gesunder Teams, die komplexe technische Herausforderungen lösen und zuverlässige Software liefern können.",
+    "personal": "Außerhalb der Arbeit bin ich ein Privatpilot, der die Präzision der Luftfahrt genießt. Ich bin auch Motorrad-Enthusiast und reise gerne nach Disney World. Diese Interessen helfen mir, eine ausgewogene Perspektive auf Führung und Leben zu bewahren.",
+    "tagline": "Fokus auf",
+    "taglineHighlight": "Entwicklererfahrung",
     "skills": {
       "title": "Kernkompetenzen",
       "items": {
@@ -53,27 +53,27 @@
   },
   "experience": {
     "title": "Erfahrung",
-    "subtitle": "Über ein Jahrzehnt Erfahrung im Aufbau skalierbarer Softwarelösungen und in der Führung hochleistungsfähiger Teams.",
-    "current": "Heute",
+    "subtitle": "Über ein Jahrzehnt Erfahrung im Aufbau skalierbarer Softwarelösungen und der Leitung leistungsstarker Teams.",
+    "current": "Gegenwart",
     "keyAchievements": "Wichtige Erfolge:"
   },
   "blog": {
     "title": "Blog",
-    "subtitle": "Gedanken zu Technologie, Führung und Softwareentwicklung",
+    "subtitle": "Gedanken zu Technologie, Führung und Software-Engineering",
     "readMore": "Weiterlesen →",
     "category": "in {{category}}",
-    "featured": "Empfohlen",
-    "emptyState": "Blogartikel folgen in Kürze! Schauen Sie später wieder vorbei für Einblicke zu Technologie und Führung."
+    "featured": "Vorgestellt",
+    "emptyState": "Blog-Beiträge kommen bald! Schauen Sie später wieder vorbei für Einblicke in Technologie und Führung."
   },
   "contact": {
     "title": "Kontakt aufnehmen",
-    "subtitle": "Ich bin stets an bedeutungsvollen Gesprächen über Engineering-Führung, Cloud-Architektur und den Aufbau außergewöhnlicher Entwicklererlebnisse interessiert. Lassen Sie uns in Kontakt treten, wenn Sie an etwas Wirkungsvollem arbeiten.",
-    "letsConnect": "Kontakt aufnehmen",
+    "subtitle": "Ich interessiere mich für Engineering Leadership, Cloud-Architektur und Entwicklertools. Zögern Sie nicht, mich zu kontaktieren, wenn Sie sich vernetzen möchten.",
+    "letsConnect": "Kontaktieren Sie mich",
     "location": "Standort",
     "locationValue": "Lynnwood, Washington, Vereinigte Staaten",
     "openTo": "Offen für",
-    "openToValue": "Strategische Beratung, technische Beratungsrollen, Vorträge und Diskussionen zu Engineering-Führung",
-    "findMeOnline": "Online finden",
+    "openToValue": "Strategische Beratung, technische Beraterrollen, Vorträge und Diskussionen über Engineering Leadership",
+    "findMeOnline": "Finden Sie mich online",
     "sendMessage": "Nachricht senden",
     "subject": "Betreff",
     "subjectPlaceholder": "Worum geht es?",
@@ -95,11 +95,9 @@
     }
   },
   "footer": {
-    "tagline": "Softwareentwickler, Manager und Hobbypilot, der an der Zukunft der Cloud-Integration arbeitet.",
+    "tagline": "Softwareentwickler, Manager und Amateurpilot, der die Zukunft der Cloud-Integration baut.",
     "quickLinks": "Schnelllinks",
-    "professional": "Beruflich",
-    "resume": "Lebenslauf",
-    "rights": "Alle Rechte vorbehalten.",
-    "builtWith": "Erstellt mit React und Tailwind CSS."
+    "professional": "Professionell",
+    "copyright": "© {{year}} Travis Vu. Alle Rechte vorbehalten."
   }
 }

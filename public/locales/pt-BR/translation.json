@@ -7,34 +7,34 @@
     "contact": "Contato"
   },
   "hero": {
-    "badge": "✨ Líder de Engenharia na Microsoft",
-    "heading1": "Escalando a",
-    "headingHighlight": "Nuvem",
-    "heading2": "com Inovação",
-    "description": "Principal Software Engineering Manager na",
+    "badge": "Gerente Principal de Engenharia de Software",
+    "heading1": "Construindo",
+    "headingHighlight": "Equipes",
+    "heading2": "& Software",
+    "description": "Lidero a equipe de UX do Azure Logic Apps na",
     "company": "Microsoft",
-    "descriptionCont": "liderando 7 engenheiros na criação do Azure Logic Apps, utilizado por milhões de desenvolvedores em todo o mundo. Quando não estou arquitetando soluções na nuvem, estou explorando os céus como piloto privado.",
-    "letsConnect": "Conecte-se",
-    "viewResume": "Ver Currículo",
+    "descriptionCont": "ajudando milhões de desenvolvedores a construir integrações em nuvem. Fora do trabalho, sou piloto privado e entusiasta da aviação.",
+    "letsConnect": "Contate-me",
+    "viewResume": "Currículo",
     "viewGitHub": "Ver GitHub",
     "viewLinkedIn": "Ver LinkedIn"
   },
   "about": {
     "title": "Sobre Mim",
-    "intro": "Sou Travis, um líder de tecnologia com mais de uma década de experiência na expansão de equipes de engenharia e produtos na Microsoft e no Facebook. Como Principal Software Engineering Manager do Azure Logic Apps, lidero uma equipe de 7 engenheiros que constroem plataformas de integração para milhões de desenvolvedores, gerenciando bilhões de fluxos de trabalho globalmente.",
-    "expertise": "Minha expertise abrange todo o espectro do desenvolvimento web moderno — de TypeScript e React à arquitetura de nuvem e sistemas distribuídos. Mas minha maior paixão é formar equipes que criam experiências intuitivas a partir de desafios técnicos complexos, tornando a computação em nuvem de nível empresarial acessível para desenvolvedores em todo o mundo.",
-    "personal": "Além do teclado, sou um piloto privado que se inspira na precisão e na cultura de segurança da aviação, um entusiasta de motocicletas que admira a excelência da engenharia e um frequentador assíduo da Disney World que valoriza experiências excepcionais. Esses interesses moldam minha abordagem à liderança em tecnologia: com atenção aos detalhes, empatia pelo usuário e um compromisso com a qualidade.",
-    "tagline": "Transformando como as equipes criam",
-    "taglineHighlight": "soluções em escala de nuvem",
+    "intro": "Sou Travis, um gerente de engenharia com experiência na Microsoft e Facebook. Atualmente, lidero uma equipe de 7 engenheiros trabalhando no Azure Logic Apps, focando em plataformas de integração que servem desenvolvedores globalmente.",
+    "expertise": "Minha experiência abrange desenvolvimento web moderno, arquitetura em nuvem e sistemas distribuídos. Foco em construir equipes saudáveis que possam resolver desafios técnicos complexos e entregar software confiável.",
+    "personal": "Fora do trabalho, sou um piloto privado que aprecia a precisão da aviação. Também sou entusiasta de motocicletas e gosto de viajar para a Disney World. Esses interesses me ajudam a manter uma perspectiva equilibrada sobre liderança e vida.",
+    "tagline": "Focando na",
+    "taglineHighlight": "experiência do desenvolvedor",
     "skills": {
-      "title": "Principais Habilidades",
+      "title": "Habilidades Principais",
       "items": {
-        "leadership": "Liderança e Mentoria de Equipes",
-        "architecture": "Arquitetura e Design de Sistemas",
-        "frontend": "Desenvolvimento Front-end (React, TypeScript)",
-        "cloud": "Tecnologias de Nuvem (Azure, AWS)",
+        "leadership": "Liderança de Equipe & Mentoria",
+        "architecture": "Arquitetura de Sistemas & Design",
+        "frontend": "Desenvolvimento Frontend (React, TypeScript)",
+        "cloud": "Tecnologias em Nuvem (Azure, AWS)",
         "ux": "Princípios de Design UX/UI",
-        "agile": "Metodologias Ágeis e Scrum"
+        "agile": "Metodologias Agile & Scrum"
       }
     },
     "interests": {
@@ -42,64 +42,62 @@
       "items": {
         "aviation": "Aviação",
         "aviationDesc": "Piloto privado explorando os céus",
-        "motorcycles": "Motociclismo",
-        "motorcyclesDesc": "A liberdade sobre duas rodas",
-        "travel": "Viagens",
-        "travelDesc": "Explorando o mundo, especialmente a Disney",
+        "motorcycles": "Motocicletas",
+        "motorcyclesDesc": "Liberdade sobre duas rodas",
+        "travel": "Viagem",
+        "travelDesc": "Explorando o mundo, especialmente Disney",
         "fitness": "Fitness",
-        "fitnessDesc": "Mantendo-me ativo e saudável"
+        "fitnessDesc": "Mantendo-se ativo e saudável"
       }
     }
   },
   "experience": {
     "title": "Experiência",
-    "subtitle": "Mais de uma década de experiência na criação de soluções de software escaláveis e na liderança de equipes de alta performance.",
+    "subtitle": "Mais de uma década de experiência construindo soluções de software escaláveis e liderando equipes de alto desempenho.",
     "current": "Presente",
-    "keyAchievements": "Principais Realizações:"
+    "keyAchievements": "Principais Conquistas:"
   },
   "blog": {
     "title": "Blog",
-    "subtitle": "Reflexões sobre tecnologia, liderança e engenharia de software",
-    "readMore": "Leia mais →",
+    "subtitle": "Pensamentos sobre tecnologia, liderança e engenharia de software",
+    "readMore": "Ler mais →",
     "category": "em {{category}}",
-    "featured": "Em Destaque",
-    "emptyState": "Artigos para o blog em breve! Volte mais tarde para novas reflexões sobre tecnologia e liderança."
+    "featured": "Destaque",
+    "emptyState": "Postagens do blog em breve! Volte mais tarde para insights sobre tecnologia e liderança."
   },
   "contact": {
     "title": "Entre em Contato",
-    "subtitle": "Estou sempre aberto a conversas sobre liderança em engenharia, arquitetura de nuvem e a criação de experiências excepcionais para desenvolvedores. Se você está trabalhando em algo impactante, vamos conversar.",
-    "letsConnect": "Conecte-se",
+    "subtitle": "Estou interessado em liderança de engenharia, arquitetura em nuvem e ferramentas para desenvolvedores. Sinta-se à vontade para entrar em contato se quiser se conectar.",
+    "letsConnect": "Contate-me",
     "location": "Localização",
     "locationValue": "Lynnwood, Washington, Estados Unidos",
-    "openTo": "Disponível para",
-    "openToValue": "Consultoria estratégica, papéis de assessoria técnica, palestras e debates sobre liderança em engenharia",
+    "openTo": "Aberto a",
+    "openToValue": "Consultoria estratégica, papéis de consultor técnico, palestras e discussões sobre liderança de engenharia",
     "findMeOnline": "Encontre-me online",
-    "sendMessage": "Envie uma Mensagem",
+    "sendMessage": "Enviar Mensagem",
     "subject": "Assunto",
-    "subjectPlaceholder": "Qual é o assunto?",
-    "messagePlaceholderLong": "Fale sobre o seu projeto ou apenas diga um olá!",
+    "subjectPlaceholder": "Sobre o que é?",
+    "messagePlaceholderLong": "Conte-me sobre seu projeto ou apenas diga olá!",
     "form": {
       "name": "Nome",
       "namePlaceholder": "Seu nome",
-      "email": "E-mail",
+      "email": "Email",
       "emailPlaceholder": "seu@email.com",
       "message": "Mensagem",
       "messagePlaceholder": "Sua mensagem...",
       "send": "Enviar Mensagem"
     },
     "social": {
-      "title": "Redes",
+      "title": "Conectar",
       "github": "GitHub",
       "linkedin": "LinkedIn",
       "bluesky": "Bluesky"
     }
   },
   "footer": {
-    "tagline": "Desenvolvedor de software, gestor e piloto amador construindo o futuro da integração na nuvem.",
+    "tagline": "Desenvolvedor de software, gerente e piloto amador construindo o futuro da integração em nuvem.",
     "quickLinks": "Links Rápidos",
     "professional": "Profissional",
-    "resume": "Currículo",
-    "rights": "Todos os direitos reservados.",
-    "builtWith": "Desenvolvido com React e Tailwind CSS."
+    "copyright": "© {{year}} Travis Vu. Todos os direitos reservados."
   }
 }

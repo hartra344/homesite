@@ -7,33 +7,33 @@
     "contact": "Contatti"
   },
   "hero": {
-    "badge": "✨ Leader ingegneristico @ Microsoft",
-    "heading1": "Scalare",
-    "headingHighlight": "l'innovazione",
-    "heading2": "cloud",
-    "description": "Principal Software Engineering Manager presso",
+    "badge": "Principal Software Engineering Manager",
+    "heading1": "Costruire",
+    "headingHighlight": "Team",
+    "heading2": "& Software",
+    "description": "Guido il team UX di Azure Logic Apps presso",
     "company": "Microsoft",
-    "descriptionCont": "guidando 7 ingegneri che sviluppano Azure Logic Apps utilizzato da milioni di sviluppatori in tutto il mondo. Quando non sto architettando soluzioni cloud, mi troverai ad esplorare i cieli come pilota privato.",
-    "letsConnect": "Contattiamoci",
-    "viewResume": "Vedi CV",
+    "descriptionCont": "aiutando milioni di sviluppatori a creare integrazioni cloud. Fuori dal lavoro, sono un pilota privato e appassionato di aviazione.",
+    "letsConnect": "Contattami",
+    "viewResume": "Curriculum",
     "viewGitHub": "Vedi GitHub",
     "viewLinkedIn": "Vedi LinkedIn"
   },
   "about": {
     "title": "Chi sono",
-    "intro": "Sono Travis, un leader tecnologico con oltre un decennio di esperienza nella scalabilità di team e prodotti ingegneristici presso Microsoft e Facebook. Come Principal Software Engineering Manager per Azure Logic Apps, guido un team di 7 ingegneri che costruiscono piattaforme di integrazione che servono milioni di sviluppatori e gestiscono miliardi di flussi di lavoro a livello globale.",
-    "expertise": "La mia competenza abbraccia l'intero spettro dello sviluppo web moderno—da TypeScript e React all'architettura cloud e ai sistemi distribuiti. Ma ciò che mi appassiona di più è costruire team che creino esperienze intuitive da sfide tecniche complesse, rendendo il cloud computing di livello enterprise accessibile agli sviluppatori di tutto il mondo.",
-    "personal": "Al di là della tastiera, sono un pilota privato che trova ispirazione nella precisione e nella cultura della sicurezza dell'aviazione, un appassionato di motociclette che apprezza l'eccellenza ingegneristica, e un frequentatore di Disney World che valorizza le esperienze clienti eccezionali. Questi interessi influenzano il mio approccio alla leadership tecnologica—con attenzione ai dettagli, empatia verso l'utente e impegno nel mestiere.",
-    "tagline": "Trasformare il modo in cui i team costruiscono",
-    "taglineHighlight": "soluzioni su scala cloud",
+    "intro": "Sono Travis, un engineering manager con esperienza presso Microsoft e Facebook. Attualmente, guido un team di 7 ingegneri che lavorano su Azure Logic Apps, concentrandomi su piattaforme di integrazione che servono sviluppatori a livello globale.",
+    "expertise": "Il mio background copre lo sviluppo web moderno, l'architettura cloud e i sistemi distribuiti. Mi concentro sulla costruzione di team sani in grado di risolvere sfide tecniche complesse e fornire software affidabile.",
+    "personal": "Fuori dal lavoro, sono un pilota privato che apprezza la precisione dell'aviazione. Sono anche un appassionato di moto e mi piace viaggiare a Disney World. Questi interessi mi aiutano a mantenere una prospettiva equilibrata sulla leadership e sulla vita.",
+    "tagline": "Focus sulla",
+    "taglineHighlight": "esperienza dello sviluppatore",
     "skills": {
-      "title": "Competenze principali",
+      "title": "Competenze Principali",
       "items": {
-        "leadership": "Leadership di team & mentorship",
-        "architecture": "Architettura & design di sistemi",
-        "frontend": "Sviluppo frontend (React, TypeScript)",
-        "cloud": "Tecnologie cloud (Azure, AWS)",
-        "ux": "Principi di design UX/UI",
+        "leadership": "Leadership di Team & Mentoring",
+        "architecture": "Architettura di Sistema & Design",
+        "frontend": "Sviluppo Frontend (React, TypeScript)",
+        "cloud": "Tecnologie Cloud (Azure, AWS)",
+        "ux": "Principi di Design UX/UI",
         "agile": "Metodologie Agile & Scrum"
       }
     },
@@ -42,20 +42,20 @@
       "items": {
         "aviation": "Aviazione",
         "aviationDesc": "Pilota privato che esplora i cieli",
-        "motorcycles": "Motociclette",
+        "motorcycles": "Moto",
         "motorcyclesDesc": "Libertà su due ruote",
         "travel": "Viaggi",
         "travelDesc": "Esplorare il mondo, specialmente Disney",
         "fitness": "Fitness",
-        "fitnessDesc": "Mantenersi attivi e in salute"
+        "fitnessDesc": "Rimanere attivi e in salute"
       }
     }
   },
   "experience": {
     "title": "Esperienza",
-    "subtitle": "Oltre un decennio di esperienza nella costruzione di soluzioni software scalabili e nella guida di team ad alte prestazioni.",
+    "subtitle": "Oltre un decennio di esperienza nella creazione di soluzioni software scalabili e nella guida di team ad alte prestazioni.",
     "current": "Presente",
-    "keyAchievements": "Risultati chiave:"
+    "keyAchievements": "Risultati Chiave:"
   },
   "blog": {
     "title": "Blog",
@@ -63,18 +63,18 @@
     "readMore": "Leggi di più →",
     "category": "in {{category}}",
     "featured": "In evidenza",
-    "emptyState": "Articoli del blog in arrivo! Torna più tardi per approfondimenti su tecnologia e leadership."
+    "emptyState": "Post del blog in arrivo! Torna più tardi per approfondimenti su tecnologia e leadership."
   },
   "contact": {
-    "title": "Contattami",
-    "subtitle": "Sono sempre interessato a conversazioni significative sulla leadership ingegneristica, l'architettura cloud e la creazione di esperienze eccezionali per gli sviluppatori. Contattiamoci se stai lavorando a qualcosa di impattante.",
-    "letsConnect": "Contattiamoci",
+    "title": "Mettiti in Contatto",
+    "subtitle": "Sono interessato alla leadership ingegneristica, all'architettura cloud e agli strumenti per sviluppatori. Sentiti libero di contattarmi se vuoi connetterti.",
+    "letsConnect": "Contattami",
     "location": "Posizione",
     "locationValue": "Lynnwood, Washington, Stati Uniti",
     "openTo": "Aperto a",
-    "openToValue": "Consulenza strategica, ruoli di consulenza tecnica, impegni come relatore e discussioni sulla leadership ingegneristica",
+    "openToValue": "Consulenza strategica, ruoli di consulente tecnico, conferenze e discussioni sulla leadership ingegneristica",
     "findMeOnline": "Trovami online",
-    "sendMessage": "Invia un messaggio",
+    "sendMessage": "Invia Messaggio",
     "subject": "Oggetto",
     "subjectPlaceholder": "Di cosa si tratta?",
     "messagePlaceholderLong": "Parlami del tuo progetto o semplicemente saluta!",
@@ -85,10 +85,10 @@
       "emailPlaceholder": "tua@email.com",
       "message": "Messaggio",
       "messagePlaceholder": "Il tuo messaggio...",
-      "send": "Invia messaggio"
+      "send": "Invia Messaggio"
     },
     "social": {
-      "title": "Connettiti",
+      "title": "Connetti",
       "github": "GitHub",
       "linkedin": "LinkedIn",
       "bluesky": "Bluesky"
@@ -96,10 +96,8 @@
   },
   "footer": {
     "tagline": "Sviluppatore software, manager e pilota amatoriale che costruisce il futuro dell'integrazione cloud.",
-    "quickLinks": "Link rapidi",
+    "quickLinks": "Link Rapidi",
     "professional": "Professionale",
-    "resume": "CV",
-    "rights": "Tutti i diritti riservati.",
-    "builtWith": "Costruito con React e Tailwind CSS."
+    "copyright": "© {{year}} Travis Vu. Tutti i diritti riservati."
   }
 }
