@@ -48,18 +48,18 @@ const Header = () => {
       {/* Skip link for keyboard users */}
       <a 
         href="#main-content" 
-        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-green-600 text-white px-4 py-2 rounded-md z-50"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-primary-600 text-white px-4 py-2 rounded-md z-50"
       >
         Skip to main content
       </a>
       <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-slate-900/95 backdrop-blur-md border-b border-white/10' : 'bg-transparent'
+        isScrolled ? 'bg-slate-950/80 backdrop-blur-md border-b border-white/5' : 'bg-transparent'
       }`}>
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <div className="flex justify-between items-center py-6">
           <Link 
             to="/" 
-            className="text-2xl font-bold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300 py-2.5"
+            className="text-2xl font-bold bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300 py-2.5"
           >
             Travis Vu
           </Link>
@@ -73,7 +73,7 @@ const Header = () => {
               aria-label="Navigate to home section"
             >
               {t('nav.home', 'Home')}
-              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
+              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-400 to-secondary-400 group-hover:w-full transition-all duration-300"></div>
             </a>
             <a
               href="#about"
@@ -82,7 +82,7 @@ const Header = () => {
               aria-label="Navigate to about section"
             >
               {t('nav.about')}
-              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
+              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-400 to-secondary-400 group-hover:w-full transition-all duration-300"></div>
             </a>
             <a
               href="#experience"
@@ -91,7 +91,7 @@ const Header = () => {
               aria-label="Navigate to experience section"
             >
               {t('nav.experience')}
-              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
+              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-400 to-secondary-400 group-hover:w-full transition-all duration-300"></div>
             </a>
             <a
               href="#blog"
@@ -100,7 +100,7 @@ const Header = () => {
               aria-label="Navigate to blog section"
             >
               {t('nav.blog')}
-              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
+              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-400 to-secondary-400 group-hover:w-full transition-all duration-300"></div>
             </a>
             <a
               href="#contact"
@@ -109,7 +109,7 @@ const Header = () => {
               aria-label="Navigate to contact section"
             >
               {t('nav.contact')}
-              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 group-hover:w-full transition-all duration-300"></div>
+              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-400 to-secondary-400 group-hover:w-full transition-all duration-300"></div>
             </a>
             <LanguageSwitcher />
           </div>

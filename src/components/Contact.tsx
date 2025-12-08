@@ -75,20 +75,20 @@ const Contact = () => {
     <section
       id="contact"
       data-testid="contact"
-      className="py-32 bg-gradient-to-br from-slate-800 via-slate-900 to-slate-800 relative overflow-hidden"
+      className="py-32 bg-slate-950/50 backdrop-blur-sm relative overflow-hidden"
     >
       {/* Background Effects */}
       <div className="absolute inset-0">
-        <div className="absolute top-40 left-20 w-80 h-80 bg-green-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-40 right-20 w-80 h-80 bg-emerald-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-40 left-20 w-80 h-80 bg-primary-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-40 right-20 w-80 h-80 bg-secondary-500/10 rounded-full blur-3xl"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-20">
-          <h2 className="text-5xl font-bold bg-gradient-to-r from-green-400 via-emerald-400 to-lime-400 bg-clip-text text-transparent mb-6">
+          <h2 className="text-5xl font-bold bg-gradient-to-r from-primary-400 via-secondary-400 to-accent-400 bg-clip-text text-transparent mb-6">
             {t('contact.title')}
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-emerald-400 mx-auto mb-8 rounded-full"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-primary-400 to-secondary-400 mx-auto mb-8 rounded-full"></div>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             {t('contact.subtitle')}
           </p>
@@ -101,9 +101,9 @@ const Contact = () => {
             </h3>
             <div className="space-y-8">
               <div className="flex items-start group">
-                <div className="bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-white/10 rounded-2xl p-4 mr-6 group-hover:scale-110 transition-transform duration-300">
+                <div className="bg-gradient-to-r from-primary-500/20 to-secondary-500/20 border border-white/10 rounded-2xl p-4 mr-6 group-hover:scale-110 transition-transform duration-300">
                   <svg
-                    className="w-6 h-6 text-green-400"
+                    className="w-6 h-6 text-primary-400"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -123,9 +123,9 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start group">
-                <div className="bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-white/10 rounded-2xl p-4 mr-6 group-hover:scale-110 transition-transform duration-300">
+                <div className="bg-gradient-to-r from-primary-500/20 to-secondary-500/20 border border-white/10 rounded-2xl p-4 mr-6 group-hover:scale-110 transition-transform duration-300">
                   <svg
-                    className="w-6 h-6 text-green-400"
+                    className="w-6 h-6 text-primary-400"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -155,9 +155,9 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start group">
-                <div className="bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-white/10 rounded-2xl p-4 mr-6 group-hover:scale-110 transition-transform duration-300">
+                <div className="bg-gradient-to-r from-primary-500/20 to-secondary-500/20 border border-white/10 rounded-2xl p-4 mr-6 group-hover:scale-110 transition-transform duration-300">
                   <svg
-                    className="w-6 h-6 text-green-400"
+                    className="w-6 h-6 text-primary-400"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -186,7 +186,7 @@ const Contact = () => {
               <div className="flex space-x-6">
                 <a
                   href="https://www.linkedin.com/in/travis-harris/"
-                  className="group bg-gradient-to-r from-green-700 to-emerald-800 text-white p-4 rounded-2xl hover:from-green-800 hover:to-emerald-900 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
+                  className="group bg-gradient-to-r from-primary-700 to-secondary-800 text-white p-4 rounded-2xl hover:from-green-800 hover:to-emerald-900 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={t('contact.social.linkedin')}
@@ -201,7 +201,7 @@ const Contact = () => {
                 </a>
                 <a
                   href="https://bsky.app/profile/travis.dev"
-                  className="group bg-gradient-to-r from-green-700 to-emerald-700 text-white p-4 rounded-2xl hover:from-green-800 hover:to-emerald-800 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
+                  className="group bg-gradient-to-r from-primary-700 to-secondary-700 text-white p-4 rounded-2xl hover:from-green-800 hover:to-secondary-800 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={t('contact.social.bluesky')}
@@ -217,7 +217,7 @@ const Contact = () => {
                 </a>
                 <a
                   href="https://github.com/hartra344"
-                  className="group bg-gradient-to-r from-green-700 to-emerald-700 text-white p-4 rounded-2xl hover:from-green-800 hover:to-emerald-800 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
+                  className="group bg-gradient-to-r from-primary-700 to-secondary-700 text-white p-4 rounded-2xl hover:from-green-800 hover:to-secondary-800 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-2xl border border-white/20"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={t('contact.social.github')}
@@ -261,7 +261,7 @@ const Contact = () => {
                     required
                     aria-invalid={errors.name ? "true" : "false"}
                     aria-describedby={errors.name ? "name-error" : undefined}
-                    className={`w-full px-4 py-4 bg-white/5 border rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-green-400 focus:border-transparent transition-all duration-300 ${
+                    className={`w-full px-4 py-4 bg-white/5 border rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-primary-400 focus:border-transparent transition-all duration-300 ${
                       errors.name ? "border-red-400" : "border-white/20"
                     }`}
                     placeholder={t('contact.form.namePlaceholder')}
@@ -292,7 +292,7 @@ const Contact = () => {
                     required
                     aria-invalid={errors.email ? "true" : "false"}
                     aria-describedby={errors.email ? "email-error" : undefined}
-                    className={`w-full px-4 py-4 bg-white/5 border rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-green-400 focus:border-transparent transition-all duration-300 ${
+                    className={`w-full px-4 py-4 bg-white/5 border rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-primary-400 focus:border-transparent transition-all duration-300 ${
                       errors.email ? "border-red-400" : "border-white/20"
                     }`}
                     placeholder={t('contact.form.emailPlaceholder')}
@@ -322,7 +322,7 @@ const Contact = () => {
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  className="w-full px-4 py-4 bg-white/5 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-green-400 focus:border-transparent transition-all duration-300"
+                  className="w-full px-4 py-4 bg-white/5 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-primary-400 focus:border-transparent transition-all duration-300"
                   placeholder={t('contact.subjectPlaceholder')}
                 />
               </div>
@@ -345,7 +345,7 @@ const Contact = () => {
                   aria-describedby={
                     errors.message ? "message-error" : undefined
                   }
-                  className={`w-full px-4 py-4 bg-white/5 border rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-green-400 focus:border-transparent resize-none transition-all duration-300 ${
+                  className={`w-full px-4 py-4 bg-white/5 border rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-primary-400 focus:border-transparent resize-none transition-all duration-300 ${
                     errors.message ? "border-red-400" : "border-white/20"
                   }`}
                   placeholder={t('contact.messagePlaceholderLong')}
@@ -363,7 +363,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-green-600 to-emerald-700 text-white py-4 px-6 rounded-xl font-bold text-lg hover:from-green-700 hover:to-emerald-800 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl border border-white/20"
+                className="w-full bg-gradient-to-r from-primary-600 to-secondary-700 text-white py-4 px-6 rounded-xl font-bold text-lg hover:from-primary-700 hover:to-secondary-800 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl border border-white/20"
               >
                 {t('contact.form.send')}
               </button>

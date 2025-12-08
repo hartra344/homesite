@@ -94,7 +94,7 @@ const BlogPost = () => {
             <p className="text-gray-300 mb-8">{error || 'The blog post you\'re looking for doesn\'t exist.'}</p>
             <button
               onClick={handleBackToBlog}
-              className="inline-flex items-center bg-gradient-to-r from-green-600 to-emerald-700 text-white px-6 py-3 rounded-xl font-semibold hover:from-green-700 hover:to-emerald-800 transition-all duration-300"
+              className="inline-flex items-center bg-gradient-to-r from-primary-600 to-secondary-700 text-white px-6 py-3 rounded-xl font-semibold hover:from-primary-700 hover:to-secondary-800 transition-all duration-300"
             >
               ← Back to Blog
             </button>
@@ -108,15 +108,15 @@ const BlogPost = () => {
     <section className="py-32 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 min-h-screen">
       {/* Background Effects */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 right-10 w-72 h-72 bg-green-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 left-10 w-72 h-72 bg-emerald-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-20 right-10 w-72 h-72 bg-primary-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 left-10 w-72 h-72 bg-secondary-500/10 rounded-full blur-3xl"></div>
       </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         {/* Back Button */}
         <button
           onClick={handleBackToBlog}
-          className="inline-flex items-center text-green-400 hover:text-white transition-all duration-300 mb-8 group"
+          className="inline-flex items-center text-primary-400 hover:text-white transition-all duration-300 mb-8 group"
         >
           <svg className="w-5 h-5 mr-2 group-hover:-translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -127,7 +127,7 @@ const BlogPost = () => {
         {/* Article Header */}
         <header className="mb-12">
           <div className="flex items-center gap-4 mb-6">
-            <span className="bg-gradient-to-r from-green-500/20 to-emerald-500/20 text-green-300 px-4 py-2 rounded-xl text-sm font-semibold border border-white/10">
+            <span className="bg-gradient-to-r from-primary-500/20 to-secondary-500/20 text-primary-300 px-4 py-2 rounded-xl text-sm font-semibold border border-white/10">
               {post.category}
             </span>
             {post.featured && (
@@ -194,7 +194,7 @@ const BlogPost = () => {
               a: ({ children, href, ...props }) => (
                 <a 
                   href={href} 
-                  className="text-green-400 hover:text-green-300 transition-colors duration-300 underline decoration-green-400/30 hover:decoration-green-300/50" 
+                  className="text-primary-400 hover:text-primary-300 transition-colors duration-300 underline decoration-primary-400/30 hover:decoration-primary-300/50" 
                   target={href?.startsWith('http') ? '_blank' : undefined}
                   rel={href?.startsWith('http') ? 'noopener noreferrer' : undefined}
                   {...props}
@@ -206,7 +206,7 @@ const BlogPost = () => {
                 const isInline = !className;
                 if (isInline) {
                   return (
-                    <code className="bg-white/10 text-green-300 px-2 py-1 rounded text-sm" {...props}>
+                    <code className="bg-white/10 text-primary-300 px-2 py-1 rounded text-sm" {...props}>
                       {children}
                     </code>
                   );
@@ -238,7 +238,7 @@ const BlogPost = () => {
                 </li>
               ),
               blockquote: ({ children, ...props }) => (
-                <blockquote className="border-l-4 border-green-400 pl-6 my-6 italic text-gray-300" {...props}>
+                <blockquote className="border-l-4 border-primary-400 pl-6 my-6 italic text-gray-300" {...props}>
                   {children}
                 </blockquote>
               ),
@@ -262,7 +262,7 @@ const BlogPost = () => {
                 href="https://bsky.app/profile/travis.dev"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center bg-gradient-to-r from-green-600 to-emerald-700 text-white px-6 py-3 rounded-xl font-semibold hover:from-green-700 hover:to-emerald-800 transition-all duration-300 transform hover:scale-105"
+                className="inline-flex items-center bg-gradient-to-r from-primary-600 to-secondary-700 text-white px-6 py-3 rounded-xl font-semibold hover:from-primary-700 hover:to-secondary-800 transition-all duration-300 transform hover:scale-105"
               >
                 <svg className="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 -3.268 64 68.414" fill="currentColor">
                   <path d="M13.873 3.805C21.21 9.332 29.103 20.537 32 26.55v15.882c0-.338-.13.044-.41.867-1.512 4.456-7.418 21.847-20.923 7.944-7.111-7.32-3.819-14.64 9.125-16.85-7.405 1.264-15.73-.825-18.014-9.015C1.12 23.022 0 8.51 0 6.55 0-3.268 8.579-.182 13.873 3.805zm36.254 0C42.79 9.332 34.897 20.537 32 26.55v15.882c0-.338.13.044.41.867 1.512 4.456 7.418 21.847 20.923 7.944 7.111-7.32 3.819-14.64-9.125-16.85 7.405 1.264 15.73-.825 18.014-9.015C62.88 23.022 64 8.51 64 6.55c0-9.818-8.578-6.732-13.873-2.745z"/>
