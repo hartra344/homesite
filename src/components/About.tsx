@@ -2,106 +2,68 @@ import { useTranslation } from 'react-i18next';
 
 const About = () => {
   const { t } = useTranslation();
+
+  const skills = [
+    'TypeScript',
+    'React',
+    'Node.js',
+    'Azure',
+    'System Design',
+    'Team Leadership',
+  ];
+
   return (
-    <section
-      id="about"
-      className="py-32 bg-slate-950/50 backdrop-blur-sm relative overflow-hidden"
-    >
-      {/* Background Effects */}
-      <div className="absolute inset-0">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-primary-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-10 w-72 h-72 bg-secondary-500/10 rounded-full blur-3xl"></div>
-      </div>
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-        <div className="text-center mb-20">
-          <h2 className="text-5xl font-bold bg-gradient-to-r from-primary-400 via-secondary-400 to-accent-400 bg-clip-text text-transparent mb-6">
-            {t('about.title')}
-          </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-primary-400 to-secondary-400 mx-auto rounded-full"></div>
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
-          <div className="space-y-6">
-            <h3 className="text-3xl font-bold text-white mb-8 leading-tight">
-              {t('about.tagline')}
-              <span className="bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent">
-                {" "}
-                {t('about.taglineHighlight')}
-              </span>
-            </h3>
-            <div className="space-y-6">
-              <p className="text-lg text-gray-300 leading-relaxed">
-                {t('about.intro')}
-              </p>
-              <p className="text-lg text-gray-300 leading-relaxed">
-                {t('about.expertise')}
-              </p>
-              <p className="text-lg text-gray-300 leading-relaxed">
-                {t('about.personal')}
-              </p>
+    <section id="about" className="py-section-md">
+      <div className="max-w-container mx-auto px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-16">
+          {/* Main Content */}
+          <div className="lg:col-span-3">
+            <h2 className="text-display-2 font-semibold text-charcoal-900 mb-6">
+              {t('about.title')}
+            </h2>
+            <div className="space-y-4 text-body-lg text-charcoal-600 leading-relaxed">
+              <p>{t('about.intro')}</p>
+              <p>{t('about.expertise')}</p>
+              <p>{t('about.personal')}</p>
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-6">
-            <div className="group bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl text-center hover:bg-white/10 transition-all duration-300 hover:scale-105">
-              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                ✈️
+          {/* Sidebar */}
+          <div className="lg:col-span-2 space-y-8">
+            {/* Skills */}
+            <div className="card">
+              <h3 className="text-heading-3 font-medium text-charcoal-900 mb-4">
+                {t('about.skills.title')}
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {skills.map((skill) => (
+                  <span key={skill} className="tag">
+                    {skill}
+                  </span>
+                ))}
               </div>
-              <h4 className="font-bold text-white mb-2 text-lg">{t('about.interests.items.aviation')}</h4>
-              <p className="text-gray-400">{t('about.interests.items.aviationDesc')}</p>
             </div>
-            <div className="group bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl text-center hover:bg-white/10 transition-all duration-300 hover:scale-105">
-              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                🏍️
-              </div>
-              <h4 className="font-bold text-white mb-2 text-lg">{t('about.interests.items.motorcycles')}</h4>
-              <p className="text-gray-400">{t('about.interests.items.motorcyclesDesc')}</p>
-            </div>
-            <div className="group bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl text-center hover:bg-white/10 transition-all duration-300 hover:scale-105">
-              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                🏰
-              </div>
-              <h4 className="font-bold text-white mb-2 text-lg">{t('about.interests.items.travel')}</h4>
-              <p className="text-gray-400">{t('about.interests.items.travelDesc')}</p>
-            </div>
-            <div className="group bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl text-center hover:bg-white/10 transition-all duration-300 hover:scale-105">
-              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                💪
-              </div>
-              <h4 className="font-bold text-white mb-2 text-lg">{t('about.interests.items.fitness')}</h4>
-              <p className="text-gray-400">{t('about.interests.items.fitnessDesc')}</p>
-            </div>
-          </div>
-        </div>
 
-        <div className="mt-20">
-          <h3 className="text-3xl font-bold text-white mb-12 text-center">
-            {t('about.skills.title')}
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            {[
-              "TypeScript",
-              "JavaScript",
-              "React",
-              "Node.js",
-              "Azure",
-              "Docker",
-              "Kubernetes",
-              "GraphQL",
-              "REST APIs",
-              "MongoDB",
-              "PostgreSQL",
-              "Git",
-            ].map((skill, index) => (
-              <div
-                key={skill}
-                className="group bg-gradient-to-r from-primary-500/20 to-secondary-500/20 border border-white/10 backdrop-blur-sm text-white px-6 py-3 rounded-xl text-center font-semibold hover:from-primary-500/30 hover:to-secondary-500/30 transition-all duration-300 hover:scale-105 hover:border-white/20"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                {skill}
-              </div>
-            ))}
+            {/* Quick Facts */}
+            <div className="card">
+              <h3 className="text-heading-3 font-medium text-charcoal-900 mb-4">
+                {t('about.interests.title')}
+              </h3>
+              <ul className="space-y-3">
+                <li className="flex items-center gap-3 text-charcoal-600">
+                  <span className="w-8 h-8 flex items-center justify-center bg-sage-50 rounded-full text-lg">✈️</span>
+                  <span>{t('about.interests.items.aviationDesc')}</span>
+                </li>
+                <li className="flex items-center gap-3 text-charcoal-600">
+                  <span className="w-8 h-8 flex items-center justify-center bg-sage-50 rounded-full text-lg">🏍️</span>
+                  <span>{t('about.interests.items.motorcyclesDesc')}</span>
+                </li>
+                <li className="flex items-center gap-3 text-charcoal-600">
+                  <span className="w-8 h-8 flex items-center justify-center bg-sage-50 rounded-full text-lg">🏰</span>
+                  <span>{t('about.interests.items.travelDesc')}</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

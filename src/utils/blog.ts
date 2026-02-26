@@ -145,3 +145,23 @@ export const getRecentPosts = async (
   const posts = await loadBlogPosts();
   return posts.slice(0, limit);
 };
+
+// Function to get all unique categories
+export const getCategories = async (): Promise<string[]> => {
+  const posts = await loadBlogPosts();
+  const categories = [...new Set(posts.map((p) => p.category))];
+  return categories.sort();
+};
+
+// Function to search posts by query
+export const searchPosts = async (query: string): Promise<BlogPost[]> => {
+  const posts = await loadBlogPosts();
+  const lowercaseQuery = query.toLowerCase();
+
+  return posts.filter(
+    (post) =>
+      post.title.toLowerCase().includes(lowercaseQuery) ||
+      post.excerpt.toLowerCase().includes(lowercaseQuery) ||
+      post.category.toLowerCase().includes(lowercaseQuery)
+  );
+};

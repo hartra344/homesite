@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -13,17 +13,10 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     transition-delay: 0ms !important;
-    transform: none !important;
   }
-  
+
   html {
     scroll-behavior: auto !important;
-  }
-  
-  /* Force disable all animations and transitions with highest specificity */
-  * {
-    animation: none !important;
-    transition: none !important;
   }
 }
 
@@ -31,17 +24,46 @@
   html {
     scroll-behavior: smooth;
   }
-  
-  /* Ensure text remains visible during font swap */
+
   body {
     font-display: swap;
-    @apply bg-slate-950 text-slate-100;
-    background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.03) 1px, transparent 0);
-    background-size: 32px 32px;
+    @apply bg-cream text-charcoal-900;
+    background-image: radial-gradient(circle at 1px 1px, rgba(45, 58, 46, 0.03) 1px, transparent 0);
+    background-size: 24px 24px;
   }
-  
+
   h1, h2, h3, h4, h5, h6 {
-    @apply font-display tracking-tight;
+    @apply font-display tracking-tight text-charcoal-900;
+  }
+}
+
+@layer components {
+  /* Button components */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-sage-500 hover:bg-sage-600 text-white rounded-full font-medium transition-all duration-200 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-sage-400 focus:ring-offset-2 focus:ring-offset-cream;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-transparent hover:bg-sage-50 text-charcoal-900 rounded-full font-medium border border-sage-300 hover:border-sage-400 transition-all duration-200 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-sage-400 focus:ring-offset-2 focus:ring-offset-cream;
+  }
+
+  /* Card component */
+  .card {
+    @apply bg-paper border border-sage-200 rounded-xl p-6 transition-all duration-300 hover:border-sage-300 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  /* Tag/pill component */
+  .tag {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-caption font-medium bg-sage-50 text-sage-700 border border-sage-200 transition-colors hover:bg-sage-100;
+  }
+
+  .tag-active {
+    @apply bg-sage-500 text-white;
+  }
+
+  /* Focus ring utility */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-sage-400 focus:ring-offset-2 focus:ring-offset-cream;
   }
 }
 
@@ -57,7 +79,7 @@
     white-space: nowrap;
     border: 0;
   }
-  
+
   .focus\:not-sr-only:focus {
     position: static;
     width: auto;
