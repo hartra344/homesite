@@ -7,9 +7,9 @@ const About = () => {
     'TypeScript',
     'React',
     'Node.js',
-    'Azure',
+    'GitHub',
     'System Design',
-    'Team Leadership',
+    'Platform Engineering',
   ];
 
   return (

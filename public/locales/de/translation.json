@@ -7,13 +7,13 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "badge": "Principal Software Engineering Manager",
+    "badge": "Principal Engineer",
     "heading1": "Aufbau von",
     "headingHighlight": "Teams",
     "heading2": "& Software",
-    "description": "Ich leite das Azure Logic Apps UX-Team bei",
-    "company": "Microsoft",
-    "descriptionCont": "und helfe Millionen von Entwicklern beim Aufbau von Cloud-Integrationen. Außerhalb der Arbeit bin ich Privatpilot und Luftfahrt-Enthusiast.",
+    "description": "Ich leite das Enterprise Platform team at",
+    "company": "GitHub",
+    "descriptionCont": "und helfe Millionen von Entwicklern beim Aufbau von development workflows. Außerhalb der Arbeit bin ich Privatpilot und Luftfahrt-Enthusiast.",
     "letsConnect": "Kontaktieren Sie mich",
     "viewResume": "Lebenslauf",
     "viewGitHub": "GitHub ansehen",
@@ -70,7 +70,7 @@
     "subtitle": "Ich interessiere mich für Engineering Leadership, Cloud-Architektur und Entwicklertools. Zögern Sie nicht, mich zu kontaktieren, wenn Sie sich vernetzen möchten.",
     "letsConnect": "Kontaktieren Sie mich",
     "location": "Standort",
-    "locationValue": "Lynnwood, Washington, Vereinigte Staaten",
+    "locationValue": "Fort Myers, Florida, Vereinigte Staaten",
     "openTo": "Offen für",
     "openToValue": "Strategische Beratung, technische Beraterrollen, Vorträge und Diskussionen über Engineering Leadership",
     "findMeOnline": "Finden Sie mich online",
@@ -95,7 +95,7 @@
     }
   },
   "footer": {
-    "tagline": "Softwareentwickler, Manager und Amateurpilot, der die Zukunft der Cloud-Integration baut.",
+    "tagline": "Softwareentwickler, Manager und Amateurpilot, der die Zukunft der enterprise platform solutions baut.",
     "quickLinks": "Schnelllinks",
     "professional": "Professionell",
     "copyright": "© {{year}} Travis Vu. Alle Rechte vorbehalten."

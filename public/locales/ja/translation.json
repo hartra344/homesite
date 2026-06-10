@@ -7,13 +7,13 @@
     "contact": "お問い合わせ"
   },
   "hero": {
-    "badge": "プリンシパルソフトウェアエンジニアリングマネージャー",
+    "badge": "Principal Engineer",
     "heading1": "チームと",
     "headingHighlight": "ソフトウェア",
     "heading2": "の構築",
     "description": "私はAzure Logic AppsのUXチームを率いています",
-    "company": "Microsoft",
-    "descriptionCont": "数百万人の開発者がクラウド統合を構築するのを支援しています。仕事以外では、プライベートパイロットであり、航空愛好家です。",
+    "company": "GitHub",
+    "descriptionCont": "数百万人の開発者がdevelopment workflowsを構築するのを支援しています。仕事以外では、プライベートパイロットであり、航空愛好家です。",
     "letsConnect": "お問い合わせ",
     "viewResume": "履歴書",
     "viewGitHub": "GitHubを見る",
@@ -95,7 +95,7 @@
     }
   },
   "footer": {
-    "tagline": "クラウド統合の未来を築くソフトウェア開発者、マネージャー、アマチュアパイロット。",
+    "tagline": "enterprise platform solutionsの未来を築くソフトウェア開発者、マネージャー、アマチュアパイロット。",
     "quickLinks": "クイックリンク",
     "professional": "プロフェッショナル",
     "copyright": "© {{year}} Travis Vu. All rights reserved."

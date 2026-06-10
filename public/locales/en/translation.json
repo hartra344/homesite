@@ -7,13 +7,13 @@
     "contact": "Contact"
   },
   "hero": {
-    "badge": "Principal Software Engineering Manager",
+    "badge": "Principal Engineer",
     "heading1": "Building",
-    "headingHighlight": "Teams",
+    "headingHighlight": "Platforms",
     "heading2": "& Software",
-    "description": "I lead the Azure Logic Apps UX team at",
-    "company": "Microsoft",
-    "descriptionCont": "helping millions of developers build cloud integrations. Outside of work, I'm a private pilot and aviation enthusiast.",
+    "description": "I'm a Principal Engineer on the Enterprise Platform team at",
+    "company": "GitHub",
+    "descriptionCont": "enabling organizations to scale their development workflows. Outside of work, I'm a private pilot and aviation enthusiast.",
     "letsConnect": "Contact Me",
     "viewResume": "Resume",
     "viewGitHub": "GitHub",
@@ -21,7 +21,7 @@
   },
   "about": {
     "title": "About Me",
-    "intro": "I'm Travis, an engineering manager with experience at Microsoft and Facebook. Currently, I lead a team of 7 engineers working on Azure Logic Apps, focusing on integration platforms that serve developers globally.",
+    "intro": "I'm Travis, a principal engineer with experience at GitHub, Microsoft, and Facebook. Currently, I work on GitHub's Enterprise Platform, building capabilities that help organizations scale their development workflows.",
     "expertise": "My background covers modern web development, cloud architecture, and distributed systems. I focus on building healthy teams that can solve complex technical challenges and deliver reliable software.",
     "personal": "Outside of work, I'm a private pilot who enjoys the precision of aviation. I'm also a motorcycle enthusiast and enjoy traveling to Disney World. These interests help me maintain a balanced perspective on leadership and life.",
     "tagline": "Focusing on",
@@ -70,7 +70,7 @@
     "subtitle": "I'm interested in engineering leadership, cloud architecture, and developer tools. Feel free to reach out if you'd like to connect.",
     "letsConnect": "Contact Me",
     "location": "Location",
-    "locationValue": "Lynnwood, Washington, United States",
+    "locationValue": "Fort Myers, Florida, United States",
     "openTo": "Open to",
     "openToValue": "Strategic consulting, technical advisory roles, speaking engagements, and engineering leadership discussions",
     "findMeOnline": "Find me online",
@@ -95,7 +95,7 @@
     }
   },
   "footer": {
-    "tagline": "Software developer, manager, and amateur pilot building the future of cloud integration.",
+    "tagline": "Principal engineer and amateur pilot building enterprise platform solutions at GitHub.",
     "quickLinks": "Quick Links",
     "professional": "Professional",
     "resume": "Resume",

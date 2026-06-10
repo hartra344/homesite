@@ -7,13 +7,13 @@
     "contact": "연락처"
   },
   "hero": {
-    "badge": "수석 소프트웨어 엔지니어링 매니저",
+    "badge": "Principal Engineer",
     "heading1": "팀과",
     "headingHighlight": "소프트웨어",
     "heading2": "구축",
-    "description": "저는 Microsoft에서 Azure Logic Apps UX 팀을 이끌며",
-    "company": "Microsoft",
-    "descriptionCont": "수백만 명의 개발자가 클라우드 통합을 구축하도록 돕고 있습니다. 업무 외에는 개인 조종사이자 항공 애호가입니다.",
+    "description": "저는 Microsoft에서 Azure Logic Apps UX 팀을 work on며",
+    "company": "GitHub",
+    "descriptionCont": "수백만 명의 개발자가 development workflows을 구축하도록 돕고 있습니다. 업무 외에는 개인 조종사이자 항공 애호가입니다.",
     "letsConnect": "연락하기",
     "viewResume": "이력서 보기",
     "viewGitHub": "GitHub 보기",
@@ -95,7 +95,7 @@
     }
   },
   "footer": {
-    "tagline": "클라우드 통합의 미래를 구축하는 소프트웨어 개발자, 매니저 및 아마추어 조종사.",
+    "tagline": "enterprise platform solutions의 미래를 구축하는 소프트웨어 개발자, 매니저 및 아마추어 조종사.",
     "quickLinks": "빠른 링크",
     "professional": "전문적인",
     "copyright": "© {{year}} Travis Vu. All rights reserved."

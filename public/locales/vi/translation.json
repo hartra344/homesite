@@ -7,13 +7,13 @@
     "contact": "Liên hệ"
   },
   "hero": {
-    "badge": "Quản lý Kỹ thuật Phần mềm Chính",
+    "badge": "Principal Engineer",
     "heading1": "Xây dựng",
     "headingHighlight": "Đội ngũ",
     "heading2": "& Phần mềm",
     "description": "Tôi lãnh đạo nhóm UX của Azure Logic Apps tại",
-    "company": "Microsoft",
-    "descriptionCont": "giúp hàng triệu lập trình viên xây dựng các tích hợp đám mây. Ngoài công việc, tôi là phi công tư nhân và đam mê hàng không.",
+    "company": "GitHub",
+    "descriptionCont": "giúp hàng triệu lập trình viên xây dựng các tích hợp development workflows. Ngoài công việc, tôi là phi công tư nhân và đam mê hàng không.",
     "letsConnect": "Liên hệ với tôi",
     "viewResume": "Sơ yếu lý lịch",
     "viewGitHub": "Xem GitHub",
@@ -70,7 +70,7 @@
     "subtitle": "Tôi quan tâm đến lãnh đạo kỹ thuật, kiến trúc đám mây và công cụ cho lập trình viên. Hãy liên hệ nếu bạn muốn kết nối.",
     "letsConnect": "Liên hệ với tôi",
     "location": "Địa điểm",
-    "locationValue": "Lynnwood, Washington, Hoa Kỳ",
+    "locationValue": "Fort Myers, Florida, Hoa Kỳ",
     "openTo": "Sẵn sàng cho",
     "openToValue": "Tư vấn chiến lược, vai trò cố vấn kỹ thuật, diễn thuyết và thảo luận về lãnh đạo kỹ thuật",
     "findMeOnline": "Tìm tôi trực tuyến",
@@ -95,7 +95,7 @@
     }
   },
   "footer": {
-    "tagline": "Lập trình viên phần mềm, quản lý và phi công nghiệp dư xây dựng tương lai của tích hợp đám mây.",
+    "tagline": "Lập trình viên phần mềm, quản lý và phi công nghiệp dư xây dựng tương lai của enterprise platform solutions.",
     "quickLinks": "Liên kết nhanh",
     "professional": "Chuyên nghiệp",
     "copyright": "© {{year}} Travis Vu. Đã đăng ký bản quyền."

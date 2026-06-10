@@ -7,12 +7,12 @@
     "contact": "聯絡"
   },
   "hero": {
-    "badge": "首席軟件工程經理",
+    "badge": "Principal Engineer",
     "heading1": "建立",
     "headingHighlight": "團隊",
     "heading2": "與軟件",
     "description": "我帶領 Azure Logic Apps UX 團隊在",
-    "company": "微軟",
+    "company": "GitHub",
     "descriptionCont": "幫助數百萬開發者建立雲端整合。工作以外，我係一名私人機師同航空愛好者。",
     "letsConnect": "聯絡我",
     "viewResume": "履歷",
@@ -49,7 +49,7 @@
         "fitness": "健身",
         "fitnessDesc": "保持活躍同健康"
       }
-    },
+    }
   },
   "experience": {
     "title": "經驗",

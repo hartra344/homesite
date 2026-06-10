@@ -6,12 +6,22 @@ const Experience = () => {
   const { t } = useTranslation();
   const experiences = [
     {
+      company: 'GitHub',
+      role: 'Principal Engineer',
+      period: '2025 - Present',
+      description: 'Building enterprise platform capabilities at GitHub, enabling organizations to scale their development workflows securely and efficiently.',
+      achievements: [
+        'Driving architecture and technical strategy for GitHub\'s Enterprise Platform',
+        'Building scalable platform solutions that serve enterprise customers worldwide'
+      ]
+    },
+    {
       company: 'Microsoft',
       role: 'Principal Software Engineering Manager',
-      period: '2021 - Present',
-      description: 'Leading the Azure Logic Apps UX team to deliver enterprise-grade integration solutions used by millions of developers worldwide.',
+      period: '2021 - 2025',
+      description: 'Led the Azure Logic Apps UX team to deliver enterprise-grade integration solutions used by millions of developers worldwide.',
       achievements: [
-        'Lead a team of 7 engineers building Azure Logic Apps UX platform, collaborating closely with PMs, designers, and researchers',
+        'Led a team of 7 engineers building Azure Logic Apps UX platform, collaborating closely with PMs, designers, and researchers',
         'Architected and led the complete rewrite and redesign of the Azure Logic Apps Designer, modernizing the core user experience',
         'Co-led development of Logic Apps Agent Loop, pioneering AI-powered workflow automation capabilities',
         'Led development of Logic Apps Data Mapper, enabling visual data transformation for enterprise integration scenarios'

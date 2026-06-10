@@ -8,13 +8,13 @@
     "language": "语言"
   },
   "hero": {
-    "badge": "首席软件工程经理",
+    "badge": "Principal Engineer",
     "heading1": "构建",
     "headingHighlight": "团队",
     "heading2": "与软件",
     "description": "我领导 Azure Logic Apps UX 团队在",
-    "company": "微软",
-    "descriptionCont": "帮助数百万开发者构建云集成。工作之余，我是一名私人飞行员和航空爱好者。",
+    "company": "GitHub",
+    "descriptionCont": "帮助数百万开发者构建development workflows。工作之余，我是一名私人飞行员和航空爱好者。",
     "letsConnect": "联系我",
     "viewResume": "简历",
     "viewGitHub": "查看 GitHub",
@@ -96,7 +96,7 @@
     }
   },
   "footer": {
-    "tagline": "软件开发人员、经理和业余飞行员，构建云集成的未来。",
+    "tagline": "软件开发人员、经理和业余飞行员，构建enterprise platform solutions的未来。",
     "quickLinks": "快速链接",
     "professional": "专业",
     "copyright": "© {{year}} Travis Vu. 保留所有权利。"

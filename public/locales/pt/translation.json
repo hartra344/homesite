@@ -7,13 +7,13 @@
     "contact": "Contato"
   },
   "hero": {
-    "badge": "Gerente Principal de Engenharia de Software",
+    "badge": "Principal Engineer",
     "heading1": "Construindo",
     "headingHighlight": "Equipes",
     "heading2": "& Software",
-    "description": "Lidero a equipe de UX do Azure Logic Apps na",
-    "company": "Microsoft",
-    "descriptionCont": "ajudando milhões de desenvolvedores a construir integrações em nuvem. Fora do trabalho, sou piloto privado e entusiasta da aviação.",
+    "description": "work on a equipe de UX do Azure Logic Apps na",
+    "company": "GitHub",
+    "descriptionCont": "ajudando milhões de desenvolvedores a construir development workflows em nuvem. Fora do trabalho, sou piloto privado e entusiasta da aviação.",
     "letsConnect": "Contate-me",
     "viewResume": "Currículo",
     "viewGitHub": "Ver GitHub",
@@ -70,7 +70,7 @@
     "subtitle": "Estou interessado em liderança de engenharia, arquitetura em nuvem e ferramentas para desenvolvedores. Sinta-se à vontade para entrar em contato se quiser se conectar.",
     "letsConnect": "Contate-me",
     "location": "Localização",
-    "locationValue": "Lynnwood, Washington, Estados Unidos",
+    "locationValue": "Fort Myers, Florida, Estados Unidos",
     "openTo": "Aberto a",
     "openToValue": "Consultoria estratégica, papéis de consultor técnico, palestras e discussões sobre liderança de engenharia",
     "findMeOnline": "Encontre-me online",
@@ -95,7 +95,7 @@
     }
   },
   "footer": {
-    "tagline": "Desenvolvedor de software, gerente e piloto amador construindo o futuro da integração em nuvem.",
+    "tagline": "Desenvolvedor de software, gerente e piloto amador construindo o futuro da enterprise platform solutions em nuvem.",
     "quickLinks": "Links Rápidos",
     "professional": "Profissional",
     "copyright": "© {{year}} Travis Vu. Todos os direitos reservados."

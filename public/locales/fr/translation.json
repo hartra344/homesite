@@ -7,13 +7,13 @@
     "contact": "Contact"
   },
   "hero": {
-    "badge": "Responsable Principal de l'Ingénierie Logicielle",
+    "badge": "Principal Engineer",
     "heading1": "Bâtir",
     "headingHighlight": "Équipes",
     "heading2": "& Logiciels",
-    "description": "Je dirige l'équipe UX d'Azure Logic Apps chez",
-    "company": "Microsoft",
-    "descriptionCont": "aidant des millions de développeurs à créer des intégrations cloud. En dehors du travail, je suis pilote privé et passionné d'aviation.",
+    "description": "Je work on l'équipe UX d'Azure Logic Apps chez",
+    "company": "GitHub",
+    "descriptionCont": "aidant des millions de développeurs à créer des development workflows. En dehors du travail, je suis pilote privé et passionné d'aviation.",
     "letsConnect": "Me Contacter",
     "viewResume": "CV",
     "viewGitHub": "Voir GitHub",
@@ -70,7 +70,7 @@
     "subtitle": "Je m'intéresse au leadership en ingénierie, à l'architecture cloud et aux outils pour développeurs. N'hésitez pas à me contacter si vous souhaitez échanger.",
     "letsConnect": "Me Contacter",
     "location": "Lieu",
-    "locationValue": "Lynnwood, Washington, États-Unis",
+    "locationValue": "Fort Myers, Florida, États-Unis",
     "openTo": "Ouvert à",
     "openToValue": "Conseil stratégique, rôles de conseiller technique, conférences et discussions sur le leadership en ingénierie",
     "findMeOnline": "Retrouvez-moi en ligne",
@@ -95,7 +95,7 @@
     }
   },
   "footer": {
-    "tagline": "Développeur logiciel, manager et pilote amateur construisant l'avenir de l'intégration cloud.",
+    "tagline": "Développeur logiciel, manager et pilote amateur construisant l'avenir de l'enterprise platform solutions.",
     "quickLinks": "Liens Rapides",
     "professional": "Professionnel",
     "copyright": "© {{year}} Travis Vu. Tous droits réservés."
