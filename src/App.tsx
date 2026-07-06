@@ -3,11 +3,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header.tsx';
 import Hero from './components/Hero.tsx';
 import About from './components/About.tsx';
+import Experience from './components/Experience.tsx';
 import FeaturedPosts from './components/FeaturedPosts.tsx';
 import BlogPage from './components/BlogPage.tsx';
 import BlogPost from './components/BlogPost.tsx';
 import Contact from './components/Contact.tsx';
 import Footer from './components/Footer.tsx';
+import FlightEasterEgg from './components/FlightEasterEgg.tsx';
 
 // Homepage component with focused sections
 function HomePage() {
@@ -15,6 +17,7 @@ function HomePage() {
     <main id="main-content">
       <Hero />
       <About />
+      <Experience />
       <FeaturedPosts />
       <Contact />
     </main>
@@ -38,6 +41,7 @@ function App() {
     <Suspense fallback={<LoadingFallback />}>
       <Router>
         <div className="min-h-screen bg-cream">
+          <FlightEasterEgg />
           <Header />
           <Routes>
             <Route path="/" element={<HomePage />} />

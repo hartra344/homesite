@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="md:col-span-2">
-            <Link to="/" className="text-xl font-semibold text-white mb-4 inline-block">
+            <Link to="/" className="text-xl font-semibold text-white mb-2 py-2 -mt-2 inline-flex items-center">
               Travis Vu
             </Link>
             <p className="text-charcoal-300 mb-6 max-w-sm">
@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="flex gap-3">
               <a
                 href="https://www.linkedin.com/in/travis-harris/"
-                className="p-2 text-charcoal-400 hover:text-white transition-colors"
+                className="p-3 -m-1 text-charcoal-300 hover:text-white transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t('contact.social.linkedin')}
@@ -32,7 +32,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://github.com/hartra344"
-                className="p-2 text-charcoal-400 hover:text-white transition-colors"
+                className="p-3 -m-1 text-charcoal-300 hover:text-white transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t('contact.social.github')}
@@ -43,7 +43,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://bsky.app/profile/travis.dev"
-                className="p-2 text-charcoal-400 hover:text-white transition-colors"
+                className="p-3 -m-1 text-charcoal-300 hover:text-white transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t('contact.social.bluesky')}
@@ -62,14 +62,14 @@ const Footer = () => {
 
           {/* Links */}
           <div>
-            <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
+            <h2 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
               {t('footer.quickLinks')}
-            </h4>
+            </h2>
             <ul className="space-y-2">
               <li>
                 <Link
                   to="/"
-                  className="text-charcoal-400 hover:text-white transition-colors text-sm"
+                  className="inline-flex items-center min-w-[44px] py-3.5 -my-3.5 text-charcoal-300 hover:text-white transition-colors text-sm"
                 >
                   {t('nav.home')}
                 </Link>
@@ -77,7 +77,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/blog"
-                  className="text-charcoal-400 hover:text-white transition-colors text-sm"
+                  className="inline-flex items-center min-w-[44px] py-3.5 -my-3.5 text-charcoal-300 hover:text-white transition-colors text-sm"
                 >
                   {t('nav.blog')}
                 </Link>
@@ -85,7 +85,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/resume.html"
-                  className="text-charcoal-400 hover:text-white transition-colors text-sm"
+                  className="inline-flex items-center min-w-[44px] py-3.5 -my-3.5 text-charcoal-300 hover:text-white transition-colors text-sm"
                 >
                   {t('footer.resume')}
                 </a>
@@ -95,17 +95,20 @@ const Footer = () => {
 
           {/* Language */}
           <div>
-            <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
+            <h2 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
               Language
-            </h4>
+            </h2>
             <LanguageSwitcher />
           </div>
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-charcoal-700 pt-8 text-center">
-          <p className="text-charcoal-400 text-sm">
+        <div className="border-t border-charcoal-700 pt-8 text-center space-y-2">
+          <p className="text-charcoal-300 text-sm">
             © {currentYear} Travis Vu. {t('footer.rights')}
+          </p>
+          <p className="font-mono text-xs text-charcoal-300" aria-hidden="true">
+            KFMY · 26.59°N 81.86°W · psst — type "fly"
           </p>
         </div>
       </div>

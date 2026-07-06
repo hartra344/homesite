@@ -2,6 +2,7 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpBackend from 'i18next-http-backend';
+import enTranslation from './locales/en/translation.json';
 
 i18n
   .use(HttpBackend)
@@ -10,7 +11,16 @@ i18n
   .init({
     fallbackLng: 'en',
     debug: false,
-    
+
+    // English ships in the JS bundle so the initial render never suspends
+    // waiting on a network fetch; other languages load via the HTTP backend.
+    resources: {
+      en: {
+        translation: enTranslation,
+      },
+    },
+    partialBundledLanguages: true,
+
     // Configure backend for dynamic loading
     backend: {
       loadPath: '/locales/{{lng}}/translation.json',

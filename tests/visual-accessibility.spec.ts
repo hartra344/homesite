@@ -17,8 +17,14 @@ test.describe("Visual Accessibility Tests", () => {
       .evaluateAll((elements) => {
         return elements.filter((el) => {
           const style = window.getComputedStyle(el);
+          // Any element still animating: a transition or animation with a
+          // real (non-zero) duration. Computed values are comma-separated
+          // lists, e.g. "0.2s, 0.3s".
+          const hasDuration = (value: string) =>
+            value.split(",").some((d) => parseFloat(d) > 0.05);
           return (
-            style.transition !== "all 0s ease 0s" && style.transition !== "none"
+            hasDuration(style.transitionDuration) ||
+            hasDuration(style.animationDuration)
           );
         }).length;
       });

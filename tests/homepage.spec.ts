@@ -106,7 +106,11 @@ test.describe("Homepage Functionality", () => {
     }
   });
 
-  test("should handle keyboard navigation", async ({ page }) => {
+  test("should handle keyboard navigation", async ({ page, browserName }) => {
+    test.skip(
+      browserName === "webkit",
+      "WebKit does not move focus to links on Tab by default"
+    );
     // Test Tab navigation
     await page.keyboard.press("Tab");
 
@@ -126,6 +130,10 @@ test.describe("Homepage Functionality", () => {
   });
 
   test("should load without JavaScript errors", async ({ page }) => {
+    // Let the initial navigation settle first; reloading mid-load aborts
+    // in-flight module imports, which WebKit reports as console errors
+    await page.waitForLoadState("networkidle");
+
     const errors: string[] = [];
 
     page.on("console", (msg) => {

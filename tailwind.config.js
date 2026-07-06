@@ -78,6 +78,10 @@ export default {
       fontDisplay: ['swap'],
       animation: {
         'fade-up': 'fade-up 0.5s ease-out',
+        'dash-march': 'dash-march 7s linear infinite',
+        'plane-bob': 'plane-bob 4s ease-in-out infinite',
+        'fly-across': 'fly-across 3.5s ease-in forwards',
+        'beacon': 'beacon 2s ease-in-out infinite',
       },
       keyframes: {
         'fade-up': {
@@ -89,6 +93,24 @@ export default {
             opacity: '1',
             transform: 'translateY(0)',
           },
+        },
+        'dash-march': {
+          to: { strokeDashoffset: '-180' },
+        },
+        'plane-bob': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-8px)' },
+        },
+        'fly-across': {
+          '0%': { transform: 'translate(-15vw, 12vh) rotate(12deg)', opacity: '0' },
+          '10%': { opacity: '1' },
+          '50%': { transform: 'translate(45vw, -6vh) rotate(-6deg)' },
+          '90%': { opacity: '1' },
+          '100%': { transform: 'translate(115vw, -16vh) rotate(8deg)', opacity: '0' },
+        },
+        'beacon': {
+          '0%, 100%': { opacity: '1', boxShadow: '0 0 0 0 rgba(95, 117, 99, 0.4)' },
+          '50%': { opacity: '0.6', boxShadow: '0 0 0 6px rgba(95, 117, 99, 0)' },
         },
       },
       transitionDuration: {

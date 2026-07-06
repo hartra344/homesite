@@ -63,7 +63,7 @@ const Header = () => {
           <div className="flex justify-between items-center py-4">
             <Link
               to="/"
-              className="text-xl font-semibold text-charcoal-900 hover:text-sage-600 transition-colors duration-200"
+              className="inline-flex items-center py-2 -my-2 text-xl font-semibold text-charcoal-900 hover:text-sage-600 transition-colors duration-200"
             >
               Travis Vu
             </Link>
@@ -77,6 +77,14 @@ const Header = () => {
                 aria-label="Navigate to about section"
               >
                 {t('nav.about')}
+              </a>
+              <a
+                href="#experience"
+                onClick={(e) => handleScrollLink(e, 'experience')}
+                className="text-charcoal-600 hover:text-charcoal-900 transition-colors duration-200 text-body font-medium"
+                aria-label="Navigate to experience section"
+              >
+                {t('nav.experience')}
               </a>
               <Link
                 to="/blog"
@@ -137,6 +145,14 @@ const Header = () => {
                   aria-label="Navigate to about section"
                 >
                   {t('nav.about')}
+                </a>
+                <a
+                  href="#experience"
+                  onClick={(e) => handleScrollLink(e, 'experience')}
+                  className="block text-charcoal-600 hover:text-charcoal-900 hover:bg-sage-50 transition-colors duration-200 py-3 px-4 rounded-lg min-h-[44px] flex items-center"
+                  aria-label="Navigate to experience section"
+                >
+                  {t('nav.experience')}
                 </a>
                 <Link
                   to="/blog"

@@ -110,7 +110,7 @@ const BlogPost = () => {
         <header className="mb-10">
           <div className="flex items-center gap-3 mb-4">
             <span className="tag">{post.category}</span>
-            <span className="text-caption text-charcoal-400">{post.readTime}</span>
+            <span className="text-caption text-charcoal-500">{post.readTime}</span>
           </div>
 
           <h1 className="text-display-1 font-semibold text-charcoal-900 mb-4">
@@ -119,7 +119,7 @@ const BlogPost = () => {
 
           <p className="text-body-lg text-charcoal-600 mb-6">{post.excerpt}</p>
 
-          <time className="text-caption text-charcoal-400" dateTime={post.date}>
+          <time className="text-caption text-charcoal-500" dateTime={post.date}>
             {new Date(post.date).toLocaleDateString(i18n.language, {
               year: 'numeric',
               month: 'long',

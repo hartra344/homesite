@@ -117,7 +117,7 @@ const BlogPage = () => {
               placeholder="Search posts..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-12 pr-4 py-3 bg-paper border border-sage-200 rounded-xl text-charcoal-900 placeholder-charcoal-400 focus:outline-none focus:ring-2 focus:ring-sage-400 focus:border-transparent transition-all"
+              className="w-full pl-12 pr-4 py-3 bg-paper border border-sage-200 rounded-xl text-charcoal-900 placeholder-charcoal-500 focus:outline-none focus:ring-2 focus:ring-sage-400 focus:border-transparent transition-all"
             />
           </div>
         </div>
@@ -166,7 +166,7 @@ const BlogPage = () => {
                 >
                   <div className="flex items-center gap-3 mb-3">
                     <span className="tag">{post.category}</span>
-                    <span className="text-caption text-charcoal-400">
+                    <span className="text-caption text-charcoal-500">
                       {post.readTime}
                     </span>
                   </div>
@@ -176,7 +176,7 @@ const BlogPage = () => {
                   <p className="text-body text-charcoal-600 mb-4 line-clamp-2">
                     {post.excerpt}
                   </p>
-                  <time className="text-caption text-charcoal-400">
+                  <time className="text-caption text-charcoal-500">
                     {new Date(post.date).toLocaleDateString(i18n.language, {
                       year: 'numeric',
                       month: 'long',
@@ -205,7 +205,7 @@ const BlogPage = () => {
                   >
                     <div className="flex items-center gap-3 mb-3">
                       <span className="tag">{post.category}</span>
-                      <span className="text-caption text-charcoal-400">
+                      <span className="text-caption text-charcoal-500">
                         {post.readTime}
                       </span>
                     </div>
@@ -215,7 +215,7 @@ const BlogPage = () => {
                     <p className="text-body text-charcoal-600 mb-4 line-clamp-2">
                       {post.excerpt}
                     </p>
-                    <time className="text-caption text-charcoal-400">
+                    <time className="text-caption text-charcoal-500">
                       {new Date(post.date).toLocaleDateString(i18n.language, {
                         year: 'numeric',
                         month: 'long',

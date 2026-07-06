@@ -76,7 +76,7 @@ const FeaturedPosts = () => {
           </div>
           <Link
             to="/blog"
-            className="mt-4 sm:mt-0 text-sage-600 font-medium hover:text-sage-700 transition-colors inline-flex items-center gap-2"
+            className="mt-4 sm:mt-0 min-h-[44px] text-sage-600 font-medium hover:text-sage-700 transition-colors inline-flex items-center gap-2"
           >
             View all posts
             <svg
@@ -105,7 +105,7 @@ const FeaturedPosts = () => {
             >
               <div className="flex items-center gap-3 mb-3">
                 <span className="tag">{post.category}</span>
-                <span className="text-caption text-charcoal-400">
+                <span className="text-caption text-charcoal-500">
                   {post.readTime}
                 </span>
               </div>
@@ -115,7 +115,7 @@ const FeaturedPosts = () => {
               <p className="text-body text-charcoal-600 mb-4 line-clamp-2">
                 {post.excerpt}
               </p>
-              <time className="text-caption text-charcoal-400 block mb-4">
+              <time className="text-caption text-charcoal-500 block mb-4">
                 {new Date(post.date).toLocaleDateString(i18n.language, {
                   year: 'numeric',
                   month: 'long',
