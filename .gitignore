@@ -23,3 +23,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Photography pipeline: full-res originals stay local; derivatives in
+# public/photos/ and src/content/photos/manifest.json are committed.
+photos/originals/

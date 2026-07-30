@@ -13,7 +13,9 @@
     "test:headed": "playwright test --headed",
     "test:accessibility": "playwright test tests/accessibility.spec.ts tests/visual-accessibility.spec.ts tests/theme-accessibility.spec.ts",
     "test:debug": "playwright test --debug",
-    "blog:new": "./create-blog-post.sh"
+    "blog:new": "./create-blog-post.sh",
+    "photos:build": "node scripts/photos-ingest.mjs",
+    "photos:rebuild": "node scripts/photos-ingest.mjs --force"
   },
   "dependencies": {
     "buffer": "^6.0.3",
@@ -42,8 +44,10 @@
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "exifr": "^7.1.3",
     "globals": "^16.0.0",
     "postcss": "^8.5.4",
+    "sharp": "^0.35.3",
     "tailwindcss": "^3.4.17",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.30.1",

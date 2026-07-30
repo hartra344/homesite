@@ -42,6 +42,7 @@ const Header = () => {
   };
 
   const isOnBlogPage = location.pathname === '/blog' || location.pathname.startsWith('/blog/');
+  const isOnPhotosPage = location.pathname === '/photos';
 
   return (
     <>
@@ -96,6 +97,17 @@ const Header = () => {
                 aria-label="Navigate to blog"
               >
                 {t('nav.blog')}
+              </Link>
+              <Link
+                to="/photos"
+                className={`text-body font-medium transition-colors duration-200 ${
+                  isOnPhotosPage
+                    ? 'text-sage-600'
+                    : 'text-charcoal-600 hover:text-charcoal-900'
+                }`}
+                aria-label="Navigate to photography"
+              >
+                {t('nav.photos', 'Photos')}
               </Link>
               <a
                 href="#contact"
@@ -165,6 +177,18 @@ const Header = () => {
                   aria-label="Navigate to blog"
                 >
                   {t('nav.blog')}
+                </Link>
+                <Link
+                  to="/photos"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className={`block py-3 px-4 rounded-lg min-h-[44px] flex items-center transition-colors duration-200 ${
+                    isOnPhotosPage
+                      ? 'text-sage-600 bg-sage-50'
+                      : 'text-charcoal-600 hover:text-charcoal-900 hover:bg-sage-50'
+                  }`}
+                  aria-label="Navigate to photography"
+                >
+                  {t('nav.photos', 'Photos')}
                 </Link>
                 <a
                   href="#contact"

@@ -4,7 +4,14 @@
     "about": "About",
     "experience": "Experience",
     "blog": "Blog",
+    "photos": "Photos",
     "contact": "Contact"
+  },
+  "photography": {
+    "title": "Photography",
+    "subtitle": "Frames from the flight deck and the ground, with the camera, glass, and settings behind each shot.",
+    "emptyTitle": "No photos yet",
+    "emptyBody": "The gallery is being loaded — check back soon."
   },
   "hero": {
     "badge": "Principal Engineer",
