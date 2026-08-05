@@ -1,8 +1,8 @@
 [
   {
-    "title": "Dsc00121",
-    "caption": "",
-    "location": "",
+    "title": "Red-Winged Blackbird",
+    "caption": "Perched on the brick edge of a pond, epaulets flashing against the green water.",
+    "location": "Key West, FL",
     "featured": false,
     "published": true,
     "id": "dsc00121",
@@ -25,9 +25,9 @@
     }
   },
   {
-    "title": "Dsc00065",
-    "caption": "",
-    "location": "",
+    "title": "Right of Way",
+    "caption": "A rooster crosses mid-street at a full strut, tail feathers catching the sun.",
+    "location": "Key West, FL",
     "featured": false,
     "published": true,
     "id": "dsc00065",
@@ -50,9 +50,9 @@
     }
   },
   {
-    "title": "Dsc00012",
-    "caption": "",
-    "location": "",
+    "title": "Portrait in White",
+    "caption": "Natural-light portrait in white linen, shot wide open in the shade of a breezeway.",
+    "location": "Key West, FL",
     "featured": false,
     "published": true,
     "id": "dsc00012",

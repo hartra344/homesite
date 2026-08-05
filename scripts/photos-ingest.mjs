@@ -14,6 +14,11 @@
  *      fields (title, caption, location, featured, published, order) are
  *      preserved across re-runs; camera data and image paths are refreshed.
  *
+ * If the original is geotagged and `location` hasn't been curated yet, the
+ * coordinates are reverse-geocoded (Nominatim/OpenStreetMap) to a coarse
+ * "City, Region" label at ingest time. Only that label ever reaches the
+ * manifest — exact coordinates are never written anywhere.
+ *
  * Originals are gitignored; only the derivatives and manifest are committed.
  */
 
@@ -66,6 +71,39 @@ const formatShutter = (seconds) => {
 };
 
 const formatFocal = (mm) => (mm ? `${Math.round(mm)}mm` : null);
+
+/**
+ * Coarse place label ("Key West, FL" / "Reykjavík, Iceland") from GPS.
+ * Nominatim asks for at most 1 request/second; ingest is throttled below.
+ */
+const reverseGeocode = async (lat, lon) => {
+  const url =
+    `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}` +
+    `&format=jsonv2&zoom=10&accept-language=en`;
+  try {
+    const res = await fetch(url, {
+      headers: { "User-Agent": "travis.dev-photo-pipeline/1.0" },
+    });
+    if (!res.ok) return null;
+    const { address } = await res.json();
+    if (!address) return null;
+    const place =
+      address.city || address.town || address.village || address.municipality ||
+      address.county || null;
+    if (!place) return null;
+    // US: "City, FL" via the ISO region code; elsewhere: "City, Country".
+    const iso = address["ISO3166-2-lvl4"];
+    const region =
+      address.country_code === "us" && iso
+        ? iso.split("-")[1]
+        : address.country;
+    return region ? `${place}, ${region}` : place;
+  } catch {
+    return null;
+  }
+};
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const extractExif = async (filePath) => {
   const raw = await exifr.parse(filePath, {
@@ -151,6 +189,20 @@ const main = async () => {
     const { exif, dateTaken } = await extractExif(filePath);
     const meta = await sharp(filePath).rotate().metadata();
 
+    // Auto-fill location from GPS only when it hasn't been curated by hand.
+    let location = existing?.location ?? "";
+    if (!location) {
+      const gps = await exifr.gps(filePath).catch(() => null);
+      if (gps?.latitude != null && gps?.longitude != null) {
+        const place = await reverseGeocode(gps.latitude, gps.longitude);
+        if (place) {
+          location = place;
+          console.log(`    ⌖ geotag resolved to ${place}`);
+        }
+        await sleep(1100); // Nominatim rate limit: 1 req/s
+      }
+    }
+
     await renderDerivative(filePath, path.join(OUTPUT_DIR, thumbName), THUMB_WIDTH);
     await renderDerivative(filePath, path.join(OUTPUT_DIR, fullName), FULL_WIDTH);
 
@@ -158,7 +210,7 @@ const main = async () => {
       // Curated fields — edit these in the manifest; re-runs won't touch them.
       title: existing?.title ?? titleFromSlug(id),
       caption: existing?.caption ?? "",
-      location: existing?.location ?? "",
+      location,
       featured: existing?.featured ?? false,
       published: existing?.published ?? true,
       // Pipeline-owned fields — refreshed on every run.

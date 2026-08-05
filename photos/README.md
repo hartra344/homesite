@@ -8,7 +8,10 @@
    updates `src/content/photos/manifest.json`.
 3. Optionally edit the manifest: `title`, `caption`, `location`, `featured`,
    and `published` are yours to curate and survive re-runs. Everything else
-   is regenerated.
+   is regenerated. If an original is geotagged (e.g. Sony body paired with
+   the Creators' App) and `location` is empty, the pipeline reverse-geocodes
+   it to a coarse "City, Region" label — exact coordinates are never written
+   to the manifest or the published files.
 4. Commit `public/photos/` and the manifest. Originals never leave this
    machine (`photos/originals/` is gitignored), and GPS/serial EXIF is
    stripped from the published files.
