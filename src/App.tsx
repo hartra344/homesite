@@ -8,6 +8,7 @@ import FeaturedPosts from './components/FeaturedPosts.tsx';
 import BlogPage from './components/BlogPage.tsx';
 import BlogPost from './components/BlogPost.tsx';
 import PhotographyPage from './components/PhotographyPage.tsx';
+import TravelPage from './components/TravelPage.tsx';
 import Contact from './components/Contact.tsx';
 import Footer from './components/Footer.tsx';
 import FlightEasterEgg from './components/FlightEasterEgg.tsx';
@@ -49,6 +50,7 @@ function App() {
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/photos" element={<PhotographyPage />} />
+            <Route path="/travel" element={<TravelPage />} />
           </Routes>
           <Footer />
         </div>

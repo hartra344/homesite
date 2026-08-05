@@ -5,7 +5,14 @@
     "experience": "Experience",
     "blog": "Blog",
     "photos": "Photos",
+    "travel": "Travel",
     "contact": "Contact"
+  },
+  "travel": {
+    "title": "Travel",
+    "subtitle": "Every country gets a waypoint on the chart — the route log of everywhere flying and wandering have taken me so far.",
+    "chartAria": "World chart plotting the countries I have visited",
+    "visitedTitle": "Where I've been"
   },
   "photography": {
     "title": "Photography",
