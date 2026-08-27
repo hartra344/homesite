@@ -12,7 +12,7 @@ import { destinations } from '../content/travel/destinations';
 
 // EXIF data labels are intentionally hardcoded English, matching the
 // mono readout labels elsewhere on the site.
-const ExifStrip = ({ photo }: { photo: Photo }) => {
+const ExifStrip = ({ photo, vertical = false }: { photo: Photo; vertical?: boolean }) => {
   const { exif } = photo;
   if (!exif) return null;
 
@@ -26,7 +26,11 @@ const ExifStrip = ({ photo }: { photo: Photo }) => {
   ].filter((f) => f.value);
 
   return (
-    <dl className="flex flex-wrap gap-x-8 gap-y-3 border-t border-dashed border-charcoal-500 pt-4">
+    <dl
+      className={`border-t border-dashed border-charcoal-500 pt-4 ${
+        vertical ? 'grid grid-cols-2 gap-x-5 gap-y-4' : 'flex flex-wrap gap-x-8 gap-y-3'
+      }`}
+    >
       {fields.map((field) => (
         <div key={field.label}>
           <dt className="font-mono text-[0.65rem] tracking-[0.2em] text-charcoal-300 mb-0.5">
@@ -55,6 +59,14 @@ const Lightbox = ({
   const photo = photos[index];
   const hasPrev = index > 0;
   const hasNext = index < photos.length - 1;
+  const isPortrait = photo.height > photo.width;
+  const formattedDate = photo.dateTaken
+    ? new Date(photo.dateTaken).toLocaleDateString(i18n.language, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      })
+    : null;
 
   useEffect(() => {
     closeButtonRef.current?.focus();
@@ -79,26 +91,30 @@ const Lightbox = ({
       role="dialog"
       aria-modal="true"
       aria-label={photo.title}
-      className="fixed inset-0 z-[60] bg-charcoal-900/95 backdrop-blur-sm flex items-center justify-center p-4 sm:p-8"
+      className="fixed inset-0 z-[60] bg-black/80 backdrop-blur-sm flex items-center justify-center p-0 sm:p-3"
       onClick={onClose}
     >
       <div
-        className="max-w-5xl w-full max-h-full overflow-y-auto rounded-2xl bg-charcoal-800 shadow-2xl"
+        className={`w-full h-[100dvh] sm:h-[calc(100dvh-1.5rem)] sm:rounded-2xl overflow-hidden bg-charcoal-900 shadow-2xl flex flex-col ${
+          isPortrait
+            ? 'lg:grid lg:grid-cols-[minmax(0,1fr)_22rem] lg:max-w-[min(96vw,100rem)]'
+            : 'max-w-[100rem]'
+        }`}
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="relative bg-charcoal-900 flex items-center justify-center">
+        <div className="relative min-h-0 flex-1 bg-black flex items-center justify-center overflow-hidden">
           <img
             src={photo.images.full}
             alt={photo.title}
             width={photo.width}
             height={photo.height}
-            className="w-full h-auto max-h-[62vh] object-contain"
+            className="w-full h-full object-contain"
           />
           <button
             ref={closeButtonRef}
             onClick={onClose}
             aria-label="Close photo viewer"
-            className="absolute top-3 right-3 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-full bg-charcoal-900/70 text-cream hover:bg-charcoal-900 focus:outline-none focus:ring-2 focus:ring-sage-400 transition-colors"
+            className="absolute top-3 right-3 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-full bg-charcoal-900/75 text-cream shadow-lg hover:bg-charcoal-900 focus:outline-none focus:ring-2 focus:ring-sage-400 transition-colors"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -108,7 +124,7 @@ const Lightbox = ({
             <button
               onClick={() => onNavigate(index - 1)}
               aria-label="Previous photo"
-              className="absolute left-3 top-1/2 -translate-y-1/2 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-full bg-charcoal-900/70 text-cream hover:bg-charcoal-900 focus:outline-none focus:ring-2 focus:ring-sage-400 transition-colors"
+              className="absolute left-3 top-1/2 -translate-y-1/2 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-full bg-charcoal-900/75 text-cream shadow-lg hover:bg-charcoal-900 focus:outline-none focus:ring-2 focus:ring-sage-400 transition-colors"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -119,7 +135,7 @@ const Lightbox = ({
             <button
               onClick={() => onNavigate(index + 1)}
               aria-label="Next photo"
-              className="absolute right-3 top-1/2 -translate-y-1/2 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-full bg-charcoal-900/70 text-cream hover:bg-charcoal-900 focus:outline-none focus:ring-2 focus:ring-sage-400 transition-colors"
+              className="absolute right-3 top-1/2 -translate-y-1/2 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-full bg-charcoal-900/75 text-cream shadow-lg hover:bg-charcoal-900 focus:outline-none focus:ring-2 focus:ring-sage-400 transition-colors"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -128,32 +144,36 @@ const Lightbox = ({
           )}
         </div>
 
-        {/* Shot data panel, styled like the site's flight-data readouts */}
-        <div className="p-6 sm:p-8">
-          <div className="flex flex-wrap items-baseline justify-between gap-3 mb-1">
+        <div
+          className={`shrink-0 overflow-y-auto bg-charcoal-800 border-charcoal-700 p-5 sm:p-6 ${
+            isPortrait
+              ? 'max-h-[42dvh] border-t lg:max-h-none lg:h-full lg:border-t-0 lg:border-l lg:p-8'
+              : 'max-h-[38dvh] border-t lg:p-6'
+          }`}
+        >
+          <div
+            className={`gap-3 mb-1 ${
+              isPortrait
+                ? 'flex flex-wrap items-baseline justify-between lg:block'
+                : 'flex flex-wrap items-baseline justify-between'
+            }`}
+          >
             <h2 className="text-heading-2 font-semibold text-cream">{photo.title}</h2>
-            <span className="font-mono text-[0.65rem] tracking-[0.2em] text-charcoal-300">
+            <span
+              className={`font-mono text-[0.65rem] tracking-[0.2em] text-charcoal-300 ${
+                isPortrait ? 'lg:block lg:mt-3' : ''
+              }`}
+            >
               FRAME {String(index + 1).padStart(2, '0')} / {String(photos.length).padStart(2, '0')}
             </span>
           </div>
           <p className="text-caption text-charcoal-300 mb-4">
-            {[
-              photo.location,
-              photo.dateTaken
-                ? new Date(photo.dateTaken).toLocaleDateString(i18n.language, {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric',
-                  })
-                : null,
-            ]
-              .filter(Boolean)
-              .join(' · ')}
+            {[photo.location, formattedDate].filter(Boolean).join(' · ')}
           </p>
           {photo.caption && (
             <p className="text-body text-charcoal-200 mb-5 max-w-content">{photo.caption}</p>
           )}
-          <ExifStrip photo={photo} />
+          <ExifStrip photo={photo} vertical={isPortrait} />
         </div>
       </div>
     </div>
