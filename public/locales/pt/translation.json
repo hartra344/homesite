@@ -13,17 +13,18 @@
     "heading2": "& Software",
     "description": "work on a equipe de UX do Azure Logic Apps na",
     "company": "GitHub",
-    "descriptionCont": "ajudando milhões de desenvolvedores a construir development workflows em nuvem. Fora do trabalho, sou piloto privado e entusiasta da aviação.",
+    "descriptionCont": "ajudando milhões de desenvolvedores a construir development workflows em nuvem. Fora do trabalho, geralmente estou em algum lugar novo com a câmera a tiracolo.",
     "letsConnect": "Contate-me",
     "viewResume": "Currículo",
     "viewGitHub": "Ver GitHub",
-    "viewLinkedIn": "Ver LinkedIn"
+    "viewLinkedIn": "Ver LinkedIn",
+    "viewPhotos": "Ver as fotos"
   },
   "about": {
     "title": "Sobre Mim",
     "intro": "Sou Travis, um gerente de engenharia com experiência na Microsoft e Facebook. Atualmente, lidero uma equipe de 7 engenheiros trabalhando no Azure Logic Apps, focando em plataformas de integração que servem desenvolvedores globalmente.",
     "expertise": "Minha experiência abrange desenvolvimento web moderno, arquitetura em nuvem e sistemas distribuídos. Foco em construir equipes saudáveis que possam resolver desafios técnicos complexos e entregar software confiável.",
-    "personal": "Fora do trabalho, sou um piloto privado que aprecia a precisão da aviação. Também sou entusiasta de motocicletas e gosto de viajar para a Disney World. Esses interesses me ajudam a manter uma perspectiva equilibrada sobre liderança e vida.",
+    "personal": "Fora do trabalho, sou fotógrafo e viajante — persigo boa luz em lugares novos e volto para casa com mais fotos do que lembranças. Também sou entusiasta de motocicletas e gosto de viajar para a Disney World. Esses interesses me ajudam a manter uma perspectiva equilibrada sobre liderança e vida.",
     "tagline": "Focando na",
     "taglineHighlight": "experiência do desenvolvedor",
     "skills": {
@@ -40,8 +41,8 @@
     "interests": {
       "title": "Interesses",
       "items": {
-        "aviation": "Aviação",
-        "aviationDesc": "Piloto privado explorando os céus",
+        "photography": "Fotografia",
+        "photographyDesc": "Perseguindo a luz com a câmera na mão",
         "motorcycles": "Motocicletas",
         "motorcyclesDesc": "Liberdade sobre duas rodas",
         "travel": "Viagem",
@@ -95,7 +96,7 @@
     }
   },
   "footer": {
-    "tagline": "Desenvolvedor de software, gerente e piloto amador construindo o futuro da enterprise platform solutions em nuvem.",
+    "tagline": "Desenvolvedor de software, gerente e fotógrafo viajante construindo o futuro da enterprise platform solutions em nuvem.",
     "quickLinks": "Links Rápidos",
     "professional": "Profissional",
     "copyright": "© {{year}} Travis Vu. Todos os direitos reservados."

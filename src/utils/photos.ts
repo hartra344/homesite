@@ -1,4 +1,5 @@
 import manifest from "../content/photos/manifest.json";
+import type { Destination } from "../content/travel/destinations";
 
 export interface PhotoExif {
   camera: string | null;
@@ -34,6 +35,34 @@ export const getPhotos = (): Photo[] =>
 
 export const getFeaturedPhotos = (): Photo[] =>
   getPhotos().filter((photo) => photo.featured);
+
+/** Every distinct location label with published photos, in manifest order. */
+export const getPhotoLocations = (): string[] => {
+  const seen = new Set<string>();
+  for (const photo of getPhotos()) {
+    if (photo.location) seen.add(photo.location);
+  }
+  return [...seen];
+};
+
+// Ingest writes coarse "City, Region" labels. US photos come out as
+// "City, ST" (two-letter state), international ones as "City, Country".
+const US_STATE_SUFFIX = /,\s*[A-Z]{2}$/;
+
+/** Whether a photo was shot in the given destination country. */
+export const photoMatchesDestination = (
+  photo: Photo,
+  destination: Destination
+): boolean => {
+  const location = photo.location ?? "";
+  if (!location) return false;
+  if (location.includes(destination.name)) return true;
+  if (destination.id === "usa" && US_STATE_SUFFIX.test(location)) return true;
+  return false;
+};
+
+export const getPhotosForDestination = (destination: Destination): Photo[] =>
+  getPhotos().filter((photo) => photoMatchesDestination(photo, destination));
 
 /** Compact settings line, e.g. "35mm · f/1.4 · 1/60s · ISO 800" */
 export const formatSettings = (exif: PhotoExif | null): string =>

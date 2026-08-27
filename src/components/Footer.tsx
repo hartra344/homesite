@@ -76,6 +76,22 @@ const Footer = () => {
               </li>
               <li>
                 <Link
+                  to="/photos"
+                  className="inline-flex items-center min-w-[44px] py-3.5 -my-3.5 text-charcoal-300 hover:text-white transition-colors text-sm"
+                >
+                  {t('nav.photos', 'Photos')}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/travel"
+                  className="inline-flex items-center min-w-[44px] py-3.5 -my-3.5 text-charcoal-300 hover:text-white transition-colors text-sm"
+                >
+                  {t('nav.travel', 'Travel')}
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/blog"
                   className="inline-flex items-center min-w-[44px] py-3.5 -my-3.5 text-charcoal-300 hover:text-white transition-colors text-sm"
                 >
@@ -108,7 +124,7 @@ const Footer = () => {
             © {currentYear} Travis Vu. {t('footer.rights')}
           </p>
           <p className="font-mono text-xs text-charcoal-300" aria-hidden="true">
-            KFMY · 26.59°N 81.86°W · psst — type "fly"
+            26.59°N 81.86°W · GEOTAGGED · psst — type "snap"
           </p>
         </div>
       </div>

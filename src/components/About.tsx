@@ -51,8 +51,8 @@ const About = () => {
               </h3>
               <ul className="space-y-3">
                 <li className="flex items-center gap-3 text-charcoal-600">
-                  <span className="w-8 h-8 flex items-center justify-center bg-sage-50 rounded-full text-lg">✈️</span>
-                  <span>{t('about.interests.items.aviationDesc')}</span>
+                  <span className="w-8 h-8 flex items-center justify-center bg-sage-50 rounded-full text-lg">📷</span>
+                  <span>{t('about.interests.items.photographyDesc')}</span>
                 </li>
                 <li className="flex items-center gap-3 text-charcoal-600">
                   <span className="w-8 h-8 flex items-center justify-center bg-sage-50 rounded-full text-lg">🏍️</span>

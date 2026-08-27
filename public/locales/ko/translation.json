@@ -13,17 +13,18 @@
     "heading2": "구축",
     "description": "저는 Microsoft에서 Azure Logic Apps UX 팀을 work on며",
     "company": "GitHub",
-    "descriptionCont": "수백만 명의 개발자가 development workflows을 구축하도록 돕고 있습니다. 업무 외에는 개인 조종사이자 항공 애호가입니다.",
+    "descriptionCont": "수백만 명의 개발자가 development workflows을 구축하도록 돕고 있습니다. 업무 외에는 카메라를 메고 새로운 곳을 여행하고 있습니다.",
     "letsConnect": "연락하기",
     "viewResume": "이력서 보기",
     "viewGitHub": "GitHub 보기",
-    "viewLinkedIn": "LinkedIn 보기"
+    "viewLinkedIn": "LinkedIn 보기",
+    "viewPhotos": "사진 보기"
   },
   "about": {
     "title": "소개",
     "intro": "저는 Microsoft와 Facebook에서 경험을 쌓은 엔지니어링 매니저 Travis입니다. 현재 Azure Logic Apps에서 7명의 엔지니어로 구성된 팀을 이끌며 전 세계 개발자에게 서비스를 제공하는 통합 플랫폼에 집중하고 있습니다.",
     "expertise": "제 배경은 최신 웹 개발, 클라우드 아키텍처 및 분산 시스템을 아우릅니다. 복잡한 기술적 과제를 해결하고 신뢰할 수 있는 소프트웨어를 제공할 수 있는 건강한 팀을 구축하는 데 중점을 둡니다.",
-    "personal": "업무 외에는 항공의 정밀함을 즐기는 개인 조종사입니다. 또한 오토바이 애호가이며 디즈니 월드 여행을 즐깁니다. 이러한 관심사는 리더십과 삶에 대한 균형 잡힌 시각을 유지하는 데 도움이 됩니다.",
+    "personal": "업무 외에는 사진가이자 여행자입니다. 새로운 곳에서 좋은 빛을 찾아다니고, 기념품보다 사진을 더 많이 가지고 돌아옵니다. 또한 오토바이 애호가이며 디즈니 월드 여행을 즐깁니다. 이러한 관심사는 리더십과 삶에 대한 균형 잡힌 시각을 유지하는 데 도움이 됩니다.",
     "tagline": "개발자 경험에",
     "taglineHighlight": "집중",
     "skills": {
@@ -40,8 +41,8 @@
     "interests": {
       "title": "관심사",
       "items": {
-        "aviation": "항공",
-        "aviationDesc": "하늘을 탐험하는 개인 조종사",
+        "photography": "사진",
+        "photographyDesc": "카메라를 들고 빛을 쫓다",
         "motorcycles": "오토바이",
         "motorcyclesDesc": "두 바퀴 위의 자유",
         "travel": "여행",
@@ -95,7 +96,7 @@
     }
   },
   "footer": {
-    "tagline": "enterprise platform solutions의 미래를 구축하는 소프트웨어 개발자, 매니저 및 아마추어 조종사.",
+    "tagline": "enterprise platform solutions의 미래를 구축하는 소프트웨어 개발자, 매니저, 그리고 여행하는 사진가.",
     "quickLinks": "빠른 링크",
     "professional": "전문적인",
     "copyright": "© {{year}} Travis Vu. All rights reserved."

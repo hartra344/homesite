@@ -10,13 +10,13 @@
   },
   "travel": {
     "title": "Travel",
-    "subtitle": "Every country gets a waypoint on the chart — the route log of everywhere flying and wandering have taken me so far.",
+    "subtitle": "Every country gets a pin on the map — and when the camera came along, the frames to prove it.",
     "chartAria": "World chart plotting the countries I have visited",
     "visitedTitle": "Where I've been"
   },
   "photography": {
     "title": "Photography",
-    "subtitle": "Frames from the flight deck and the ground, with the camera, glass, and settings behind each shot.",
+    "subtitle": "Frames from wherever the trip went, with the camera, glass, and settings behind each shot.",
     "emptyTitle": "No photos yet",
     "emptyBody": "The gallery is being loaded — check back soon."
   },
@@ -27,17 +27,18 @@
     "heading2": "& Software",
     "description": "I'm a Principal Engineer on the Enterprise Platform team at",
     "company": "GitHub",
-    "descriptionCont": "enabling organizations to scale their development workflows. Outside of work, I'm a private pilot and aviation enthusiast.",
+    "descriptionCont": "enabling organizations to scale their development workflows. Off the clock, I'm usually somewhere new with a camera over my shoulder.",
     "letsConnect": "Contact Me",
     "viewResume": "Resume",
     "viewGitHub": "GitHub",
-    "viewLinkedIn": "LinkedIn"
+    "viewLinkedIn": "LinkedIn",
+    "viewPhotos": "View the Photos"
   },
   "about": {
     "title": "About Me",
     "intro": "I'm Travis, a principal engineer with experience at GitHub, Microsoft, and Facebook. Currently, I work on GitHub's Enterprise Platform, building capabilities that help organizations scale their development workflows.",
     "expertise": "My background covers modern web development, cloud architecture, and distributed systems. I focus on building healthy teams that can solve complex technical challenges and deliver reliable software.",
-    "personal": "Outside of work, I'm a private pilot who enjoys the precision of aviation. I'm also a motorcycle enthusiast and enjoy traveling to Disney World. These interests help me maintain a balanced perspective on leadership and life.",
+    "personal": "Outside of work, I'm a photographer and a traveler — I chase good light in new places and bring home more frames than souvenirs. I'm also a motorcycle enthusiast and enjoy trips to Disney World. These interests help me maintain a balanced perspective on leadership and life.",
     "tagline": "Focusing on",
     "taglineHighlight": "developer experience",
     "skills": {
@@ -54,8 +55,8 @@
     "interests": {
       "title": "Interests",
       "items": {
-        "aviation": "Aviation",
-        "aviationDesc": "Private pilot exploring the skies",
+        "photography": "Photography",
+        "photographyDesc": "Chasing light with a camera in hand",
         "motorcycles": "Motorcycles",
         "motorcyclesDesc": "Freedom on two wheels",
         "travel": "Travel",
@@ -109,7 +110,7 @@
     }
   },
   "footer": {
-    "tagline": "Principal engineer and amateur pilot building enterprise platform solutions at GitHub.",
+    "tagline": "Principal engineer and traveling photographer building enterprise platform solutions at GitHub.",
     "quickLinks": "Quick Links",
     "professional": "Professional",
     "resume": "Resume",

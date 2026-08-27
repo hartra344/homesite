@@ -13,17 +13,18 @@
     "heading2": "與軟件",
     "description": "我帶領 Azure Logic Apps UX 團隊在",
     "company": "GitHub",
-    "descriptionCont": "幫助數百萬開發者建立雲端整合。工作以外，我係一名私人機師同航空愛好者。",
+    "descriptionCont": "幫助數百萬開發者建立雲端整合。工作以外，我通常喺新嘅地方，膊頭孭住部相機。",
     "letsConnect": "聯絡我",
     "viewResume": "履歷",
     "viewGitHub": "睇 GitHub",
-    "viewLinkedIn": "睇 LinkedIn"
+    "viewLinkedIn": "睇 LinkedIn",
+    "viewPhotos": "睇相"
   },
   "about": {
     "title": "關於我",
     "intro": "我係 Travis，一名喺微軟同 Facebook 擁有豐富經驗嘅工程經理。目前，我帶領住一個由 7 名工程師組成嘅團隊，致力於 Azure Logic Apps，專注於服務全球開發者嘅整合平台。",
     "expertise": "我嘅背景涵蓋現代 Web 開發、雲端架構同分佈式系統。我專注於建立健康嘅團隊，能夠解決複雜嘅技術挑戰並交付可靠嘅軟件。",
-    "personal": "工作以外，我係一名私人機師，享受航空嘅精準。我都係一名電單車愛好者，鍾意去迪士尼世界旅行。呢啲興趣幫助我喺領導力同生活之間保持平衡嘅視角。",
+    "personal": "工作以外，我係一個攝影師同旅人 — 喺新嘅地方追逐靚光，帶返屋企嘅相多過手信。我都係一名電單車愛好者，鍾意去迪士尼世界旅行。呢啲興趣幫助我喺領導力同生活之間保持平衡嘅視角。",
     "tagline": "專注於",
     "taglineHighlight": "開發者體驗",
     "skills": {
@@ -40,8 +41,8 @@
     "interests": {
       "title": "興趣",
       "items": {
-        "aviation": "航空",
-        "aviationDesc": "探索天空嘅私人機師",
+        "photography": "攝影",
+        "photographyDesc": "攞住相機追光",
         "motorcycles": "電單車",
         "motorcyclesDesc": "兩輪上嘅自由",
         "travel": "旅行",
@@ -95,7 +96,7 @@
     }
   },
   "footer": {
-    "tagline": "軟件開發人員、經理同業餘機師，建立雲端整合嘅未來。",
+    "tagline": "軟件開發人員、經理同鍾意旅行嘅攝影師，建立雲端整合嘅未來。",
     "quickLinks": "快速連結",
     "professional": "專業",
     "copyright": "© {{year}} Travis Vu. 保留所有權利。"

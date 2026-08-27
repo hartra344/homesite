@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import type { Destination } from '../content/travel/destinations';
 import { destinations } from '../content/travel/destinations';
 import { PROJ_SCALE, WORLD_PATH } from '../content/travel/world-path';
+import { getPhotos, getPhotosForDestination } from '../utils/photos';
 
-// Aviation-style data labels are intentionally hardcoded English,
-// matching GATE/WPT/LEG elsewhere on the site.
+// Mono data labels are intentionally hardcoded English, matching the
+// EXIF readouts elsewhere on the site.
 
 // Equirectangular projection onto a 1080×540 plane, matching the generated
 // WORLD_PATH landmass silhouette (see scripts/travel-world-path.mjs).
@@ -57,10 +59,10 @@ const RouteChart = ({ places }: { places: Destination[] }) => {
     <div className="rounded-2xl bg-charcoal-800 border border-charcoal-700 p-5 sm:p-7 shadow-lg">
       <div className="flex flex-wrap items-baseline justify-between gap-2 mb-4">
         <span className="font-mono text-[0.65rem] tracking-[0.25em] text-charcoal-300">
-          ROUTE CHART · N416TV
+          FIELD ATLAS
         </span>
         <span className="font-mono text-[0.65rem] tracking-[0.25em] text-charcoal-300">
-          NOT FOR NAVIGATION
+          SHOT ON LOCATION
         </span>
       </div>
 
@@ -143,31 +145,62 @@ const RouteChart = ({ places }: { places: Destination[] }) => {
   );
 };
 
-const DestinationCard = ({ destination }: { destination: Destination }) => (
-  <article className="card h-full">
-    <div className="flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-[0.72rem] tracking-wider text-charcoal-500 border-b border-dashed border-sage-200 pb-3 mb-4">
-      <span className="text-sage-600 font-semibold tracking-[0.2em]">
-        {destination.code}
-      </span>
-      {destination.home && <span aria-hidden="true">· HOME BASE</span>}
-      <span className="ml-auto">{destination.continent.toUpperCase()}</span>
-    </div>
-    <h3 className="text-heading-3 font-semibold text-charcoal-900">
-      {destination.name}
-    </h3>
-    {destination.note && (
-      <p className="text-body text-charcoal-600 leading-relaxed mt-2">{destination.note}</p>
-    )}
-  </article>
-);
+const DestinationCard = ({ destination }: { destination: Destination }) => {
+  const photos = getPhotosForDestination(destination);
+  const cover = photos[0];
+
+  return (
+    <article className="card h-full flex flex-col overflow-hidden">
+      {cover && (
+        <Link
+          to={`/photos?dest=${destination.id}`}
+          aria-label={`View photos from ${destination.name}`}
+          className="block -mx-6 -mt-6 mb-5 focus:outline-none focus:ring-2 focus:ring-sage-400"
+        >
+          <img
+            src={cover.images.thumb}
+            alt={cover.title}
+            width={cover.width}
+            height={cover.height}
+            loading="lazy"
+            className={`w-full h-44 object-cover ${cover.height > cover.width ? 'object-top' : ''}`}
+          />
+        </Link>
+      )}
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-[0.72rem] tracking-wider text-charcoal-500 border-b border-dashed border-sage-200 pb-3 mb-4">
+        <span className="text-sage-600 font-semibold tracking-[0.2em]">
+          {destination.code}
+        </span>
+        {destination.home && <span aria-hidden="true">· HOME BASE</span>}
+        <span className="ml-auto">{destination.continent.toUpperCase()}</span>
+      </div>
+      <h3 className="text-heading-3 font-semibold text-charcoal-900">
+        {destination.name}
+      </h3>
+      {destination.note && (
+        <p className="text-body text-charcoal-600 leading-relaxed mt-2">{destination.note}</p>
+      )}
+      {photos.length > 0 && (
+        <Link
+          to={`/photos?dest=${destination.id}`}
+          className="font-mono text-[0.7rem] tracking-[0.15em] text-sage-600 hover:text-sage-500 transition-colors mt-4 pt-3 border-t border-dashed border-sage-200 inline-flex items-center gap-1.5 self-start focus:outline-none focus:ring-2 focus:ring-sage-400 rounded"
+        >
+          {String(photos.length).padStart(2, '0')} FRAME{photos.length === 1 ? '' : 'S'} →
+        </Link>
+      )}
+    </article>
+  );
+};
 
 const TravelPage = () => {
   const { t } = useTranslation();
   const continents = new Set(destinations.map((d) => d.continent));
+  const frameCount = getPhotos().length;
 
   const stats = [
     { label: 'COUNTRIES', value: String(destinations.length).padStart(2, '0') },
     { label: 'CONTINENTS', value: String(continents.size).padStart(2, '0') },
+    { label: 'FRAMES', value: String(frameCount).padStart(2, '0') },
   ];
 
   return (
@@ -175,7 +208,7 @@ const TravelPage = () => {
       <div className="max-w-container mx-auto px-6 lg:px-8">
         <div className="mb-10">
           <p className="font-mono text-[0.7rem] tracking-[0.25em] text-sage-600 mb-3">
-            DEPARTURES · ARRIVALS
+            PASSPORT · CAMERA BAG
           </p>
           <h1 className="text-display-2 font-semibold text-charcoal-900 mb-4">
             {t('travel.title', 'Travel')}
@@ -183,7 +216,7 @@ const TravelPage = () => {
           <p className="text-body-lg text-charcoal-600 max-w-2xl">
             {t(
               'travel.subtitle',
-              'Every country gets a waypoint on the chart — the route log of everywhere flying and wandering have taken me so far.'
+              'Every country gets a pin on the map — and when the camera came along, the frames to prove it.'
             )}
           </p>
         </div>
@@ -203,7 +236,7 @@ const TravelPage = () => {
 
         <section aria-labelledby="travel-visited" className="mt-14">
           <p className="font-mono text-caption text-sage-600 mb-2" aria-hidden="true">
-            ✈ LOGBOOK — COMPLETED
+            ⌖ FIELD NOTES — BY COUNTRY
           </p>
           <h2
             id="travel-visited"

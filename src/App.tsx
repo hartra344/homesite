@@ -11,7 +11,7 @@ import PhotographyPage from './components/PhotographyPage.tsx';
 import TravelPage from './components/TravelPage.tsx';
 import Contact from './components/Contact.tsx';
 import Footer from './components/Footer.tsx';
-import FlightEasterEgg from './components/FlightEasterEgg.tsx';
+import ShutterEasterEgg from './components/ShutterEasterEgg.tsx';
 
 // Homepage component with focused sections
 function HomePage() {
@@ -43,7 +43,7 @@ function App() {
     <Suspense fallback={<LoadingFallback />}>
       <Router>
         <div className="min-h-screen bg-cream">
-          <FlightEasterEgg />
+          <ShutterEasterEgg />
           <Header />
           <Routes>
             <Route path="/" element={<HomePage />} />

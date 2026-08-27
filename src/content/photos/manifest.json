@@ -1,5 +1,155 @@
 [
   {
+    "title": "The Eyes of Madrid",
+    "caption": "",
+    "location": "Madrid, Spain",
+    "featured": false,
+    "published": true,
+    "id": "dsc00207",
+    "original": "DSC00207.jpeg",
+    "dateTaken": "2026-08-24T18:51:46.000Z",
+    "width": 1615,
+    "height": 2048,
+    "images": {
+      "thumb": "/photos/dsc00207-800.webp",
+      "full": "/photos/dsc00207-2000.webp"
+    },
+    "exif": {
+      "camera": "Sony ILCE-7RM6",
+      "lens": "FE 70-200mm F2.8 GM OSS II",
+      "focalLength": "70mm",
+      "focalLength35": "70mm",
+      "aperture": "f/5",
+      "shutter": "1/200s",
+      "iso": 800
+    }
+  },
+  {
+    "title": "A Passing Glance",
+    "caption": "",
+    "location": "Madrid, Spain",
+    "featured": false,
+    "published": true,
+    "id": "dsc00175",
+    "original": "DSC00175.jpeg",
+    "dateTaken": "2026-08-24T18:34:59.000Z",
+    "width": 1365,
+    "height": 2048,
+    "images": {
+      "thumb": "/photos/dsc00175-800.webp",
+      "full": "/photos/dsc00175-2000.webp"
+    },
+    "exif": {
+      "camera": "Sony ILCE-7RM6",
+      "lens": "FE 70-200mm F2.8 GM OSS II",
+      "focalLength": "70mm",
+      "focalLength35": "70mm",
+      "aperture": "f/2.8",
+      "shutter": "1/250s",
+      "iso": 400
+    }
+  },
+  {
+    "title": "Down to the City",
+    "caption": "",
+    "location": "Madrid, Spain",
+    "featured": false,
+    "published": true,
+    "id": "dsc00165",
+    "original": "DSC00165.jpeg",
+    "dateTaken": "2026-08-24T18:34:29.000Z",
+    "width": 2047,
+    "height": 2048,
+    "images": {
+      "thumb": "/photos/dsc00165-800.webp",
+      "full": "/photos/dsc00165-2000.webp"
+    },
+    "exif": {
+      "camera": "Sony ILCE-7RM6",
+      "lens": "FE 70-200mm F2.8 GM OSS II",
+      "focalLength": "77mm",
+      "focalLength35": "77mm",
+      "aperture": "f/5.6",
+      "shutter": "1/250s",
+      "iso": 500
+    }
+  },
+  {
+    "title": "Cab on the Cobblestones",
+    "caption": "",
+    "location": "",
+    "featured": false,
+    "published": true,
+    "id": "dsc00160",
+    "original": "DSC00160.jpeg",
+    "dateTaken": "2026-08-24T18:33:03.000Z",
+    "width": 1365,
+    "height": 2048,
+    "images": {
+      "thumb": "/photos/dsc00160-800.webp",
+      "full": "/photos/dsc00160-2000.webp"
+    },
+    "exif": {
+      "camera": "Sony ILCE-7RM6",
+      "lens": "FE 70-200mm F2.8 GM OSS II",
+      "focalLength": "79mm",
+      "focalLength35": "79mm",
+      "aperture": "f/5.6",
+      "shutter": "1/320s",
+      "iso": 500
+    }
+  },
+  {
+    "title": "Balconies in Color",
+    "caption": "",
+    "location": "",
+    "featured": false,
+    "published": true,
+    "id": "dsc00058",
+    "original": "DSC00058.jpeg",
+    "dateTaken": "2026-08-23T11:08:41.000Z",
+    "width": 3824,
+    "height": 3824,
+    "images": {
+      "thumb": "/photos/dsc00058-800.webp",
+      "full": "/photos/dsc00058-2000.webp"
+    },
+    "exif": {
+      "camera": "Sony ILCE-7RM6",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": "70mm",
+      "focalLength35": "105mm",
+      "aperture": "f/5",
+      "shutter": "1/250s",
+      "iso": 125
+    }
+  },
+  {
+    "title": "Last Light on the Rail",
+    "caption": "",
+    "location": "",
+    "featured": false,
+    "published": true,
+    "id": "dsc00023",
+    "original": "DSC00023.jpeg",
+    "dateTaken": "2026-08-20T12:51:22.000Z",
+    "width": 9984,
+    "height": 6656,
+    "images": {
+      "thumb": "/photos/dsc00023-800.webp",
+      "full": "/photos/dsc00023-2000.webp"
+    },
+    "exif": {
+      "camera": "Sony ILCE-7RM6",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": "25mm",
+      "focalLength35": "25mm",
+      "aperture": "f/2.8",
+      "shutter": "1/250s",
+      "iso": 100
+    }
+  },
+  {
     "title": "Red-Winged Blackbird",
     "caption": "Perched on the brick edge of a pond, epaulets flashing against the green water.",
     "location": "Key West, FL",

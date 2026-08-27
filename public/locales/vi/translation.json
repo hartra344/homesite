@@ -13,17 +13,18 @@
     "heading2": "& Phần mềm",
     "description": "Tôi lãnh đạo nhóm UX của Azure Logic Apps tại",
     "company": "GitHub",
-    "descriptionCont": "giúp hàng triệu lập trình viên xây dựng các tích hợp development workflows. Ngoài công việc, tôi là phi công tư nhân và đam mê hàng không.",
+    "descriptionCont": "giúp hàng triệu lập trình viên xây dựng các tích hợp development workflows. Ngoài công việc, tôi thường ở một nơi mới nào đó với chiếc máy ảnh trên vai.",
     "letsConnect": "Liên hệ với tôi",
     "viewResume": "Sơ yếu lý lịch",
     "viewGitHub": "Xem GitHub",
-    "viewLinkedIn": "Xem LinkedIn"
+    "viewLinkedIn": "Xem LinkedIn",
+    "viewPhotos": "Xem ảnh"
   },
   "about": {
     "title": "Về tôi",
     "intro": "Tôi là Travis, một quản lý kỹ thuật với kinh nghiệm tại Microsoft và Facebook. Hiện tại, tôi lãnh đạo một nhóm gồm 7 kỹ sư làm việc trên Azure Logic Apps, tập trung vào các nền tảng tích hợp phục vụ các lập trình viên trên toàn cầu.",
     "expertise": "Nền tảng của tôi bao gồm phát triển web hiện đại, kiến trúc đám mây và hệ thống phân tán. Tôi tập trung vào việc xây dựng các đội ngũ lành mạnh có thể giải quyết các thách thức kỹ thuật phức tạp và cung cấp phần mềm đáng tin cậy.",
-    "personal": "Ngoài công việc, tôi là một phi công tư nhân thích sự chính xác của hàng không. Tôi cũng là người đam mê xe mô tô và thích đi du lịch đến Disney World. Những sở thích này giúp tôi duy trì một cái nhìn cân bằng về lãnh đạo và cuộc sống.",
+    "personal": "Ngoài công việc, tôi là một nhiếp ảnh gia và người mê xê dịch — tôi săn ánh sáng đẹp ở những vùng đất mới và mang về nhà nhiều bức ảnh hơn là quà lưu niệm. Tôi cũng là người đam mê xe mô tô và thích đi du lịch đến Disney World. Những sở thích này giúp tôi duy trì một cái nhìn cân bằng về lãnh đạo và cuộc sống.",
     "tagline": "Tập trung vào",
     "taglineHighlight": "trải nghiệm lập trình viên",
     "skills": {
@@ -40,8 +41,8 @@
     "interests": {
       "title": "Sở thích",
       "items": {
-        "aviation": "Hàng không",
-        "aviationDesc": "Phi công tư nhân khám phá bầu trời",
+        "photography": "Nhiếp ảnh",
+        "photographyDesc": "Săn ánh sáng với chiếc máy ảnh trên tay",
         "motorcycles": "Xe mô tô",
         "motorcyclesDesc": "Tự do trên hai bánh xe",
         "travel": "Du lịch",
@@ -95,7 +96,7 @@
     }
   },
   "footer": {
-    "tagline": "Lập trình viên phần mềm, quản lý và phi công nghiệp dư xây dựng tương lai của enterprise platform solutions.",
+    "tagline": "Lập trình viên phần mềm, quản lý và nhiếp ảnh gia mê xê dịch xây dựng tương lai của enterprise platform solutions.",
     "quickLinks": "Liên kết nhanh",
     "professional": "Chuyên nghiệp",
     "copyright": "© {{year}} Travis Vu. Đã đăng ký bản quyền."

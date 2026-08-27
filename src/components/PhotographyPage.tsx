@@ -1,10 +1,17 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import type { Photo } from '../utils/photos';
-import { getPhotos, formatSettings } from '../utils/photos';
+import {
+  getPhotos,
+  getPhotoLocations,
+  getPhotosForDestination,
+  formatSettings,
+} from '../utils/photos';
+import { destinations } from '../content/travel/destinations';
 
-// Aviation-style data labels are intentionally hardcoded English,
-// matching GATE/WPT/LEG elsewhere on the site.
+// EXIF data labels are intentionally hardcoded English, matching the
+// mono readout labels elsewhere on the site.
 const ExifStrip = ({ photo }: { photo: Photo }) => {
   const { exif } = photo;
   if (!exif) return null;
@@ -155,9 +162,35 @@ const Lightbox = ({
 
 const PhotographyPage = () => {
   const { t } = useTranslation();
-  const [photos] = useState<Photo[]>(() => getPhotos());
+  const [searchParams, setSearchParams] = useSearchParams();
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const openerRef = useRef<HTMLElement | null>(null);
+
+  const locations = useMemo(() => getPhotoLocations(), []);
+  const locParam = searchParams.get('loc');
+  const destParam = searchParams.get('dest');
+
+  // Travel-page cards link here with ?dest=<country id>; the chips use
+  // ?loc=<exact location label>. Either narrows the contact sheet.
+  const photos = useMemo<Photo[]>(() => {
+    if (destParam) {
+      const destination = destinations.find((d) => d.id === destParam);
+      if (destination) return getPhotosForDestination(destination);
+    }
+    if (locParam) {
+      return getPhotos().filter((photo) => photo.location === locParam);
+    }
+    return getPhotos();
+  }, [destParam, locParam]);
+
+  const activeDestination = destParam
+    ? destinations.find((d) => d.id === destParam)
+    : undefined;
+
+  const selectLocation = (location: string | null) => {
+    setOpenIndex(null);
+    setSearchParams(location ? { loc: location } : {}, { replace: true });
+  };
 
   const closeLightbox = useCallback(() => {
     setOpenIndex(null);
@@ -169,7 +202,7 @@ const PhotographyPage = () => {
       <div className="max-w-container mx-auto px-6 lg:px-8">
         <div className="mb-12">
           <p className="font-mono text-[0.7rem] tracking-[0.25em] text-sage-600 mb-3">
-            VFR · EYES OUTSIDE
+            ON LOCATION · CONTACT SHEET
           </p>
           <h1 className="text-display-2 font-semibold text-charcoal-900 mb-4">
             {t('photography.title', 'Photography')}
@@ -177,10 +210,49 @@ const PhotographyPage = () => {
           <p className="text-body-lg text-charcoal-600 max-w-2xl">
             {t(
               'photography.subtitle',
-              'Frames from the flight deck and the ground, with the camera, glass, and settings behind each shot.'
+              'Frames from wherever the trip went, with the camera, glass, and settings behind each shot.'
             )}
           </p>
         </div>
+
+        {(locations.length > 1 || activeDestination) && (
+          <div
+            className="flex flex-wrap items-center gap-2 mb-10"
+            role="group"
+            aria-label="Filter photos by location"
+          >
+            <button
+              onClick={() => selectLocation(null)}
+              aria-pressed={!locParam && !destParam}
+              className={`font-mono text-[0.7rem] tracking-[0.15em] px-3 py-1.5 rounded-full border transition-colors min-h-[32px] focus:outline-none focus:ring-2 focus:ring-sage-400 ${
+                !locParam && !destParam
+                  ? 'bg-sage-500 border-sage-500 text-white'
+                  : 'bg-paper border-sage-200 text-charcoal-600 hover:border-sage-300'
+              }`}
+            >
+              ALL
+            </button>
+            {activeDestination && (
+              <span className="font-mono text-[0.7rem] tracking-[0.15em] px-3 py-1.5 rounded-full border bg-sage-500 border-sage-500 text-white min-h-[32px] inline-flex items-center">
+                {activeDestination.name.toUpperCase()}
+              </span>
+            )}
+            {locations.map((location) => (
+              <button
+                key={location}
+                onClick={() => selectLocation(location)}
+                aria-pressed={locParam === location}
+                className={`font-mono text-[0.7rem] tracking-[0.15em] px-3 py-1.5 rounded-full border transition-colors min-h-[32px] focus:outline-none focus:ring-2 focus:ring-sage-400 ${
+                  locParam === location
+                    ? 'bg-sage-500 border-sage-500 text-white'
+                    : 'bg-paper border-sage-200 text-charcoal-600 hover:border-sage-300'
+                }`}
+              >
+                {location.toUpperCase()}
+              </button>
+            ))}
+          </div>
+        )}
 
         {photos.length > 0 ? (
           <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 [column-fill:_balance]">

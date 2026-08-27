@@ -1,8 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <!-- Flight Plan mark: paper plane climbing with a dashed contrail -->
+  <!-- Field Camera mark: rangefinder body with lens, matching the site's sage palette -->
   <rect width="32" height="32" rx="7" fill="#3d4c40"/>
-  <path d="M4 27 C 8.5 25.5, 11 21, 13.5 17" stroke="#FDFCFA" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="2.4 2.9" fill="none" opacity="0.7"/>
-  <g transform="translate(19.5 12.5) rotate(-22)">
-    <path d="M2.5 19l19-7-19-7v5l13 2-13 2v5z" fill="#FDFCFA" transform="scale(0.62) translate(-12 -12)"/>
-  </g>
+  <rect x="6" y="11" width="20" height="13" rx="2.5" fill="#FDFCFA"/>
+  <rect x="12.5" y="8.2" width="7" height="4.4" rx="1.5" fill="#FDFCFA"/>
+  <circle cx="16" cy="17.5" r="4.6" fill="#3d4c40"/>
+  <circle cx="16" cy="17.5" r="2.4" fill="#FDFCFA"/>
+  <circle cx="17.1" cy="16.5" r="0.8" fill="#3d4c40"/>
+  <circle cx="23" cy="14" r="1.1" fill="#3d4c40"/>
 </svg>

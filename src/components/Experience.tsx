@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 
 interface Leg {
   leg: string;
-  waypoint: string;
   location: string;
   company: string;
   role: string;
@@ -15,8 +14,7 @@ interface Leg {
 
 const legs: Leg[] = [
   {
-    leg: 'LEG 04',
-    waypoint: 'RSW',
+    leg: 'ROLL 04',
     location: 'Fort Myers, FL',
     company: 'GitHub',
     role: 'Principal Engineer',
@@ -30,8 +28,7 @@ const legs: Leg[] = [
     ],
   },
   {
-    leg: 'LEG 03',
-    waypoint: 'BFI',
+    leg: 'ROLL 03',
     location: 'Redmond, WA',
     company: 'Microsoft',
     role: 'Principal Software Engineering Manager',
@@ -46,8 +43,7 @@ const legs: Leg[] = [
     ],
   },
   {
-    leg: 'LEG 02',
-    waypoint: 'PAO',
+    leg: 'ROLL 02',
     location: 'Menlo Park, CA',
     company: 'Facebook',
     role: 'Software Engineer',
@@ -62,8 +58,7 @@ const legs: Leg[] = [
     ],
   },
   {
-    leg: 'LEG 01',
-    waypoint: 'RNT',
+    leg: 'ROLL 01',
     location: 'Redmond, WA',
     company: 'Microsoft',
     role: 'Senior Software Engineer',
@@ -109,10 +104,10 @@ const Experience = () => {
   return (
     <section id="experience" data-testid="experience" className="py-section-lg bg-stone">
       <div className="max-w-container mx-auto px-6 lg:px-8">
-        {/* Section header styled like a logbook heading */}
+        {/* Section header styled like a contact-sheet heading */}
         <div className="mb-12">
           <p className="font-mono text-caption text-sage-600 mb-2" aria-hidden="true">
-            ✈ PILOT'S LOGBOOK — N416TV
+            ◉ CAREER — FRAME BY FRAME
           </p>
           <h2 className="text-display-2 font-semibold text-charcoal-900 mb-4">
             {t('experience.title')}
@@ -129,7 +124,7 @@ const Experience = () => {
             className="absolute left-[15px] md:left-[27px] top-2 bottom-2 w-px border-l-2 border-dashed border-sage-300"
             aria-hidden="true"
           />
-          {/* Plane that flies down the route as you scroll */}
+          {/* Focus reticle that tracks down the timeline as you scroll */}
           <div
             className="absolute left-[15px] md:left-[27px] -ml-[13px] z-10 pointer-events-none"
             style={{ top: `calc((100% - 34px) * ${progress} + 8px)` }}
@@ -138,10 +133,16 @@ const Experience = () => {
             <svg
               className="w-[26px] h-[26px] text-sage-600 drop-shadow-sm"
               viewBox="0 0 24 24"
-              fill="currentColor"
-              style={{ transform: 'rotate(90deg)' }}
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
             >
-              <path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" />
+              <circle cx="12" cy="12" r="7" />
+              <line x1="12" y1="1.5" x2="12" y2="5" />
+              <line x1="12" y1="19" x2="12" y2="22.5" />
+              <line x1="1.5" y1="12" x2="5" y2="12" />
+              <line x1="19" y1="12" x2="22.5" y2="12" />
             </svg>
           </div>
 
@@ -165,13 +166,9 @@ const Experience = () => {
                 </span>
 
                 <article className="card hover:-translate-y-0.5">
-                  {/* Logbook header row */}
+                  {/* Roll header row */}
                   <div className="flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-[0.72rem] tracking-wider text-charcoal-500 border-b border-dashed border-sage-200 pb-3 mb-4">
                     <span className="text-sage-600 font-semibold">{leg.leg}</span>
-                    <span aria-hidden="true">·</span>
-                    <span>
-                      WPT <span className="text-charcoal-600 font-semibold">{leg.waypoint}</span>
-                    </span>
                     <span aria-hidden="true">·</span>
                     <span>{leg.location.toUpperCase()}</span>
                     <span className="ml-auto tag !py-0.5 font-mono">

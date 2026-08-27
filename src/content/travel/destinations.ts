@@ -2,18 +2,18 @@ export type LabelPlacement = 'top' | 'bottom' | 'left' | 'right';
 
 export interface Destination {
   id: string;
-  /** Representative gateway airport code, used as the chart waypoint label */
+  /** Gateway airport code — luggage-tag shorthand, used as the map pin label */
   code: string;
   /** Country or territory name */
   name: string;
   continent: string;
-  /** Waypoint position in decimal degrees; positive = north / east */
+  /** Pin position in decimal degrees; positive = north / east */
   lat: number;
   lon: number;
   note?: string;
-  /** Which side of the waypoint the chart label sits on (default 'right') */
+  /** Which side of the pin the map label sits on (default 'right') */
   labelPlacement?: LabelPlacement;
-  /** Chart-only marker displacement (SVG units) to declutter near-coincident waypoints */
+  /** Map-only marker displacement (SVG units) to declutter near-coincident pins */
   nudge?: { x?: number; y?: number };
   /** Home base gets the double-ring marker */
   home?: boolean;
@@ -27,7 +27,7 @@ export const destinations: Destination[] = [
     continent: 'North America',
     lat: 26.54,
     lon: -81.76,
-    note: 'Home base — where N416TV lives.',
+    note: 'Home base — where the camera bag gets unpacked and repacked.',
     labelPlacement: 'bottom',
     home: true,
   },
@@ -38,7 +38,7 @@ export const destinations: Destination[] = [
     continent: 'North America',
     lat: 49.19,
     lon: -123.18,
-    note: 'Seaplanes in the harbor, mountains on final — Vancouver knows how to stage an arrival.',
+    note: 'Seaplanes in the harbor, mountains behind every street — Vancouver composes itself.',
   },
   {
     id: 'mexico',
@@ -47,7 +47,7 @@ export const destinations: Destination[] = [
     continent: 'North America',
     lat: 19.44,
     lon: -99.07,
-    note: 'Field elevation 7,300 feet, and street tacos that outclass any inflight meal.',
+    note: 'Street tacos at 7,300 feet, and golden hour that lingers over the whole valley.',
   },
   {
     id: 'bahamas',
@@ -56,7 +56,7 @@ export const destinations: Destination[] = [
     continent: 'North America',
     lat: 25.04,
     lon: -77.47,
-    note: 'The short overwater hop every Florida pilot daydreams about — fifty shades of blue off the wing.',
+    note: 'A short hop from Florida to fifty shades of blue — no filter has ever come close.',
     nudge: { x: 4, y: 3 },
   },
   {
@@ -66,7 +66,7 @@ export const destinations: Destination[] = [
     continent: 'Europe',
     lat: 52.31,
     lon: 4.76,
-    note: 'The only place where the bicycle traffic is better organized than the airspace.',
+    note: 'Canals, bicycles, and low golden light — the whole country meters itself.',
   },
   {
     id: 'uk',
@@ -75,7 +75,7 @@ export const destinations: Destination[] = [
     continent: 'Europe',
     lat: 51.47,
     lon: -0.45,
-    note: 'Home of the world\'s most soothing ATC accents and a proper cup of tea after landing.',
+    note: 'Grey skies are just a nationwide softbox — and the tea afterward is proper.',
     labelPlacement: 'left',
   },
   {
@@ -125,7 +125,7 @@ export const destinations: Destination[] = [
     continent: 'Asia',
     lat: 25.25,
     lon: 55.36,
-    note: 'A skyline climbing out of the desert like it\'s trying to make a crossing restriction.',
+    note: 'A skyline that grew out of the desert overnight — bring the widest lens you own.',
   },
   {
     id: 'south-korea',
@@ -134,7 +134,7 @@ export const destinations: Destination[] = [
     continent: 'Asia',
     lat: 37.46,
     lon: 126.44,
-    note: 'Barbecue at midnight, and the smoothest airport operation on either side of the Pacific.',
+    note: 'Barbecue at midnight and neon down every alley — Seoul never gives the shutter a break.',
     labelPlacement: 'left',
   },
   {
@@ -144,7 +144,7 @@ export const destinations: Destination[] = [
     continent: 'Asia',
     lat: 22.31,
     lon: 113.91,
-    note: 'Dim sum below, skyline forever — pour one out for the legendary Kai Tak approach.',
+    note: 'Dim sum below, skyline forever — every rooftop is a vantage point.',
     labelPlacement: 'bottom',
   },
   {
@@ -163,7 +163,7 @@ export const destinations: Destination[] = [
     continent: 'Asia',
     lat: 10.82,
     lon: 106.66,
-    note: 'Phở for breakfast and a million scooters flying close formation through the streets.',
+    note: 'Phở for breakfast and a million scooters weaving in perfect chaos — the motion blur is free.',
   },
   {
     id: 'thailand',

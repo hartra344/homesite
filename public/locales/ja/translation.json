@@ -13,17 +13,18 @@
     "heading2": "の構築",
     "description": "私はAzure Logic AppsのUXチームを率いています",
     "company": "GitHub",
-    "descriptionCont": "数百万人の開発者がdevelopment workflowsを構築するのを支援しています。仕事以外では、プライベートパイロットであり、航空愛好家です。",
+    "descriptionCont": "数百万人の開発者がdevelopment workflowsを構築するのを支援しています。仕事以外では、カメラを肩に、たいてい新しい場所を旅しています。",
     "letsConnect": "お問い合わせ",
     "viewResume": "履歴書",
     "viewGitHub": "GitHubを見る",
-    "viewLinkedIn": "LinkedInを見る"
+    "viewLinkedIn": "LinkedInを見る",
+    "viewPhotos": "写真を見る"
   },
   "about": {
     "title": "私について",
     "intro": "私はTravis、MicrosoftとFacebookでの経験を持つエンジニアリングマネージャーです。現在、Azure Logic Appsに取り組む7人のエンジニアのチームを率いており、世界中の開発者にサービスを提供する統合プラットフォームに焦点を当てています。",
     "expertise": "私のバックグラウンドは、最新のWeb開発、クラウドアーキテクチャ、分散システムをカバーしています。複雑な技術的課題を解決し、信頼性の高いソフトウェアを提供できる健全なチームを構築することに重点を置いています。",
-    "personal": "仕事以外では、航空の精密さを楽しむプライベートパイロットです。また、オートバイ愛好家でもあり、ディズニーワールドへの旅行も楽しんでいます。これらの興味は、リーダーシップと人生に対するバランスの取れた視点を維持するのに役立っています。",
+    "personal": "仕事以外では、写真家であり旅人でもあります。新しい場所で良い光を追いかけ、お土産よりも多くの写真を持ち帰ります。また、オートバイ愛好家でもあり、ディズニーワールドへの旅行も楽しんでいます。これらの興味は、リーダーシップと人生に対するバランスの取れた視点を維持するのに役立っています。",
     "tagline": "開発者体験に",
     "taglineHighlight": "焦点を当てる",
     "skills": {
@@ -40,8 +41,8 @@
     "interests": {
       "title": "興味",
       "items": {
-        "aviation": "航空",
-        "aviationDesc": "空を探索するプライベートパイロット",
+        "photography": "写真",
+        "photographyDesc": "カメラを手に光を追いかけて",
         "motorcycles": "オートバイ",
         "motorcyclesDesc": "二輪車での自由",
         "travel": "旅行",
@@ -95,7 +96,7 @@
     }
   },
   "footer": {
-    "tagline": "enterprise platform solutionsの未来を築くソフトウェア開発者、マネージャー、アマチュアパイロット。",
+    "tagline": "enterprise platform solutionsの未来を築くソフトウェア開発者、マネージャー、旅する写真家。",
     "quickLinks": "クイックリンク",
     "professional": "プロフェッショナル",
     "copyright": "© {{year}} Travis Vu. All rights reserved."

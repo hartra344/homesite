@@ -41,16 +41,16 @@ const Contact = () => {
           </p>
         </div>
 
-        {/* Boarding pass */}
+        {/* Postcard */}
         <div className="max-w-3xl mx-auto">
           <div className="bg-paper border border-sage-200 rounded-2xl shadow-sm overflow-hidden">
             {/* Header strip */}
             <div className="bg-sage-600 text-white px-6 md:px-8 py-3 flex items-center justify-between font-mono text-[0.72rem] tracking-widest">
-              <span>BOARDING PASS</span>
+              <span>POSTCARD</span>
               <span className="hidden sm:inline" aria-hidden="true">
-                TRAVIS AIR ✈ TRAVIS.DEV
+                WISH YOU WERE HERE · TRAVIS.DEV
               </span>
-              <span>FIRST CLASS</span>
+              <span>PAR AVION</span>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-[1fr_auto_260px]">
@@ -72,7 +72,7 @@ const Contact = () => {
                       viewBox="0 0 24 24"
                       fill="currentColor"
                     >
-                      <path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" transform="rotate(90 12 12)" />
+                      <path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1zm8 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" />
                     </svg>
                   </div>
                   <div className="text-right">
@@ -89,15 +89,15 @@ const Contact = () => {
                 <dl className="grid grid-cols-2 sm:grid-cols-4 gap-x-4 gap-y-5 mb-8">
                   <div>
                     <dt className="font-mono text-[0.68rem] tracking-widest text-charcoal-500 mb-1">
-                      GATE
+                      STAMP
                     </dt>
-                    <dd className="text-body font-medium text-charcoal-900">Always open</dd>
+                    <dd className="text-body font-medium text-charcoal-900">On the house</dd>
                   </div>
                   <div>
                     <dt className="font-mono text-[0.68rem] tracking-widest text-charcoal-500 mb-1">
-                      SEAT
+                      DELIVERY
                     </dt>
-                    <dd className="text-body font-medium text-charcoal-900">1A</dd>
+                    <dd className="text-body font-medium text-charcoal-900">Same day</dd>
                   </div>
                   <div className="col-span-2">
                     <dt className="font-mono text-[0.68rem] tracking-widest text-charcoal-500 mb-1">
@@ -158,11 +158,11 @@ const Contact = () => {
               <div className="p-6 md:p-8 flex flex-row md:flex-col items-center justify-between md:justify-center gap-4 md:gap-5">
                 <div className="text-center">
                   <p className="font-mono text-[0.68rem] tracking-widest text-charcoal-500 mb-1">
-                    PASSENGER
+                    SENDER
                   </p>
                   <p className="text-body font-semibold text-charcoal-900">FUTURE COLLABORATOR</p>
                   <p className="font-mono text-[0.68rem] tracking-widest text-charcoal-500 mt-3 mb-1">
-                    FLIGHT
+                    POSTMARK
                   </p>
                   <p className="font-mono text-body font-semibold text-charcoal-900">TV 2026</p>
                 </div>
@@ -180,7 +180,7 @@ const Contact = () => {
           </div>
 
           <p className="text-center font-mono text-[0.72rem] tracking-wider text-charcoal-500 mt-6" aria-hidden="true">
-            NO MIDDLE SEATS ON THIS AIRLINE · REPLIES USUALLY SAME-DAY
+            NO STAMPS REQUIRED · REPLIES USUALLY SAME-DAY
           </p>
         </div>
       </div>

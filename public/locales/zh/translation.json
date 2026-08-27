@@ -14,17 +14,18 @@
     "heading2": "与软件",
     "description": "我领导 Azure Logic Apps UX 团队在",
     "company": "GitHub",
-    "descriptionCont": "帮助数百万开发者构建development workflows。工作之余，我是一名私人飞行员和航空爱好者。",
+    "descriptionCont": "帮助数百万开发者构建development workflows。工作之余，我通常背着相机在某个新地方旅行。",
     "letsConnect": "联系我",
     "viewResume": "简历",
     "viewGitHub": "查看 GitHub",
-    "viewLinkedIn": "查看 LinkedIn"
+    "viewLinkedIn": "查看 LinkedIn",
+    "viewPhotos": "查看照片"
   },
   "about": {
     "title": "关于我",
     "intro": "我是 Travis，一名在微软和 Facebook 拥有丰富经验的工程经理。目前，我领导着一个由 7 名工程师组成的团队，致力于 Azure Logic Apps，专注于服务全球开发者的集成平台。",
     "expertise": "我的背景涵盖现代 Web 开发、云架构和分布式系统。我专注于建立健康的团队，能够解决复杂的技术挑战并交付可靠的软件。",
-    "personal": "工作之余，我是一名私人飞行员，享受航空的精准。我也是一名摩托车爱好者，喜欢去迪士尼世界旅行。这些兴趣帮助我在领导力和生活之间保持平衡的视角。",
+    "personal": "工作之余，我是一名摄影师和旅行者——在新的地方追逐好光线，带回家的照片比纪念品还多。我也是一名摩托车爱好者，喜欢去迪士尼世界旅行。这些兴趣帮助我在领导力和生活之间保持平衡的视角。",
     "tagline": "专注于",
     "taglineHighlight": "开发者体验",
     "skills": {
@@ -41,8 +42,8 @@
     "interests": {
       "title": "兴趣",
       "items": {
-        "aviation": "航空",
-        "aviationDesc": "探索天空的私人飞行员",
+        "photography": "摄影",
+        "photographyDesc": "手持相机追逐光影",
         "motorcycles": "摩托车",
         "motorcyclesDesc": "两轮上的自由",
         "travel": "旅行",
@@ -96,7 +97,7 @@
     }
   },
   "footer": {
-    "tagline": "软件开发人员、经理和业余飞行员，构建enterprise platform solutions的未来。",
+    "tagline": "软件开发人员、经理和旅行摄影师，构建enterprise platform solutions的未来。",
     "quickLinks": "快速链接",
     "professional": "专业",
     "copyright": "© {{year}} Travis Vu. 保留所有权利。"
