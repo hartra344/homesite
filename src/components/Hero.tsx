@@ -78,14 +78,16 @@ const ContactSheet = () => {
         </span>
       </div>
 
-      <img
-        src={lead.images.thumb}
-        alt={lead.title}
-        width={lead.width}
-        height={lead.height}
-        loading="eager"
-        className={`w-full h-52 object-cover rounded-lg ${lead.height > lead.width ? 'object-top' : ''}`}
-      />
+      <div className="h-64 rounded-lg overflow-hidden bg-black flex items-center justify-center">
+        <img
+          src={lead.images.thumb}
+          alt={lead.title}
+          width={lead.width}
+          height={lead.height}
+          loading="eager"
+          className="w-full h-full object-contain"
+        />
+      </div>
       <div className="flex items-baseline justify-between gap-3 mt-2 mb-3">
         <span className="text-caption font-medium text-charcoal-900 truncate">{lead.title}</span>
         {lead.exif && (
@@ -98,15 +100,19 @@ const ContactSheet = () => {
       {rest.length > 0 && (
         <div className="grid grid-cols-2 gap-3">
           {rest.map((photo) => (
-            <img
+            <div
               key={photo.id}
-              src={photo.images.thumb}
-              alt={photo.title}
-              width={photo.width}
-              height={photo.height}
-              loading="lazy"
-              className={`w-full h-24 object-cover rounded-lg ${photo.height > photo.width ? 'object-top' : ''}`}
-            />
+              className="h-28 rounded-lg overflow-hidden bg-black flex items-center justify-center"
+            >
+              <img
+                src={photo.images.thumb}
+                alt={photo.title}
+                width={photo.width}
+                height={photo.height}
+                loading="lazy"
+                className="w-full h-full object-contain"
+              />
+            </div>
           ))}
         </div>
       )}
